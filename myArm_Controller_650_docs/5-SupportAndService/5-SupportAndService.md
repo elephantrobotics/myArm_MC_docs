@@ -1,7 +1,7 @@
 
 # 大象机器人
 
-<img src="..\..\resources\5-SupportAndService\公司介绍.png" alt="img-1" width="900" height=“auto” /><br>
+<img src="..\..\myArm_Controller_650_docs\resources\5-SupportAndService\公司介绍.png" alt="img-1" width="900" height=“auto” /><br>
 
 ### 1. 公司介绍
 
@@ -15,7 +15,7 @@
 
 ---
 
-<img src="..\..\resources\5-SupportAndService\公司历程.jpg" alt="img-1" width="900" height=“auto” /><br>
+<img src="..\..\myArm_Controller_650_docs\resources\5-SupportAndService\公司历程.jpg" alt="img-1" width="900" height=“auto” /><br>
 
 ### 2. 发展历程
 
@@ -100,5 +100,5 @@ support@elephantrobotics.com
 **微信**:  
 我们只为通过微信购买 myArm M&C 系列产品的用户提供一对一服务。
 
-<img src="..\..\resources\5-SupportAndService\WeChat-Code.jpg" alt="img-1" width="900" height=“auto” /><br>
+<img src="..\..\myArm_Controller_650_docs\resources\5-SupportAndService\WeChat-Code.jpg" alt="img-1" width="900" height=“auto” /><br>
 
