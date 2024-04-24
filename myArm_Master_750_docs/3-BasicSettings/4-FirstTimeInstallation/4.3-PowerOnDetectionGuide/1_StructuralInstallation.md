@@ -30,7 +30,7 @@ myArm 重 3.2 千克。由于重心会随着机器人在使用过程中的移动
 
 **如需了解更多安装细节，请扫描代码观看视频：**
 
-![image-20220524105531296](../../resources/4-FirstInstallAndUse/QRcode.png)
+<!-- ![image-20220524105531296](../../resources/4-FirstInstallAndUse/QRcode.png) -->
 
 ---
 
