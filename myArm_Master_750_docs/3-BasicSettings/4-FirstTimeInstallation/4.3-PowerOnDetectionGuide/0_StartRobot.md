@@ -10,5 +10,4 @@
 
 ---
 
-如果您已经阅读了本章的所有内容，请继续阅读下一章。 <br>
-[← 上一节]() | [下一章 →](../../../4-FunctionsAndApplications/README.md)
+[← 上一节](../4.2-ProductUnboxingGuide/4.2.1-Unboxing.md) | [下一页 →](1_StructuralInstallation.md)
