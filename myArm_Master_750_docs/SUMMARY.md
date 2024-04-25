@@ -49,13 +49,13 @@
     <!-- - [6.3 基于 ROS2 开发使用](features-applications/ros2-development.md) -->
     <!-- - [6.8 基于通信协议包开发](features-applications/protocol-development.md) -->
 
-  <!-- - [7. 成功案例](features-applications/success-stories.md) -->
-  <!-- - [8. 配套资源](features-applications/supporting-resources.md) -->
-    <!-- - [8.1 产品资料](features-applications/product-info.md) -->
-    <!-- - [8.2 产品图纸](features-applications/product-drawings.md) -->
-    <!-- - [8.3 软件资料及源码](features-applications/software-sources.md) -->
-    <!-- - [8.4 系统资料](features-applications/system-info.md) -->
-    <!-- - [8.5 宣传资料](features-applications/promotional-materials.md) -->
+  - [7. 成功案例](4-FunctionsAndApplications/7-SuccessfulCases/7-SuccessfulCases.md)
+    <!-- - [8. 配套资源](features-applications/supporting-resources.md) -->
+      <!-- - [8.1 产品资料](features-applications/product-info.md) -->
+      <!-- - [8.2 产品图纸](features-applications/product-drawings.md) -->
+      <!-- - [8.3 软件资料及源码](features-applications/software-sources.md) -->
+      <!-- - [8.4 系统资料](features-applications/system-info.md) -->
+      <!-- - [8.5 宣传资料](features-applications/promotional-materials.md) -->
 
 - **支持与服务**
 
@@ -66,3 +66,4 @@
     - [11.2 联系我们](support-services/contact-us.md) -->
 
 - **致谢**
+  - [致谢](6-Acknowledgments/6-Acknowledgments.md)
