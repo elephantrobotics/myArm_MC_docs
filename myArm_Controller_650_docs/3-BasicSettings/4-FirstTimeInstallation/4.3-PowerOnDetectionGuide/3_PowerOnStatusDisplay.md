@@ -14,7 +14,7 @@
 
 显示屏显示系统桌面相关信息。
 
-![display](<../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3 -PowerOnDetectionGuide/PowerOnStatusDisplay.jpg>)
+![display](../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/PowerOnStatusDisplay.jpg)
 
 ---
 

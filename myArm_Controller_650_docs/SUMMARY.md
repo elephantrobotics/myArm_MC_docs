@@ -19,11 +19,11 @@
     <!-- - [3.4 常见问题解决]() -->
   - [4 首次安装](3-BasicSettings/4-FirstTimeInstallation/4.1-ProductStandardList/4.1.1-List.md)
     - [4.1 产品标准清单](3-BasicSettings/4-FirstTimeInstallation/4.1-ProductStandardList/4.1.1-List.md)
-      - [4.2 产品开箱指南](3-BasicSettings/4-FirstTimeInstallation/4.2-ProductUnboxingGuide/4.2.1-Unboxing.md)
-      - [4.3 开机检测指南](3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/0_StartRobot.md)
-        - [1 结构安装和固定](3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/1_StructuralInstallation.md)
-        - [2 外部电缆连接](3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/2_ExternalCableConnection.md)
-        - [3 开机状态显示](3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/3_PowerOnStatusDisplay.md)
+    - [4.2 产品开箱指南](3-BasicSettings/4-FirstTimeInstallation/4.2-ProductUnboxingGuide/4.2.1-Unboxing.md)
+    - [4.3 开机检测指南](3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/0_StartRobot.md)
+      - [1 结构安装和固定](3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/1_StructuralInstallation.md)
+      - [2 外部电缆连接](3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/2_ExternalCableConnection.md)
+      - [3 开机状态显示](3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/3_PowerOnStatusDisplay.md)
           <!-- - [4 基本功能检测](3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/4_BasicFunctionDetection.md) -->
           <!-- - [4.4 安装视频教程]() -->
 
