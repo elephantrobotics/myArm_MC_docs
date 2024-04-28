@@ -58,11 +58,7 @@
 
 - **支持与服务**
 
-  <!-- - [9. 故障排除](support-services/troubleshooting.md)
-  - [10. 购买信息](support-services/purchasing-info.md)
-  - [11. 关于我们](support-services/about-us.md)
-    - [11.1 大象机器人](support-services/elephant-robotics.md)
-    - [11.2 联系我们](support-services/contact-us.md) -->
+  - [8 关于我们](5-SupportAndService/5-SupportAndService.md)
 
 - **致谢**
 

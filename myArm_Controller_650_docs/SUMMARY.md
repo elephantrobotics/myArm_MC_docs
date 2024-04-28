@@ -63,13 +63,7 @@
 
 - **支持与服务**
 
-  <!-- - [9. 故障排除]()
-  - [10. 购买信息]()
-  - [11. 关于我们]()
-    - [11.1 大象机器人]()
-    - [11.2 联系我们]() -->
-
-  - [关于我们](5-SupportAndService/5-SupportAndService.md)
+  - [8 关于我们](5-SupportAndService/5-SupportAndService.md)
 
 - **致谢**
   - [致谢](6-Acknowledgments/6-Acknowledgments.md)
