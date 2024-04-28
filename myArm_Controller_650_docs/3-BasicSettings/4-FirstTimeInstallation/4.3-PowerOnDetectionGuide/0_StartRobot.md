@@ -6,7 +6,7 @@
   - [1 结构安装固定](./1_StructuralInstallation.md)
   - [2 外部线缆连接](./2_ExternalCableConnection.md)
   - [3 开机状态展示](./3_PowerOnStatusDisplay.md)
-  <!-- - [4 基础功能检测](./4_BasicFunctionDetection.md) -->
+  - [4 基础功能检测](./4_BasicFunctionDetection.md)
 
 ---
 
