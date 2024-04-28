@@ -18,6 +18,21 @@ myArm 必须使用外部电源供电，以提供足够的电力：
 
 用例图如下图所示：（请仔细对齐用例图，以便进行连接）
 
+**Step 1:**
+![alt text](../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/Left1.jpg)
+
+**Step 2:**
+![alt text](../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/Left2.jpg)
+
+**Step 3:**
+![alt text](../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/Right.jpg)
+
+**Step 4:**
+![alt text](../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/Right2.jpg)
+
+**Step 5:**
+![alt text](../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/Right3.jpg)
+
 <!-- **Step 1:**<br>
 <img  src="../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3%20-PowerOnDetectionGuide/connect/急停安装1.jpg" width="500" />
 <br/>
