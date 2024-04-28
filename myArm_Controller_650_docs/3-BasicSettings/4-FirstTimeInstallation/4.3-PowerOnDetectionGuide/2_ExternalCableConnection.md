@@ -10,52 +10,26 @@ myArm 必须使用外部电源供电，以提供足够的电力：
 
 - 额定电流: 9.4A
 
-- 插头类型: R7B
-
-  <!-- ![image-20220620175457856](../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3%20-PowerOnDetectionGuide/R7B.png) -->
+- 插头类型: DC 圆形接口
 
 **请注意，不能只使用插入 TypeC 供电。** 请使用官方认可的电源，以免损坏机械臂。
 
 用例图如下图所示：（请仔细对齐用例图，以便进行连接）
 
 **Step 1:**
-![alt text](../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/Left1.jpg)
-
-**Step 2:**
-![alt text](../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/Left2.jpg)
-
-**Step 3:**
 ![alt text](../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/Right.jpg)
 
-**Step 4:**
+**Step 2:**
 ![alt text](../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/Right2.jpg)
 
-**Step 5:**
+**Step 3:**
 ![alt text](../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/Right3.jpg)
 
-<!-- **Step 1:**<br>
-<img  src="../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3%20-PowerOnDetectionGuide/connect/急停安装1.jpg" width="500" />
-<br/>
+**Step 4:**
+![alt text](../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/Left1.jpg)
 
-**Step 2:**<br>
-<img  src="../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3%20-PowerOnDetectionGuide/connect/急停安装2.jpg" width="500" />
-<br/>
-
-**Step 3:**<br>
-<img  src="../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3%20-PowerOnDetectionGuide/connect/急停安装3.jpg" width="500" />
-<br/>
-
-**Step 4:**<br>
-<img  src="../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3%20-PowerOnDetectionGuide/connect/电源安装1.jpg" width="500" />
-<br/>
-
-**Step 5:**<br>
-<img  src="../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3%20-PowerOnDetectionGuide/connect/电源安装2.jpg" width="500" />
-<br/>
-
-**Step 6:**<br>
-<img  src="../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3%20-PowerOnDetectionGuide/connect/电源安装3.jpg" width="500" />
-<br/> -->
+**Step 5:**
+![alt text](../../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/Left2.jpg)
 
 ---
 
