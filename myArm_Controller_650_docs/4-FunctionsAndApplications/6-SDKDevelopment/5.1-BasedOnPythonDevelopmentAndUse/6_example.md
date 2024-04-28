@@ -4,7 +4,7 @@
 
 > **注：** 各款设备的对应的波特率不尽相同，使用时请查阅资料了解其波特率，串口编号可通过 [计算器设备管理器](https://docs.elephantrobotics.com/docs/gitbook-en/4-BasicApplication/4.1-myStudio/4.1.1-myStudio_download_driverinstalled.html#4113-how-to-distinguish-between-cp210x-chip-and-cp34x-chip)或串口助手进行查看。
 
-## 1 获取C的关节角度
+## 1 获取 C 的关节角度
 
 ```python
 from pymycobot import MyArmC
@@ -20,7 +20,7 @@ angle = myarmc.get_joint_angle(1)
 print(f"关节1当前的角度为 {angle}")
 ```
 
-## 2 获取C的Atom按钮状态
+## 2 获取 C 的 Atom 按钮状态
 
 ```python
 from pymycobot import MyArmC
@@ -36,7 +36,7 @@ else:
 
 ```
 
-## 3 获取M的关节角度
+## 3 获取 M 的关节角度
 
 ```python
 from pymycobot import MyArmM
@@ -63,7 +63,7 @@ angle = myarmm.get_joint_angle(3)
 print(f"关节3当前的角度为 {angle}")
 ```
 
-## 4 控制M的关节移动五个点位
+## 4 控制 M 的关节移动五个点位
 
 ```python
 from pymycobot import MyArmM
@@ -101,7 +101,8 @@ myarmm.set_joints_angle([90, 45, -90, 90, -90, 90], 40)
 # 等待所有关节运动到指定位置
 time.sleep(3)
 ```
-## 5 控制C&M程序案例
+
+## 5 控制 C&M 程序案例
 
 ## 安装依赖
 
@@ -117,19 +118,14 @@ python main.py
 
 ## 程序使用说明
 
-> 串口的打开有顺序要求：先开启myArmM的串口连接，再开启myArmC的串口连接。
-
+> 串口的打开有顺序要求：先开启 myArmM 的串口连接，再开启 myArmC 的串口连接。
 
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.1 -BasedOnPythonDevelopmentAndUse/6_example/app_1.png" alt="7.1.1-7" style="zoom: 67%;" />
 
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.1 -BasedOnPythonDevelopmentAndUse/6_example/app_2.png" alt="7.1.1-1" style="zoom: 50%;" />
 
-> 两个串口都开启以后就可以通过移动myArmC来控制myArmM运动。
+> 两个串口都开启以后就可以通过移动 myArmC 来控制 myArmM 运动。
 
 ---
 
-[← 上一页](4_Handle_control.md) | [下一节 →](../../11-ApplicationBaseROS/11.1-ROS1/11.1.1-M5.md)
-
----
-
-[← Previous Page](4_Handle_control.md) | [Next Section →](../../11-ApplicationBaseROS/11.1-ROS1/11.1.1-M5.md)
+[← 上一页](5_Handle_control.md) | [下一节 →]()
