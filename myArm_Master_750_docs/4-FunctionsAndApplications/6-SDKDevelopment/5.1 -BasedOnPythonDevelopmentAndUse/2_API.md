@@ -3,17 +3,21 @@
 > API (Application Programming Interface), 也称为应用程序编程接口函数，是预定义的函数。使用以下函数接口时，请在开始时输入以下代码导入我们的 API 库，否则将无法成功运行
 
 ```python
-from pymycobot import MyArmC 
+from pymycobot import MyArmM
 
 # Example
-myarmc = MyArmC('/dev/ttyAMA1')
+myarmm = MyArmM('/dev/ttyAMA1')
 
 # 获取所有关节的当前角度
-angles = myarmc.get_joints_angle()
+angles = myarmm.get_joints_angle()
 print(angles)
+
+# 设置关节1移动到40, 速度为20
+myarmm.set_joint_angle(1, 40, 20)
 ```
 
 # 1. 机器人状态查询
+
 
 **1.1** `get_robot_modified_version()`
 
@@ -116,7 +120,18 @@ print(angles)
 
 # 2. 关节伺服控制
 
-**2.1** `get_joint_angle(joint_id)`
+**2.1** `set_joint_angle(joint_id, angle, speed)`
+
+- **功能:** 将各个关节设置为移动到目标角度
+
+- **参数:**
+  - `joint_id`: `(int)` 关节编号
+  - `angle`: `(int)` 目标角度
+  - `speed`: `(int)` 移动速度，取值范围 `1 - 100`
+
+- **返回** 无
+
+**2.2** `get_joint_angle(joint_id)`
 
 - **功能:** 获取指定关节的当前角度
 - **参数:**
@@ -124,26 +139,50 @@ print(angles)
 - **返回:** 
   - `angle` 表示当前关节的角度
 
-**2.2** `get_joints_angle()`
+**2.3** `set_joints_angle(angles, speed)`
+
+- **功能:** 将所有关节设置为移动到目标角度
+- **参数:**
+  - `angles`: `(list[int])` 目标角度
+  - `speed`: `(int)` 移动速度，取值范围 `1 - 100`
+- **返回** 无
+
+**2.4** `get_joints_angle()`
 
 - **功能:** 获取所有关节的当前角度
 - **参数:** 无
 - **返回:** 
   - `angles` 返回一个浮点型的列表，表示所有关节的当前角度
 
-**2.3** `get_joints_max()`
+**2.5** `get_joints_max()`
 
 - **功能:** 读取所有关节的最大角度
 - **参数:** 无
 - **返回:** 
   - `angles` 返回一个浮点型的列表，表示所有关节的最大角度
 
-**2.4** `get_joints_min()`
+**2.6** `get_joints_min()`
 
 - **功能:** 读取所有关节的最小角度
 - **参数:** 无
 - **返回:** 
   - `angles` 返回一个浮点型的列表，表示所有关节的最小角度
+
+
+**2.7** `is_robot_moving()`
+
+- **功能:** 查看机器人是否在移动
+- **参数:** 无
+- **返回**
+    - 1 - 正在移动
+    - 0 - 静止
+
+**2.8** `stop_robot()`
+
+- **功能:** 机器人停止移动
+- **参数:** 无
+- **返回** 无
+
 
 # 3. 伺服电机控制
 
@@ -154,7 +193,24 @@ print(angles)
   - `servo_id` 表示伺服电机索引位，取值返回 `1 - 6`
 - **返回:** 无
 
-**3.2** `get_servo_encoder(servo_id)`
+**3.2** `set_servos_encoder_drag(encoders, speeds)`
+
+- **功能:** 将多个具有指定速度的伺服电机设置为目标编码器电位值
+- **参数:**
+  - `encoders`: `(list[int])` 电位值
+  - `speeds`: `(list[int])` 速度
+- **返回:** 无
+
+**3.3** `set_servo_encoder(servo_id, encoder, speed)`
+
+- **功能:** 将单个电机运动设置为目标编码器电位值
+- **参数:**
+  - `servo_id`: `(int)` 表示伺服电机索引位，取值返回 `1 - 6`
+  - `encoder`: `(int)` 电机电位值， 取值返回 `0 - 4095`
+  - `speed`: `(int)` 电机移动速度，取值范围 `1 - 100`
+- **返回** 无
+
+**3.4** `get_servo_encoder(servo_id)`
 
 - **功能:** 获取指定伺服电机的当前编码器电位值
 - **参数:** 
@@ -162,21 +218,29 @@ print(angles)
 - **返回:** 
   - `encoder`:`(int)` 表示机械臂的电位值，取值范围是 0 ~ 4096
 
-**3.3** `get_servos_encoder()`
+**3.5** `set_servos_encoder(positions, speed)`
+
+- **功能:** 设置移动到目标的多个电机的编码器电位值
+- **参数:**
+  - `positions`: `(list[int])` 多个电机的目标电位值 `0 - 4095`
+  - `speed`: `(int)` 电机移动速度，取值范围 `1 - 100`
+- **返回** 无
+
+**3.6** `get_servos_encoder()`
 
 - **功能:** 获取多个伺服电机的当前编码器电位值
 - **参数:** 无
 - **返回:** 
   - `encoders`: `(list[int])` 表示机械臂的电位值，取值范围是 0 ~ 4096，六轴长度为 6，四轴长度为 4，表示方法为：[2048,2048,2048,2048,2048,2048] 
 
-**3.4** `get_servos_speed()`
+**3.7** `get_servos_speed()`
 
 - **功能:** 获取多个伺服电机的当前运动速度
 - **参数:** 无
 - **返回:** 
   - `speeds`: `(list[int])` 伺服电机运动速度 
 
-**3.5** `is_all_servos_enabled()`
+**3.8** `is_all_servos_enabled()`
 
 - **功能:** 获取多个伺服电机的连接状态
 - **参数:** 无
@@ -185,37 +249,37 @@ print(angles)
     - 1 : 连接成功
     - 0 : 连接失败
 
-**3.6** `get_servos_temp()`
+**3.9** `get_servos_temp()`
 
 - **功能:** 获取多个伺服电机的温度
 - **参数:** 无 
 - **返回:** `list(float)` 每个伺服电机的温度
 
-**3.7** `get_servos_voltage()`
+**3.10** `get_servos_voltage()`
 
 - **功能:** 获取多个伺服电机的电压
 - **参数:** 无 
 - **返回:** `list(float)` 每个伺服电机的电压
 
-**3.8** `get_servos_current()`
+**3.11** `get_servos_current()`
 
 - **功能:** 获取多个伺服电机的电流
 - **参数:** 无 
 - **返回:** `list(float)` 每个伺服电机的电流
 
-**3.9** `get_servos_status()`
+**3.12** `get_servos_status()`
 
 - **功能:** 获取多个伺服电机的所有状态
 - **参数:** 无 
 - **返回:** `list(int)` 每个伺服电机的状态
 
-**3.10** `get_servos_protect_current()`
+**3.13** `get_servos_protect_current()`
 
 - **功能:** 获得多个伺服电机保护电流
 - **参数:** 无 
 - **返回:** `list(int)` 每个伺服电机的保护电流
 
-**3.11** `set_servo_enabled(joint_id, state)`
+**3.14** `set_servo_enabled(joint_id, state)`
 
 - **功能:** 设置伺服电机转矩开关
 - **参数:**
@@ -351,8 +415,26 @@ print(angles)
 - **返回:**
   - 1 - 高电平
   - 0 - 低电平
+**5.3** `get_assist_in_io_state(io_number)`
 
-**5.3** `set_tool_out_io_state(io_number, status)`
+- **功能:** 获取辅助引脚状态
+- **参数:**
+  - `io_number`: `(int)` 辅助引脚号，取值范围额1 - 6
+- **返回:** 
+  - 1 - 高电平 
+  - 0 - 低电平
+
+**5.4** `set_assist_out_io_state(io_number, status)`
+
+- **功能:** 设置辅助引脚状态，默认设置高电平
+- **参数:**
+  - `io_number`：`(int)` 辅助引脚号，取值范围`1 - 6`
+  - `status`: `(int)` IO口状态
+    - 1 - 高电平
+    - 0 - 低电平
+- **返回:** 无
+
+**5.5** `set_tool_out_io_state(io_number, status)`
 - **功能:** 设置末端引脚状态
 - **参数:**
   - `io_number`: `(int)` 引脚位置，取值范围 `1-2`
@@ -361,7 +443,7 @@ print(angles)
     - 0 - 低电平
 - **返回:** 无
 
-**5.4** `get_tool_in_io_state(io_number)`
+**5.6** `get_tool_in_io_state(io_number)`
 
 - **功能:** 读取末端引脚状态
 - **参数:**

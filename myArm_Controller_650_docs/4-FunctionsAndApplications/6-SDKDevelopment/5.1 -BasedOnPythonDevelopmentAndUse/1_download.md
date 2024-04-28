@@ -176,12 +176,12 @@ pip install pymycobot --upgrade
 
 ## 4 导入 pymycobot
 
-上述准备工作完成之后，开始通过 Python 代码实现对机械臂的操控。这里以 myArm Controller 650 版本为例进行演示。
+上述准备工作完成之后，开始通过 Python 代码实现对机械臂的操控。这里以 myPalletizer 320 pi 版本为例进行演示。
 
 - 输入以下代码，导入我们的库：
 
 ```python
-from pymycobot import MyArmC
+from pymycobot.mycobot import MyCobot
 ```
 
 > **注意：**
@@ -197,25 +197,43 @@ from pymycobot import MyArmC
 
 > **注意：** 各款设备的对应的波特率不尽相同，使用时请查阅资料了解其波特率，串口编号可通过[计算器设备管理器](https://docs.elephantrobotics.com/docs/gitbook/4-BasicApplication/4.1-myStudio/4.1.1-myStudio_download_driverinstalled.html#4113-%E5%A6%82%E4%BD%95%E5%8C%BA%E5%88%86cp210x%E5%92%8Ccp34x%E8%8A%AF%E7%89%87) 或串口助手进行查看。
 
-- **相应代码：**
+- **MyCobot 相应代码：**
 
 ```python
 # demo.py
-from pymycobot import MyArmC
+from pymycobot import MyArmC  # 当使用树莓派版本的MyArmC时，可以引用这两个变量进行MyArmC初始化，如不是可不填该行代码
 import time
 
-# 初始化一个MyArmC对象
-# 下面为 MyArmC-windows 版本创建对象代码
-myarmc = MyArmC("COM4", 115200)
+# 以上需写在代码开头，意为导入项目包
+
+# MyArmC 类初始化需要两个参数：串口和波特率
+#   第一个是串口字符串， 如：
+#       linux： "/dev/ttyUSB0"
+#       windows: "COM4"
+#   第二个是波特率：
+#       M5版本为： 115200
+#
+#   以下:
+#       mycobot-M5:
+#           linux:
+#              myarmc = MyArmC("/dev/ttyUSB0", 115200)
+#           windows:
+#              myarmc = MyArmC("COM4", 115200)
+#       mycobot-raspi:
+#           myarmc = MyArmC(PI_PORT, PI_BAUD)
+
+# 初始化一个MyArmM对象
+# 下面为 MyArmM-windows 版本创建对象代码
+myarmm = MyArmC("COM4", 115200)
 
 i = 7
 # 循环7次
 while i > 0:
-    myarmc.set_tool_led_color(0, 0, 255)  # 蓝灯亮
+    myarmm.set_tool_led_color(0, 0, 255)  # 蓝灯亮
     time.sleep(2)  # 等2秒
-    myarmc.set_tool_led_color(255, 0, 0)  # 红灯亮
+    myarmm.set_tool_led_color(255, 0, 0)  # 红灯亮
     time.sleep(2)  # 等2秒
-    myarmc.set_tool_led_color(0, 255, 0)  # 绿灯亮
+    myarmm.set_tool_led_color(0, 255, 0)  # 绿灯亮
     time.sleep(2)  # 等2秒
     i -= 1
 ```

@@ -176,12 +176,12 @@ pip install pymycobot --upgrade
 
 ## 4 导入 pymycobot
 
-上述准备工作完成之后，开始通过 Python 代码实现对机械臂的操控。这里以 myArm Controller 650 版本为例进行演示。
+上述准备工作完成之后，开始通过 Python 代码实现对机械臂的操控。这里以 myArm Master 750 版本为例进行演示。
 
 - 输入以下代码，导入我们的库：
 
 ```python
-from pymycobot import MyArmC
+from pymycobot import MyArmM
 ```
 
 > **注意：**
@@ -201,21 +201,21 @@ from pymycobot import MyArmC
 
 ```python
 # demo.py
-from pymycobot import MyArmC
+from pymycobot import MyArmM
 import time
 
-# 初始化一个MyArmC对象
-# 下面为 MyArmC-windows 版本创建对象代码
-myarmc = MyArmC("COM4", 115200)
+# 初始化一个MyArmM对象
+# 下面为 MyArmM-windows 版本创建对象代码
+myarmm = MyArmM("COM4", 115200)
 
 i = 7
 # 循环7次
 while i > 0:
-    myarmc.set_tool_led_color(0, 0, 255)  # 蓝灯亮
+    myarmm.set_tool_led_color(0, 0, 255)  # 蓝灯亮
     time.sleep(2)  # 等2秒
-    myarmc.set_tool_led_color(255, 0, 0)  # 红灯亮
+    myarmm.set_tool_led_color(255, 0, 0)  # 红灯亮
     time.sleep(2)  # 等2秒
-    myarmc.set_tool_led_color(0, 255, 0)  # 绿灯亮
+    myarmm.set_tool_led_color(0, 255, 0)  # 绿灯亮
     time.sleep(2)  # 等2秒
     i -= 1
 ```
