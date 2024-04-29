@@ -19,13 +19,13 @@
 [2.3-机械结构参数](./2.3-StructuralSizeParameters/2.3.1-StructureParameter.md)<br>
 在这一部分，我们将详细介绍产品机械结构的重要参数，您可以通过对应的产品图纸进行底座和末端的扩展安装。本节为客户提供相应的 3D 模型下载链接，以便客户更好地了解我们的产品。<br>
 
-<a AccessoriesandTools="my-paragraph-4"></a>
+<!-- <a AccessoriesandTools="my-paragraph-4"></a>
 [2.4-电气特性参数](./2.4-ElectricalCharacteristicsParameters/2.4.1-ElectricalCharacteristicParameter.md)<br>
 本章将为客户提供产品的电气特性参数，对应的机器人所有的可用接口，我们都提供了详细的说明，以方便客户在拓展外接设备时进行参考。<br>
 
 <a AccessoriesandTools="my-paragraph-4"></a>
 [2.5-笛卡尔坐标系](./2.5-CartesianCoordinateSystem/2.5.1-CoordinateSystem.md)<br>
-本节介绍了产品的角度和坐标信息，并解释了支持的坐标系控制。同时，还提供了产品的相关参数，用于计算相应的坐标系，如 DH 参数。<br>
+本节介绍了产品的角度和坐标信息，并解释了支持的坐标系控制。同时，还提供了产品的相关参数，用于计算相应的坐标系，如 DH 参数。<br> -->
 
 ---
 
