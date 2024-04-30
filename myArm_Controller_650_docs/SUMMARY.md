@@ -40,18 +40,15 @@
   <!-- - [5.2 软件使用说明]()  -->
   <!-- - [5.3 固件功能说明]() -->
 
-  - [6 软件开发指南](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/1_download.md)
+  - [6 软件开发指南](4-FunctionsAndApplications/6-SDKDevelopment/README.md)
     - [6.1 基于 python 开发使用](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/1_download.md)
       - [下载与环境搭建](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/1_download.md>)
       - [API](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/2_API.md>)
-      - [TCP/IP](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/3_TCPIP.md>)
-      - [拖动示教](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/4_drag.md>)
-      - [手柄控制](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/5_Handle_control.md>)
       - [相关案例](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/6_example.md>)
-
+    - [6.2 基于通信协议包开发](4-FunctionsAndApplications/6-SDKDevelopment/5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.1-CommunicationDoc.md)
+  
   <!-- - [6.2 基于 ROS1 开发使用]() -->
   <!-- - [6.3 基于 ROS2 开发使用]() -->
-  <!-- - [6.8 基于通信协议包开发]() -->
 
   - [7. 成功案例](4-FunctionsAndApplications/7-SuccessfulCases/7-SuccessfulCases.md)
     <!-- - [8. 配套资源]() -->
