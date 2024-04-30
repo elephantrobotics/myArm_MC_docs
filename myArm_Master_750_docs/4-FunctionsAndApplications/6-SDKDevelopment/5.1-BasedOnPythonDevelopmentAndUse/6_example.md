@@ -100,8 +100,5 @@ python main.py
 
 ---
 
-[← 上一页](4_Handle_control.md) | [下一节 →](../../11-ApplicationBaseROS/11.1-ROS1/11.1.1-M5.md)
+[← 上一页](2_API.md) | [下一节 →](../5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.1-CommunicationDoc.md)
 
----
-
-[← Previous Page](4_Handle_control.md) | [Next Section →](../../11-ApplicationBaseROS/11.1-ROS1/11.1.1-M5.md)

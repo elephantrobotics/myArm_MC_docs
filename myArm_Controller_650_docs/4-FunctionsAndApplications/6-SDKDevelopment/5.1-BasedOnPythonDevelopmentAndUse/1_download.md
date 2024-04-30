@@ -1,4 +1,4 @@
-# # 环境配置
+# 环境配置
 
 pymycobot 是一个和 myCobot 进行串口通讯的 Python 包，支持 Python2、Python3.5 及之后版本。
 

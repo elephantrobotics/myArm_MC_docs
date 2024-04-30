@@ -473,4 +473,4 @@ myarmm.set_joint_angle(1, 40, 20)
 
 ---
 
-[← 上一页](../1_download.md) | [下一页 →](3_TCPIP.md)
+[← 上一页](1_download.md) | [下一页 →](6_example.md)

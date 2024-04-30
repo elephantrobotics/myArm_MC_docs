@@ -4,6 +4,8 @@ MyArm M750 版本内置由 Elephant Robotics 独立开发的 miniRoboflow 应用
 
 内置软件的用户界面简单明了，易于使用。通过通信转发功能，您可以使用各种编程语言和开发环境控制机器人，从而轻松实现机器人控制。
 
+![alt text](../../../../resources/4-FunctionsAndApplications/5-BasicFunctions/5.1-SystemInstructionsForUse/resources/miniroboflow.jpg)
+
 ## miniRoboFlow
 
 **miniRoboFlow** 它有四个主要章节：
