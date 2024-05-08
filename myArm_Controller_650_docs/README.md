@@ -4,7 +4,7 @@
 核心文档
 ---
 
-本文档包含从产品简介、详细的技术参数到用户须知和首次安装指导的全面信息。我们将深入解释myArm M750机械臂的基础功能，提供软件开发指南，并展示成功的应用案例，帮助您了解如何将 myArm M750 有效整合进各种应用中。此外，我们还提供了丰富的支持与服务信息，确保您在遇到任何技术挑战时能够获得必要的帮助。
+本文档包含从产品简介、详细的技术参数到用户须知和首次安装指导的全面信息。我们将深入解释myArm C650机械臂的基础功能，提供软件开发指南，并展示成功的应用案例，帮助您了解如何将 myArm C650 有效整合进各种应用中。此外，我们还提供了丰富的支持与服务信息，确保您在遇到任何技术挑战时能够获得必要的帮助。
 ### gitbook-en
 英文版本: https://docs.elephantrobotics.com/docs/myArm_Controller_650-en/
 ### gitbook-cn
@@ -28,61 +28,74 @@
 支持与服务板块将为您提供全面的故障排除指南和购买后的服务信息，如保修和服务条款，帮助您在遇到问题时能够快速解决，并确保您了解购买后的权利和义务。此外，'关于我们'部分加强了用户对myArm 系列产品设计及制造商的了解，旨在建立信任和品牌忠诚。
 
 #### 致谢
-我们非常感谢您花时间阅读 myArm M750 用户手册。我们希望本文档能够帮助您更好地了解并有效使用这款机器人，从而激发您的创造力。如果您有任何疑问或需要进一步帮助，请随时联系我们的客户支持团队。我们期待看到您使用 myArm M750 完成创新项目，并欢迎您加入我们快速发展的开发者社区。
+我们非常感谢您花时间阅读 myArm C650 用户手册。我们希望本文档能够帮助您更好地了解并有效使用这款机器人，从而激发您的创造力。如果您有任何疑问或需要进一步帮助，请随时联系我们的客户支持团队。我们期待看到您使用 myArm C650 完成创新项目，并欢迎您加入我们快速发展的开发者社区。
 
 
 文档目录  
 ---
 # Summary
 
-* [产品信息](product-information/README.md)
-    * [1. 产品简介](product-information/introduction.md)
-        * [1.1 产品概述](product-information/overview.md)
-        * [1.2 产品应用](product-information/application.md)
-        * [1.3 支持的扩展开发](product-information/extended-development.md)
-        * [1.4 购买地址](product-information/purchase.md)
-    * [2. 产品参数](product-information/specifications.md)
-        * [2.1 机器规格参数](product-information/machine-specs.md)
-        * [2.2 控制核心参数](product-information/core-specs.md)
-        * [2.3 结构尺寸参数](product-information/dimension-specs.md)
-        * [2.4 电气特性参数](product-information/electrical-specs.md)
-        * [2.5 笛卡尔坐标系](product-information/cartesian-coordinates.md)
+- **产品信息**
 
-* [基础设置](basic-settings/README.md)
-    * [3. 用户须知](basic-settings/user-instructions.md)
-        * [3.1 安全须知](basic-settings/safety-instructions.md)
-        * [3.2 运输和储存](basic-settings/transport-storage.md)
-        * [3.3 维护和保养](basic-settings/maintenance.md)
-        * [3.4 常见问题解决](basic-settings/faq.md)
-    * [4. 首次安装](basic-settings/initial-setup.md)
-        * [4.1 产品标准清单](basic-settings/standard-list.md)
-        * [4.2 产品开箱指南](basic-settings/unboxing-guide.md)
-        * [4.3 开机检测指南](basic-settings/startup-check-guide.md)
-        * [4.4 安装视频教程](basic-settings/installation-video.md)
+  - [1. 产品简介](2-ProductInformation/1-ProductIntroduction/1-ProductIntroduction.md)
+  - [2. 产品参数](2-ProductInformation/2-ProductParameters/README.md)
+    - [2.1 机器规格参数](2-ProductInformation/2-ProductParameters/2.1-MachineSpecifications/2.1.1-MachineSpecifications.md)
+    - [2.2 控制核心参数](2-ProductInformation/2-ProductParameters/2.2-ControlCoreParameters/2.2.1-ControlCoreParameter.md)
+    - [2.3 结构尺寸参数](2-ProductInformation/2-ProductParameters/2.3-StructuralSizeParameters/2.3.1-StructureParameter.md)
+      <!-- - [2.4 电气特性参数]() -->
+      <!-- - [2.5 笛卡尔坐标系]() -->
 
-* [功能与应用](features-applications/README.md)
-    * [5. 基础功能](features-applications/basic-features.md)
-        * [5.1 系统（功能）使用说明](features-applications/system-instructions.md)
-        * [5.2 软件使用说明](features-applications/software-instructions.md)
-        * [5.3 固件功能说明](features-applications/firmware-features.md)
-    * [6. 软件开发指南](features-applications/development-guide.md)
-        * [6.1 基于python开发使用](features-applications/python-development.md)
-        * [6.2 基于ROS1 开发使用](features-applications/ros1-development.md)
-        * [6.3 基于ROS2 开发使用](features-applications/ros2-development.md)
-        * [6.8 基于通信协议包开发](features-applications/protocol-development.md)
-    * [7. 成功案例](features-applications/success-stories.md)
-    * [8. 配套资源](features-applications/supporting-resources.md)
-        * [8.1 产品资料](features-applications/product-info.md)
-        * [8.2 产品图纸](features-applications/product-drawings.md)
-        * [8.3 软件资料及源码](features-applications/software-sources.md)
-        * [8.4 系统资料](features-applications/system-info.md)
-        * [8.5 宣传资料](features-applications/promotional-materials.md)
+- **基础设置**
 
-* [支持与服务](support-services/README.md)
-    * [9. 故障排除](support-services/troubleshooting.md)
-    * [10. 购买信息](support-services/purchasing-info.md)
-    * [11. 关于我们](support-services/about-us.md)
-        * [11.1 大象机器人](support-services/elephant-robotics.md)
-        * [11.2 联系我们](support-services/contact-us.md)
+  - [3 用户须知](3-BasicSettings/3-UserInstructions/README.md)
+    - [3.1 安全须知](3-BasicSettings/3-UserInstructions/3.1-SafetyInstructions/1-SafetyInstruction.md)
+    - [3.2 运输和储存](3-BasicSettings/3-UserInstructions/3.2-TransportAndStorage/1-TransportandStorage.md)
+    - [3.3 维护和保养](3-BasicSettings/3-UserInstructions/3.3-MaintenanceAndCare/1-MaintenanceandCare.md)
+    <!-- - [3.4 常见问题解决]() -->
+  - [4 首次安装](3-BasicSettings/4-FirstTimeInstallation/4.1-ProductStandardList/4.1.1-List.md)
+    - [4.1 产品标准清单](3-BasicSettings/4-FirstTimeInstallation/4.1-ProductStandardList/4.1.1-List.md)
+    - [4.2 产品开箱指南](3-BasicSettings/4-FirstTimeInstallation/4.2-ProductUnboxingGuide/4.2.1-Unboxing.md)
+    - [4.3 开机检测指南](3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/0_StartRobot.md)
+      - [1 结构安装和固定](3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/1_StructuralInstallation.md)
+      - [2 外部电缆连接](3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/2_ExternalCableConnection.md)
+      - [3 开机状态显示](3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/3_PowerOnStatusDisplay.md)
+          <!-- - [4 基本功能检测](3-BasicSettings/4-FirstTimeInstallation/4.3-PowerOnDetectionGuide/4_BasicFunctionDetection.md) -->
+          <!-- - [4.4 安装视频教程]() -->
 
-* [致谢](acknowledgements.md)
+- **功能与应用**
+
+  - [5 基础功能](4-FunctionsAndApplications/5-BasicFunctions/5.1-SystemInstructionsForUse/5.1.1-Minirobot/README.md)
+    - [5.1 系统（功能）使用说明](4-FunctionsAndApplications/5-BasicFunctions/5.1-SystemInstructionsForUse/5.1.1-Minirobot/README.md)
+      - [5.1.1 Minirobot](4-FunctionsAndApplications/5-BasicFunctions/5.1-SystemInstructionsForUse/5.1.1-Minirobot/README.md)
+        - [1 Minirobot 使用指南](4-FunctionsAndApplications/5-BasicFunctions/5.1-SystemInstructionsForUse/5.1.1-Minirobot/5.1.1.1-MinirobotGuide.md)
+        - [2 零位校准](4-FunctionsAndApplications/5-BasicFunctions/5.1-SystemInstructionsForUse/5.1.1-Minirobot/5.1.1.2-calibrate.md)
+        - [3 通信转发](4-FunctionsAndApplications/5-BasicFunctions/5.1-SystemInstructionsForUse/5.1.1-Minirobot/5.1.1.3-transponder.md)
+        - [4 状态信息](4-FunctionsAndApplications/5-BasicFunctions/5.1-SystemInstructionsForUse/5.1.1-Minirobot/5.1.1.4-information.md)
+
+  <!-- - [5.2 软件使用说明]()  -->
+  <!-- - [5.3 固件功能说明]() -->
+
+  - [6 软件开发指南](4-FunctionsAndApplications/6-SDKDevelopment/README.md)
+    - [6.1 基于 python 开发使用](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/1_download.md)
+      - [下载与环境搭建](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/1_download.md>)
+      - [API](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/2_API.md>)
+      - [相关案例](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/6_example.md>)
+    - [6.2 基于通信协议包开发](4-FunctionsAndApplications/6-SDKDevelopment/5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.1-CommunicationDoc.md)
+  
+  <!-- - [6.2 基于 ROS1 开发使用]() -->
+  <!-- - [6.3 基于 ROS2 开发使用]() -->
+
+  - [7. 成功案例](4-FunctionsAndApplications/7-SuccessfulCases/7-SuccessfulCases.md)
+    <!-- - [8. 配套资源]() -->
+      <!-- - [8.1 产品资料]() -->
+      <!-- - [8.2 产品图纸]() -->
+      <!-- - [8.3 软件资料及源码]() -->
+      <!-- - [8.4 系统资料]() -->
+      <!-- - [8.5 宣传资料]() -->
+
+- **支持与服务**
+
+  - [8 关于我们](5-SupportAndService/5-SupportAndService.md)
+
+- **致谢**
+  - [致谢](6-Acknowledgments/6-Acknowledgments.md)
