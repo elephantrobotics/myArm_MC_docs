@@ -59,8 +59,9 @@ myArm C650 通用型智能机械臂的设计理念源于对当前科技教育和
 | **促进 STEM 教育**     | 通过提供高级的教学工具，激发学生对科学、技术、工程和数学领域的兴趣，培养未来的创新者。                     |
 | **推动技术采用**       | 通过提供易于使用且高度灵活的机器人平台，降低技术门槛，使更多机构能够接触和利用先进的机器人技术。           |
 | **激发创新和个人发展** | 为开发者和工程师提供一个开放的平台，支持跨学科的学习和创新，为机器人技术及相关领域的未来发展培养关键人才。 |
+---
 
-## 3. 产品应用
+## 2. 产品应用
 
 <img src="..\..\resources\2-ProductInformation\1-ProductIntroduction\C650  X1-01.jpg" alt="img-1" width="900" height=“auto” /><br>
 
@@ -83,6 +84,7 @@ myArm C650 通用型智能机械臂的设计理念源于对当前科技教育和
 | **研究人员和技术开发者**   | - 原型开发<br>- 实验研究<br>- 算法测试和验证<br>- 端到端 AI 数据搜集<br>- 工业机器人试教 | - 加速研究进展<br>- 连接理论与实践<br>- 推进技术创新<br>- 支持复杂数据分析和高精度实验需求                                 |
 | **商业演示和营销专业人士** | - 展览展示<br>- 技术演示<br>- 品牌推广                                                   | - 吸引潜在客户和投资者<br>- 展示公司技术实力和创新产品<br>- 提升品牌影响力                                                 |
 | **工业应用专业人员**       | - 高要求的工业应用<br>- 数据采集与分析<br>- 机器人自动化操作与测试                       | - 提高生产效率和操作精度<br>- 支持高效的工业自动化和定制化生产<br>- 提供灵活的模块化设计和扩展能力                         |
+---
 
 ## 3. 支持的扩展开发
 
@@ -95,6 +97,7 @@ myArm 系列机械臂在教育和科研领域中极具价值，特别是在 Pyth
 | **硬件接口**   | - 包括 IO、USB 等，方便连接各种传感器和执行器。                                                                                                                                                                                             |
 | **软件库**     | - 提供丰富的开源库和 API 来简化开发过程。                                                                                                                                                                                                   |
 | **系统兼容性** | - 兼容 Windows、Linux、MacOS，适应多种开发环境。                                                                                                                                                                                            |
+---
 
 ## 4. 购买地址
 
@@ -102,3 +105,7 @@ myArm 系列机械臂在教育和科研领域中极具价值，特别是在 Pyth
 淘宝：[https://shop504055678.taobao.com](https://shop504055678.taobao.com)  
 Shopify：[https://shop.elephantrobotics.com/](https://shop.elephantrobotics.com/)  
 速卖通：[https://elephantrobotics.aliexpress.com/store/1101941423](https://elephantrobotics.aliexpress.com/store/1101941423)
+
+---
+
+[← 上一页](../2.2-ControlCoreParameters/2.2.1-ControlCoreParameter.md) | [下一页 →](../2.4-ElectricalCharacteristicsParameters/2.4.1-ElectricalCharacteristicParameter.md)
