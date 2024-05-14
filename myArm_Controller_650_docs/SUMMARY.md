@@ -3,12 +3,12 @@
 - **产品信息**
 
   - [1 产品简介](2-ProductInformation/1-ProductIntroduction/1-ProductIntroduction.md)
-  - [2 产品参数](2-ProductInformation/2-ProductParameters/ProductParameters.md)
+  - [2 产品参数](2-ProductInformation/2-ProductParameters/2-ProductParameters.md)
 
 - **基础设置**
 
-  - [3 用户须知](3-BasicSettings/3-UserInstructions/UserInstructions.md)
-  - [4 首次安装](3-BasicSettings/4-FirstTimeInstallation/FirstTimeInstallation.md)
+  - [3 用户须知](3-BasicSettings/3-UserInstructions/3-UserInstructions.md)
+  - [4 首次安装](3-BasicSettings/4-FirstTimeInstallation/4-FirstTimeInstallation.md)
 
 - **功能与应用**
 
