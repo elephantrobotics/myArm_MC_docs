@@ -62,7 +62,7 @@
 
 # 2 控制核心参数
 
-![控制核心](../../../resources/2-ProductInformation/2-ProductParameters/2.2-ControlCoreParameters/ControlCore.png)
+![控制核心](../../resources/2-ProductInformation/2-ProductParameters/2.2-ControlCoreParameters/ControlCore.png)
 
 ## 2.1 主控制器规格表
 
@@ -105,14 +105,14 @@
 
 ## 3.1 产品尺寸和工作空间
 
-![产品尺寸](../../../resources/2-ProductInformation/2-ProductParameters/2.3-StructuralSizeParameters/M750_05.jpg)
+![产品尺寸](../../resources/2-ProductInformation/2-ProductParameters/2.3-StructuralSizeParameters/M750_05.jpg)
 
 ## 3.2 底座安装尺寸
 
 - 底座需采用法兰安装，可使用 M6 螺丝固定在对应的固定底座上。
 - 使用前请确认安装的底座可以承受 3 倍于机身重量的承载，以防止使用过程中因运动速度提升导致产品固定松动而引起产品损坏。
 
-<img src="../../../resources/2-ProductInformation/2-ProductParameters/2.3-StructuralSizeParameters/base-D.jpg" width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.3-StructuralSizeParameters/base-D.jpg" width="800" height="auto" />
 
 图 1 底座正视图
 
@@ -120,11 +120,11 @@
 
 - 机械臂的末端可与乐高组件孔和螺纹孔兼容。
 
-![手臂末端](../../../resources/2-ProductInformation/2-ProductParameters/2.3-StructuralSizeParameters/M750_03.jpg)
+![手臂末端](../../resources/2-ProductInformation/2-ProductParameters/2.3-StructuralSizeParameters/M750_03.jpg)
 
 ## 3.4 产品展示
 
-![产品展示](../../../resources/2-ProductInformation/2-ProductParameters/2.3-StructuralSizeParameters/M750_00.jpg)
+![产品展示](../../resources/2-ProductInformation/2-ProductParameters/2.3-StructuralSizeParameters/M750_00.jpg)
 
 <!-- [PDF Views](<../../resources/2-ProductFeature/320%202022款技术图示(1).pdf>)  -->
 
@@ -150,13 +150,13 @@
 
 ## 4.1 底座电气接口概述
 
-<img src="../../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/base-T.jpg " width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/base-T.jpg " width="800" height="auto" />
 图 1 底座正视图
 
-<img src="../../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/base-L.jpg " width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/base-L.jpg " width="800" height="auto" />
 图 2 底座左侧
 
-<img src="../../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/base-R.jpg " width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/base-R.jpg " width="800" height="auto" />
 图 3 底座右侧
 
 | 序号 | 接口名称         | 定义       | 功能             | 备注                |
@@ -204,11 +204,11 @@
 需要注意的是，输出信号为 PNP 形式，输入信号为 NPN 形式。以下是外部接线图：
 
 
-<img src="../../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/NPN-Connect.png " width="400" height="auto" /><br>
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/NPN-Connect.png " width="400" height="auto" /><br>
 
 > PNP 链接<br>
 
-<img src="../../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/PNP-Connect.jpg " width="400" height="auto" /><br>
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/PNP-Connect.jpg " width="400" height="auto" /><br>
 
 #### 4.1.7 电源直流输入接口：采用 KPPX-4P R7BFDC 电源插座。制造商提供的 24V 9.2A DC 电源适配器也可用于为 myCobot320 供电。
 
@@ -222,9 +222,9 @@
 
 A. 机械臂末端侧面接口示意如图 2-1 所示：
 
-<img src="../../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/Atom-T.jpg " width="400" height="auto" /><br>
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/Atom-T.jpg " width="400" height="auto" /><br>
 
-<img src="../../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/Atom-D.jpg" width="400" height="auto" /><br>
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/Atom-D.jpg" width="400" height="auto" /><br>
 
 图 2-1 机械臂末端
 
@@ -254,7 +254,7 @@ A. 如表 2-1 为末端 IO 口的定义。
 
 B. 末端 Grove 接口：Grove 接口 4 定义如图 2-2 所示
 
-<img src="../../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/Atom-Grove.png " width="400" height="auto" /><br>
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/Atom-Grove.png " width="400" height="auto" /><br>
 
 > 图 2-2 末端 Grove 接口
 
