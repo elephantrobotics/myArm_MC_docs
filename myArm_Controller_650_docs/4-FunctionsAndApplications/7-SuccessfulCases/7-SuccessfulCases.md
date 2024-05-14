@@ -30,3 +30,7 @@ myArm C650与Python和ROS的兼容性，加上提供开源的遥控示范文件�
 这一特性不仅增强了myArm C650的多功能性，也为用户操作更广泛的高级机器人平台提供了便利。
 
 <img src="..\..\resources\4-FunctionsAndApplications\7-SuccessfulCases\640 (2).gif" alt="img-1" width="900" height=“auto” /><br>
+
+---
+
+[← 上一章](../6-SDKDevelopment/README.md) | [下一章 →](../../5-SupportAndService/5-SupportAndService.md)

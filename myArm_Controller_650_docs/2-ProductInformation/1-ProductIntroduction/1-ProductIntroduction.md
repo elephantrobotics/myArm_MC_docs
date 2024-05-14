@@ -108,4 +108,4 @@ Shopify：[https://shop.elephantrobotics.com/](https://shop.elephantrobotics.com
 
 ---
 
-[← 上一页](../2.2-ControlCoreParameters/2.2.1-ControlCoreParameter.md) | [下一页 →](../2.4-ElectricalCharacteristicsParameters/2.4.1-ElectricalCharacteristicParameter.md)
+[下一章 →](../2-ProductParameters/ProductParameters.md)

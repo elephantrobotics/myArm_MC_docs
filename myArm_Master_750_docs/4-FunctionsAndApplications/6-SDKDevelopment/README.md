@@ -19,4 +19,4 @@ myArm M750 是基于 PC 开发和使用的。由于机械臂内没有内置系�
 
 ---
 
-[← 上一章](../5-BasicFunctions/5.1-SystemInstructionsForUse/5.1.1-Minirobot/README.md) 
+[← 上一章](../5-BasicFunctions/5.1-Minirobot/README.md) | [下一章 →](../7-SuccessfulCases/7-SuccessfulCases.md)

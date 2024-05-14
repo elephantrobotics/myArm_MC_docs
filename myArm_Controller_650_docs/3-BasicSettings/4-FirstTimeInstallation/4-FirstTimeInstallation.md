@@ -1,13 +1,13 @@
-## 1. 产品标准清单
+# 1. 产品标准清单
 
-### 产品列表图片
+## 产品列表图片
 资料更新中...
 
 <!-- <img src="../.." alt="img-1" width="800" height=“auto” /> <br>
 
 Each product is numbered and detailed to ensure you can accurately refer to your listing. -->
 
-### 产品标准清单对照表
+## 产品标准清单对照表
 
 | 序列号 | 产品                                                  |
 | :----: | :---------------------------------------------------- |
@@ -21,9 +21,9 @@ Each product is numbered and detailed to ensure you can accurately refer to your
 **注：** 包装箱到位后，请确认机器人包装完好无损。如有损坏，请及时联系物流公司和您所在地区的供应商。开箱后，请根据物品清单检查箱内的实际物品。
 
 ---
-## 2. 产品开箱指南
+# 2. 产品开箱指南
 
-### 产品开箱图文引导
+## 产品开箱图文引导
 
 **为什么需要按照步骤拆卸产品**
 
@@ -35,7 +35,7 @@ Each product is numbered and detailed to ensure you can accurately refer to your
 
 **注:** 取出产品后，请仔细检查每件物品的外观。请对照物品清单检查包装箱中的实际物品。
 
-### 产品开箱视频引导
+## 产品开箱视频引导
 
 <!-- <video id="my-video" class="video-js" controls preload="auto" width="100%"
 poster="" data-setup='{"aspectRatio":"16:9"}'>
@@ -43,17 +43,8 @@ poster="" data-setup='{"aspectRatio":"16:9"}'>
 ## <source src="https://static.elephantrobotics.com/wp-content/uploads/2022/04/%E4%B8%AD%E6%96%87%E6%94%B92.mp4"></video> -->
 
 ---
-## 3. 开机检测指南
+# 3. 开机检测指南
 
-本章将详细介绍产品收到后的开机检测方法引导用户安装并检查产品功能，确认产品基本功能可以正常使用。
-
-- **跳转到各小节**
-  - [1 结构安装固定](./1_StructuralInstallation.md)
-  - [2 外部线缆连接](./2_ExternalCableConnection.md)
-  - [3 开机状态展示](./3_PowerOnStatusDisplay.md)
-  - [4 基础功能检测](./4_BasicFunctionDetection.md)
-
----
 ## 3.1 结构安装和固定
 
 myArm 重 1.8 千克。由于重心会随着机器人在使用过程中的移动而发生变化，因此要求机器人一开始就固定在一个坚固的底座上。固定底座或移动底座均可。
@@ -125,19 +116,19 @@ myArm 必须使用外部电源供电，以提供足够的电力：
 
 
 ---
-## 3 开机状态显示
+## 3.3 开机状态显示
 
 ### 图文引导
 
-### 1.1 连接电源
+#### 3.3.1 连接电源
 
 连接电源线之后即启动。
 
-### 1.2 机器启动
+#### 3.3.2 机器启动
 
 启动期间，屏幕出现延时等待界面。
 
-### 1.3 状态展示
+#### 3.3.3 状态展示
 
 显示屏显示系统桌面相关信息。
 
@@ -145,4 +136,5 @@ myArm 必须使用外部电源供电，以提供足够的电力：
 
 ---
 
-[← 上一页](2_ExternalCableConnection.md) | [下一页 →](4_BasicFunctionDetection.md)
+如果您已经阅读了本章的所有内容，请继续阅读下一章。 <br>
+[← 上一章](../3-UserInstructions/3-UserInstructions.md) | [下一章 →](../../4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/README.md)

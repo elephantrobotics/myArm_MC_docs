@@ -1,3 +1,7 @@
+# 机器人参数说明
+
+> 第一章中，我们探讨了产品的卖点及其设计理念，为您提供了对产品高层次理解的全景视角。现在，让我们进入第二章——机器人参数说明。这一章节将是您理解产品技术细节的关键。详细了解这些技术参数，不仅可以帮助您充分认识到我们产品的先进性和实用性，而且还能够确保您能够更有效地利用这些技术来满足您的具体需求。
+
 ## 1.机器人规格参数
 
 <!-- <img src="../../resources/9-FilesDownload/2-serialproduct/image.png" width="800" height="auto" /> -->
@@ -37,7 +41,7 @@
 | **LCD 显示器**         | 2.0" @ 320*240 ILI9342C IPS panel, maximum brightness 853nit         |
 | **实体按键**           | 
 
- ### 辅助控制器规格表
+### 辅助控制器规格表
 
 
 | **指标**           | **参数**                                                        |
@@ -104,4 +108,4 @@
 
 ---
 
-[← 上一页](../2.2-ControlCoreParameters/2.2.1-ControlCoreParameter.md) | [下一页 →](../2.4-ElectricalCharacteristicsParameters/2.4.1-ElectricalCharacteristicParameter.md)
+[← 上一章](../1-ProductIntroduction/1-ProductIntroduction.md) | [下一章 →](../../3-BasicSettings/3-UserInstructions/3-UserInstructions.md)

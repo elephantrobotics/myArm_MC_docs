@@ -1,9 +1,8 @@
-
 # 大象机器人
 
-<img src="..\..\myArm_Controller_650_docs\resources\5-SupportAndService\公司介绍.png" alt="img-1" width="900" height=“auto” /><br>
+![alt text](../resources/5-SupportAndService/公司介绍.png)
 
-### 1. 公司介绍
+## 1. 公司介绍
 
 大象机器人(Elephant Robotics)立足于中国·深圳，是一家专注于机器人研发设计及自动化解决方案的高新科技企业。
 
@@ -15,9 +14,9 @@
 
 ---
 
-<img src="..\..\myArm_Controller_650_docs\resources\5-SupportAndService\公司历程.jpg" alt="img-1" width="900" height=“auto” /><br>
+![alt text](../resources/5-SupportAndService/公司历程.jpg)
 
-### 2. 发展历程
+## 2. 发展历程
 
   - 2016.08 -----大象机器人有限公司正式成立
   - 2016.08 -----进入 HAX 孵化器，获得 SOSV 种子轮投资
@@ -48,12 +47,12 @@
   - 2021.07 -----发布最小的复合机器人底盘 – 小象移动机器人 myAGV
   - 2021.09 -----全球首款全包裹式的四轴机械臂-小象码垛机械臂 myPalletizer 问世
 
-### 3. 相关链接  
-##### 购买链接
+## 3. 相关链接  
+#### 购买链接
   - 淘宝：https://shop504055678.taobao.com
   - Shopify： https://shop.elephantrobotics.com/
   - 速卖通：https://elephantrobotics.aliexpress.com/store/1101941423
-##### 其他信息
+#### 其他信息
 - 官网： https://www.elephantrobotics.com
 - 视频
   - Bilibili： https://space.bilibili.com/2126215657
@@ -64,7 +63,7 @@
 - Discord： https://discord.gg/2MAherp7nt
 - Hackster： https://www.hackster.io/elephant-robotics
 
-### 4. 联系我们
+## 4. 联系我们
 ---
 
 > 我们的工作时间为中国工作日，北京时间上午 10 点至下午 6 点。
@@ -100,5 +99,8 @@ support@elephantrobotics.com
 **微信**:  
 我们只为通过微信购买 myArm M&C 系列产品的用户提供一对一服务。
 
-<img src="..\..\myArm_Controller_650_docs\resources\5-SupportAndService\WeChat-Code.jpg" alt="img-1" width="900" height=“auto” /><br>
+![alt text](../resources/5-SupportAndService/WeChat-Code.jpg)
 
+---
+
+[← 上一章](../4-FunctionsAndApplications/7-SuccessfulCases/7-SuccessfulCases.md) | [下一章 →](../6-Acknowledgments/6-Acknowledgments.md)
