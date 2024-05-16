@@ -224,16 +224,6 @@ type：
 详细元素以及各个元素的作用可以前往 [文档](http://wiki.ros.org/urdf/XML/joint) 进行查看
 
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
+[← 上一页](2_workcode.md) | [下一页 →](4_communication.md)
