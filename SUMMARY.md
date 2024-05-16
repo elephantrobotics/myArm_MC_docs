@@ -1,53 +1,43 @@
 # Summary
 
-* [产品信息](product-information/README.md)
-    * [1. 产品简介](product-information/introduction.md)
-        * [1.1 产品概述](product-information/overview.md)
-        * [1.2 产品应用](product-information/application.md)
-        * [1.3 支持的扩展开发](product-information/extended-development.md)
-        * [1.4 购买地址](product-information/purchase.md)
-    * [2. 产品参数](product-information/specifications.md)
-        * [2.1 机器规格参数](product-information/machine-specs.md)
-        * [2.2 控制核心参数](product-information/core-specs.md)
-        * [2.3 结构尺寸参数](product-information/dimension-specs.md)
-        * [2.4 电气特性参数](product-information/electrical-specs.md)
-        * [2.5 笛卡尔坐标系](product-information/cartesian-coordinates.md)
+- **Product Information**
 
-* [基础设置](basic-settings/README.md)
-    * [3. 用户须知](basic-settings/user-instructions.md)
-        * [3.1 安全须知](basic-settings/safety-instructions.md)
-        * [3.2 运输和储存](basic-settings/transport-storage.md)
-        * [3.3 维护和保养](basic-settings/maintenance.md)
-        * [3.4 常见问题解决](basic-settings/faq.md)
-    * [4. 首次安装](basic-settings/initial-setup.md)
-        * [4.1 产品标准清单](basic-settings/standard-list.md)
-        * [4.2 产品开箱指南](basic-settings/unboxing-guide.md)
-        * [4.3 开机检测指南](basic-settings/startup-check-guide.md)
-        * [4.4 安装视频教程](basic-settings/installation-video.md)
+  - [1 Product Introduction]()
+  - [2 Product Specifications]()
 
-* [功能与应用](features-applications/README.md)
-    * [5. 基础功能](features-applications/basic-features.md)
-        * [5.1 系统（功能）使用说明](features-applications/system-instructions.md)
-        * [5.2 软件使用说明](features-applications/software-instructions.md)
-        * [5.3 固件功能说明](features-applications/firmware-features.md)
-    * [6. 软件开发指南](features-applications/development-guide.md)
-        * [6.1 基于python开发使用](features-applications/python-development.md)
-        * [6.2 基于ROS1 开发使用](features-applications/ros1-development.md)
-        * [6.3 基于ROS2 开发使用](features-applications/ros2-development.md)
-        * [6.8 基于通信协议包开发](features-applications/protocol-development.md)
-    * [7. 成功案例](features-applications/success-stories.md)
-    * [8. 配套资源](features-applications/supporting-resources.md)
-        * [8.1 产品资料](features-applications/product-info.md)
-        * [8.2 产品图纸](features-applications/product-drawings.md)
-        * [8.3 软件资料及源码](features-applications/software-sources.md)
-        * [8.4 系统资料](features-applications/system-info.md)
-        * [8.5 宣传资料](features-applications/promotional-materials.md)
+- **Initial Setup**
 
-* [支持与服务](support-services/README.md)
-    * [9. 故障排除](support-services/troubleshooting.md)
-    * [10. 购买信息](support-services/purchasing-info.md)
-    * [11. 关于我们](support-services/about-us.md)
-        * [11.1 大象机器人](support-services/elephant-robotics.md)
-        * [11.2 联系我们](support-services/contact-us.md)
+  - [3 User Instructions]()
+  - [4 Initial Installation]()
 
-* [致谢](acknowledgements.md)
+- **Features and Applications**
+
+  - [5 Minirobot]()
+    - [1 Minirobot User Guide]()
+    - [2 Zero Position Calibration]()
+    - [3 Communication Relay]()
+    - [4 Status Information]()
+  - [6 Software Development Guide]()
+    - [6.1 Python-based Development Usage]()
+      - [API]()
+      - [Related Examples]()
+    - [6.2 ROS1-based Development Usage]()
+      - [ROS Workspace Code and Usage]()
+      - [ROS Common Tool Commands]()
+      - [ROS Architecture and Communication]()
+    - [6.4 Development Using Communication Protocol Packages]()
+  - [7 Successful Cases]()
+    <!-- - [8. Supporting Resources]() -->
+      <!-- - [8.1 Product Documentation]() -->
+      <!-- - [8.2 Product Drawings]() -->
+      <!-- - [8.3 Software Documentation and Source Code]() -->
+      <!-- - [8.4 System Documentation]() -->
+      <!-- - [8.5 Promotional Materials]() -->
+
+- **Support and Services**
+
+  - [8 About Us]()
+
+- **Acknowledgments**
+
+  - [9 Acknowledgments]()
