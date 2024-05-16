@@ -87,7 +87,7 @@ rviz文件也会正常显示
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscore.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
 再新建一个终端，输入：  
-> source devel/setup.bash
+> source devel/setup.bash  
 > roslaunch myarm_m combined_control.launch  
 
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/combinedlaunch.jpg" alt="7.1.1-1" style="zoom:100%;" />   

@@ -6,8 +6,9 @@
 ## 1.1 静态仿真
 这里的静态仿真是指：用rviz中的滑动模块与仿真中的MyarmC650交互  
 在工作空间打开终端命令行中输入:  
-> roscore
+> roscore  
 
+再新建一个终端输入：  
 > source devel/setup.bash # 添加环境变量  
 > roslaunch myarm_c650 test.launch  
 
@@ -96,7 +97,7 @@ rviz文件也会正常显示
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscore.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
 再新建一个终端，输入：  
-> source devel/setup.bash
+> source devel/setup.bash  
 > roslaunch myarm_m combined_control.launch  
 
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/combinedlaunch.jpg" alt="7.1.1-1" style="zoom:100%;" />   

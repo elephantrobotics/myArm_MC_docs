@@ -23,7 +23,7 @@
 我们能看到节点的所有信息  
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download1/publisher1.jpg" alt="7.1.1-1" style="zoom:100%;" /> 
 
-MyarmM750也是处于可以手动运动状态  
+MyarmM750是处于可以用手控制其运动的状态  
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download1/launch6.jpg" alt="7.1.1-1" style="zoom:100%;" /> 
 
 ---
