@@ -26,5 +26,5 @@
 我们能看到节点的所有信息  
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/publisher1.jpg" alt="7.1.1-1" style="zoom:100%;" /> 
 
-MyarmC650也是处于可以手动运动状态  
+MyarmC650是处于可以用手控制其运动的状态  
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/launch6.jpg" alt="7.1.1-1" style="zoom:100%;" /> 
