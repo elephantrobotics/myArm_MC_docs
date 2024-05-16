@@ -1,16 +1,16 @@
 # Summary
 
-- **Product Information**
+## Product Information
 
   - [1 Product Introduction]()
   - [2 Product Parameters]()
 
-- **Initial Setup**
+## Initial Setup
 
   - [3 User Instructions]()
   - [4 Initial Installation]()
 
-- **Features and Applications**
+## Features and Applications
 
   - [5 Minirobot]()
     - [1 Minirobot User Guide]()
@@ -45,10 +45,10 @@
     <!-- - [8.4 System Documentation](features-applications/system-info.md) -->
     <!-- - [8.5 Promotional Materials](features-applications/promotional-materials.md) -->
 
-- **Support and Services**
+## Support and Services
 
   - [8 About Us]()
 
-- **Acknowledgments**
+## Acknowledgments
 
   - [9 Acknowledgments]()
