@@ -1,55 +1,54 @@
-
 # Summary
 
-- **产品信息**
+- **Product Information**
 
-  - [1 产品简介]()
-  - [2 产品参数]()
+  - [1 Product Introduction]()
+  - [2 Product Parameters]()
 
-- **基础设置**
+- **Initial Setup**
 
-  - [3 用户须知]()
-  - [4 首次安装]()
+  - [3 User Instructions]()
+  - [4 Initial Installation]()
 
-- **功能与应用**
+- **Features and Applications**
 
   - [5 Minirobot]()
-    - [1 Minirobot 使用指南]()
-    - [2 拖动示教]()
-    - [3 零位校准]()
-    - [4 通信转发]()
-    - [5 状态信息]()
-    - [6 烧录功能]()
+    - [1 Minirobot User Guide]()
+    - [2 Drag Teaching]()
+    - [3 Zero Position Calibration]()
+    - [4 Communication Relay]()
+    - [5 Status Information]()
+    - [6 Burn Function]()
 
-  <!-- - [5.2 软件使用说明](features-applications/software-instructions.md)  -->
-  <!-- - [5.3 固件功能说明](features-applications/firmware-features.md) -->
+  <!-- - [5.2 Software Usage Instructions](features-applications/software-instructions.md)  -->
+  <!-- - [5.3 Firmware Feature Instructions](features-applications/firmware-features.md) -->
 
-  - [6 软件开发指南]()
-    - [6.1 基于 python 开发使用]()
+  - [6 Software Development Guide]()
+    - [6.1 Development and Use Based on Python]()
       - [API]()
-      - [相关案例]()
-    - [6.2 基于 ROS1 开发使用]()
-      - [ROS工作空间代码和使用]()
-      - [ROS常用工具命令]()
-      - [ROS架构和通信]()
-    - [6.4 基于通信协议包开发]()
+      - [Related Examples]()
+    - [6.2 Development and Use Based on ROS1]()
+      - [ROS Workspace Code and Usage]()
+      - [ROS Common Tool Commands]()
+      - [ROS Architecture and Communication]()
+    - [6.4 Development Based on Communication Protocol Package]()
 
-  <!-- - [6.2 基于 ROS1 开发使用]() -->
-  <!-- - [6.3 基于 ROS2 开发使用]() -->
+  <!-- - [6.2 Development and Use Based on ROS1]() -->
+  <!-- - [6.3 Development and Use Based on ROS2]() -->
 
-  - [7 成功案例]()
+  - [7 Successful Cases]()
 
-  <!-- - [8. 配套资源](features-applications/supporting-resources.md) -->
-    <!-- - [8.1 产品资料](features-applications/product-info.md) -->
-    <!-- - [8.2 产品图纸](features-applications/product-drawings.md) -->
-    <!-- - [8.3 软件资料及源码](features-applications/software-sources.md) -->
-    <!-- - [8.4 系统资料](features-applications/system-info.md) -->
-    <!-- - [8.5 宣传资料](features-applications/promotional-materials.md) -->
+  <!-- - [8. Supporting Resources](features-applications/supporting-resources.md) -->
+    <!-- - [8.1 Product Information](features-applications/product-info.md) -->
+    <!-- - [8.2 Product Drawings](features-applications/product-drawings.md) -->
+    <!-- - [8.3 Software Documentation and Source Code](features-applications/software-sources.md) -->
+    <!-- - [8.4 System Documentation](features-applications/system-info.md) -->
+    <!-- - [8.5 Promotional Materials](features-applications/promotional-materials.md) -->
 
-- **支持与服务**
+- **Support and Services**
 
-  - [8 关于我们]()
+  - [8 About Us]()
 
-- **致谢**
+- **Acknowledgments**
 
-  - [9 致谢]()
+  - [9 Acknowledgments]()

@@ -1,43 +1,43 @@
 # Summary
 
-- **产品信息**
+- **Product Information**
 
-  - [1 产品简介]()
-  - [2 产品参数]()
+  - [1 Product Introduction]()
+  - [2 Product Specifications]()
 
-- **基础设置**
+- **Initial Setup**
 
-  - [3 用户须知]()
-  - [4 首次安装]()
+  - [3 User Instructions]()
+  - [4 Initial Installation]()
 
-- **功能与应用**
+- **Features and Applications**
 
   - [5 Minirobot]()
-    - [1 Minirobot 使用指南]()
-    - [2 零位校准]()
-    - [3 通信转发]()
-    - [4 状态信息]()
-  - [6 软件开发指南]()
-    - [6.1 基于 python 开发使用]()
+    - [1 Minirobot User Guide]()
+    - [2 Zero Position Calibration]()
+    - [3 Communication Relay]()
+    - [4 Status Information]()
+  - [6 Software Development Guide]()
+    - [6.1 Python-based Development Usage]()
       - [API]()
-      - [相关案例]()
-    - [6.2 基于 ROS1 开发使用]()
-      - [ROS工作空间代码和使用]()
-      - [ROS常用工具命令]()
-      - [ROS架构和通信]()
-    - [6.4 基于通信协议包开发]()
-  - [7 成功案例]()
-    <!-- - [8. 配套资源]() -->
-      <!-- - [8.1 产品资料]() -->
-      <!-- - [8.2 产品图纸]() -->
-      <!-- - [8.3 软件资料及源码]() -->
-      <!-- - [8.4 系统资料]() -->
-      <!-- - [8.5 宣传资料]() -->
+      - [Related Examples]()
+    - [6.2 ROS1-based Development Usage]()
+      - [ROS Workspace Code and Usage]()
+      - [ROS Common Tool Commands]()
+      - [ROS Architecture and Communication]()
+    - [6.4 Development Using Communication Protocol Packages]()
+  - [7 Successful Cases]()
+    <!-- - [8. Supporting Resources]() -->
+      <!-- - [8.1 Product Documentation]() -->
+      <!-- - [8.2 Product Drawings]() -->
+      <!-- - [8.3 Software Documentation and Source Code]() -->
+      <!-- - [8.4 System Documentation]() -->
+      <!-- - [8.5 Promotional Materials]() -->
 
-- **支持与服务**
+- **Support and Services**
 
-  - [8 关于我们]()
+  - [8 About Us]()
 
-- **致谢**
+- **Acknowledgments**
 
-  - [9 致谢]()
+  - [9 Acknowledgments]()
