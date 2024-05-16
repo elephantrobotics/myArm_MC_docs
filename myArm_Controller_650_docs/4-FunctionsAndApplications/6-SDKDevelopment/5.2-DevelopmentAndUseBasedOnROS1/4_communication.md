@@ -17,7 +17,7 @@
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/runpython2.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
 再新建一个终端，输入：
-> rosnode kill /joint_state_publisher_gui  
+> rosnode kill /joint_state_publisher_gui    
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/kill1.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
 最后我们再打开一个新终端，输入：
