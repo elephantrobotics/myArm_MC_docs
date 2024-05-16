@@ -28,3 +28,7 @@
 
 MyarmC650是处于可以用手控制其运动的状态  
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/launch6.jpg" alt="7.1.1-1" style="zoom:100%;" /> 
+
+---
+
+[← 上一页](3_ROScode.md) | [下一节 →](../5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.1-CommunicationDoc.md)
