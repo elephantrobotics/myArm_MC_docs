@@ -1,17 +1,17 @@
 
 # Summary
 
-- **产品信息**
+## 产品信息
 
   - [1 产品简介](2-ProductInformation/1-ProductIntroduction/1-ProductIntroduction.md)
   - [2 产品参数](2-ProductInformation/2-ProductParameters/ProductParameters.md)
 
-- **基础设置**
+## 基础设置
 
   - [3 用户须知](3-BasicSettings/3-UserInstructions/UserInstructions.md)
   - [4 首次安装](3-BasicSettings/4-FirstTimeInstallation/FirstTimeInstallation.md)
 
-- **功能与应用**
+## 功能与应用
 
   - [5 Minirobot](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/README.md)
     - [1 Minirobot 使用指南](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.1-MinirobotGuide.md)
@@ -46,10 +46,10 @@
     <!-- - [8.4 系统资料](features-applications/system-info.md) -->
     <!-- - [8.5 宣传资料](features-applications/promotional-materials.md) -->
 
-- **支持与服务**
+## 支持与服务
 
   - [8 关于我们](5-SupportAndService/5-SupportAndService.md)
 
-- **致谢**
+## 致谢
 
   - [9 致谢](6-Acknowledgments/6-Acknowledgments.md)
