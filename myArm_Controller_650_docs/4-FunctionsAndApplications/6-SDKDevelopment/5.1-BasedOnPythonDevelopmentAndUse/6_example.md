@@ -36,7 +36,7 @@ else:
 
 ```
 
-## 5 控制程序案例
+## 3 控制程序案例
 
 ## 程序地址
 > https://github.com/elephantrobotics/pymycobot/tree/main/demo/myArm_M&C_demo

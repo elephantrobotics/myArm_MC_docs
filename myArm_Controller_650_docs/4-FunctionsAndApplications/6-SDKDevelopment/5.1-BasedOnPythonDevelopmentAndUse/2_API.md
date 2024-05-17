@@ -5,7 +5,7 @@
 ```python
 from pymycobot import MyArmC 
 
-# Example
+# 示例
 myarmc = MyArmC('/dev/ttyAMA1')
 
 # 获取所有关节的当前角度
@@ -14,6 +14,7 @@ print(angles)
 ```
 
 # 1. 机器人状态查询
+
 
 **1.1** `get_robot_modified_version()`
 
@@ -84,35 +85,36 @@ print(angles)
 
 **1.11** `clear_robot_err()`
 
-- **功能:** 清除机器人异常，忽略错误接头，继续移动
+- **功能:** 清除机器人异常，忽略报错关节，继续运动
 - **参数:** 无
 - **返回:** 无
 
-**1.12** `set_recv_queue_max_len(max_len)`
+**1.12** `get_recv_queue_max_len()`
 
-- **功能:** 设置接收命令队列的总长度
-- **参数:** 
-  - `max_len`: `(int)` 队列总长度，取值范围 `1 - 100`
-- **返回:** 无
-
-**1.13** `get_recv_queue_max_len()`
-
-- **功能:** 读取命令队列的总长度，默认长度为 100
+- **功能:** 读取接收指令队列总长度
 - **参数:** 无
 - **返回:** 
-  - `max_len` `(int)` 命令队列最大长度
+  - `max_len`: `(int)` 指令队列总长度，默认值`100`
+
+**1.13** `set_recv_queue_max_len(max_len)`
+
+- **功能:** 设置接收指令队列总长度
+- **参数:** 
+  - `max_len`: `(int)` 队列长度
+- **返回:**  无
 
 **1.14** `clear_recv_queue()`
 
-- **功能:** 清除接收命令的队列
+- **功能:** 清除接收指令队列
 - **参数:** 无
 - **返回:** 无
 
 **1.15** `get_recv_queue_len()`
 
-- **功能:** 读取接收队列的当前长度
+- **功能:** 读取接收指令队列当前长度
 - **参数:** 无
-- **返回:** 无
+- **返回:** 
+  - `queue_len`: `(int)` 当前指令队列长度
 
 # 2. 关节伺服控制
 
@@ -151,32 +153,40 @@ print(angles)
 
 - **功能:** 设置指定伺服电机的零位
 - **参数:** 
-  - `servo_id` 表示伺服电机索引位，取值返回 `1 - 6`
+  - `servo_id` 表示伺服电机索引位，取值范围 `1 - 6`
 - **返回:** 无
 
-**3.2** `get_servo_encoder(servo_id)`
+**3.2** `get_servos_encoder_drag()`
+
+- **功能:** 读取所有伺服电机当前编码器值和运行速度
+- **参数:** 无
+- **返回:** 
+  - `encoders`: `(list[int])` 电位值
+  - `speeds`: `(list[int])` 速度
+
+**3.3** `get_servo_encoder(servo_id)`
 
 - **功能:** 获取指定伺服电机的当前编码器电位值
 - **参数:** 
-  - `servo_id`: `(int)` 表示伺服电机索引位，取值返回 `1 - 6`
+  - `servo_id`: `(int)` 表示伺服电机索引位，取值范围 `1 - 6`
 - **返回:** 
   - `encoder`:`(int)` 表示机械臂的电位值，取值范围是 0 ~ 4096
 
-**3.3** `get_servos_encoder()`
+**3.4** `get_servos_encoder()`
 
 - **功能:** 获取多个伺服电机的当前编码器电位值
 - **参数:** 无
 - **返回:** 
   - `encoders`: `(list[int])` 表示机械臂的电位值，取值范围是 0 ~ 4096，六轴长度为 6，四轴长度为 4，表示方法为：[2048,2048,2048,2048,2048,2048] 
 
-**3.4** `get_servos_speed()`
+**3.5** `get_servos_speed()`
 
 - **功能:** 获取多个伺服电机的当前运动速度
 - **参数:** 无
 - **返回:** 
   - `speeds`: `(list[int])` 伺服电机运动速度 
 
-**3.5** `is_all_servos_enabled()`
+**3.6** `is_all_servos_enabled()`
 
 - **功能:** 获取多个伺服电机的连接状态
 - **参数:** 无
@@ -185,37 +195,37 @@ print(angles)
     - 1 : 连接成功
     - 0 : 连接失败
 
-**3.6** `get_servos_temp()`
+**3.7** `get_servos_temp()`
 
 - **功能:** 获取多个伺服电机的温度
 - **参数:** 无 
 - **返回:** `list(float)` 每个伺服电机的温度
 
-**3.7** `get_servos_voltage()`
+**3.8** `get_servos_voltage()`
 
 - **功能:** 获取多个伺服电机的电压
 - **参数:** 无 
 - **返回:** `list(float)` 每个伺服电机的电压
 
-**3.8** `get_servos_current()`
+**3.9** `get_servos_current()`
 
 - **功能:** 获取多个伺服电机的电流
 - **参数:** 无 
 - **返回:** `list(float)` 每个伺服电机的电流
 
-**3.9** `get_servos_status()`
+**3.10** `get_servos_status()`
 
 - **功能:** 获取多个伺服电机的所有状态
 - **参数:** 无 
 - **返回:** `list(int)` 每个伺服电机的状态
 
-**3.10** `get_servos_protect_current()`
+**3.11** `get_servos_protect_current()`
 
 - **功能:** 获得多个伺服电机保护电流
 - **参数:** 无 
 - **返回:** `list(int)` 每个伺服电机的保护电流
 
-**3.11** `set_servo_enabled(joint_id, state)`
+**3.12** `set_servo_enabled(joint_id, state)`
 
 - **功能:** 设置伺服电机转矩开关
 - **参数:**
