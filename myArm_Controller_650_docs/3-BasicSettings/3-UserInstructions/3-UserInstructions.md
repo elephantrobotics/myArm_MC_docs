@@ -46,7 +46,7 @@
 | 3 电气连接错误时可能存在触电隐患。                                                                                                      |
 | 4 请务必在关闭控制器与相关装置电源并拔出电源插头之后进行更换作业。如果在通电的状态下进行作业，则可能会导致触电或故障。                  |
 
-#### 安全注意事项
+### 安全注意事项
 
 **使用机械臂时应遵循如下安全规则：**
 
@@ -384,8 +384,7 @@ source devel/setup.bash
 
 **Q: 编译完成后，新开终端运行 launch 指令时，为什么会出现下面的错误？**
 
-<img src = ../../../resources/3-UserNotes/17.4.3-1.png
-width ="500"  align = "center">
+![alt text](../../resources/3-BasicSettings/3-UserInstructions/ros_error.png)
 
 - A1: 系统没有添加 ros 环境变量，所以每次开启新终端都要 source：
 

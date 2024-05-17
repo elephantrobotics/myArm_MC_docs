@@ -139,7 +139,7 @@ PyCharm 安装完成之后进入该软件，创建第一个程序。
 
 ## **3 准备工作**
 
-- 固件烧录。固件是系统控制机器人的驱动程序。 [**MyStudio**](<(https://docs.elephantrobotics.com/docs/gitbook-en/4-BasicApplication/4.1-myStudio/)>)。
+- 固件烧录。固件是系统控制机器人的驱动程序。
 
   - **M5Stack 版本** 底部的 `Basic` 需要烧录 `minirobot`。烧录完成后选择 `Transponder` 功能（该功能用于接收转发底部 Basic 发送的指令，从而执行目标动作），点击 `Press A`，出现 `Atom：OK` 提示信息即为成功。此外，M5 版本末端 Atom 烧录最新版的 atomMain，出厂默认已烧录，无需自行烧录。
   - **Pi \ jetsonnano** 版本末端 Atom 烧录最新版的 atomMain，出厂默认已烧录，无需自行烧录。
