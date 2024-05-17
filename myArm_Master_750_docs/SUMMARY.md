@@ -39,12 +39,12 @@
 
   - [7 成功案例](4-FunctionsAndApplications/7-SuccessfulCases/7-SuccessfulCases.md)
 
-  <!-- - [8. 配套资源](features-applications/supporting-resources.md) -->
-    <!-- - [8.1 产品资料](features-applications/product-info.md) -->
-    <!-- - [8.2 产品图纸](features-applications/product-drawings.md) -->
-    <!-- - [8.3 软件资料及源码](features-applications/software-sources.md) -->
-    <!-- - [8.4 系统资料](features-applications/system-info.md) -->
-    <!-- - [8.5 宣传资料](features-applications/promotional-materials.md) -->
+    <!-- - [8. 配套资源](features-applications/supporting-resources.md) -->
+      <!-- - [8.1 产品资料](features-applications/product-info.md) -->
+      <!-- - [8.2 产品图纸](features-applications/product-drawings.md) -->
+      <!-- - [8.3 软件资料及源码](features-applications/software-sources.md) -->
+      <!-- - [8.4 系统资料](features-applications/system-info.md) -->
+      <!-- - [8.5 宣传资料](features-applications/promotional-materials.md) -->
 
 ## 支持与服务
 
