@@ -13,7 +13,7 @@
 > soure devel/setup.bash  
 > roslaunch myarm_c650 test.launch
 
-打开rviz后再启动我们的 **test2.py** 文件  
+打开rviz后再启动我们的 **test.py** 文件  
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/runpython2.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
 再新建一个终端，输入：
