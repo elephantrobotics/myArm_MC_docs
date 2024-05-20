@@ -54,7 +54,7 @@
 | **LCD 显示**           | 2.0"@320\*240 ILI9342C IPS 面板，<br> 最大亮度 853nit           |
 | **C 型**                | \*1                                                             |
 | **辅控扩展IO**      | G19, G21, G22, G23, G25, G33                          |
-
+|</center>
 
 
 ---
@@ -105,6 +105,142 @@
     mozallowfullscreen="true"
     frameborder="0">
 </iframe> -->
+
+# 4.电气特性参数
+
+## 底座电气接口概述
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/底座正视图.jpg " 
+width="800" height="auto" />
+图 4.1 底座正视图
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters//底座左视图.jpg " width="800" height="auto" />
+图 4.2 底座左视图
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/底座右视图.jpg " width="800" height="auto" />
+图 4.3 底座右视图
+
+| 序号 | 接口名称         | 定义       | 功能             | 备注                |
+| :--- | :--------------- | :--------- | :--------------- | :------------------ |
+|  1 |      功能接口组一      | I/O接口  |   GPIO引脚   |           |
+| 2    | 屏幕             | 显示       | 与按钮一起使用   |                     |
+| 3    | 按键             | 按键 A     | 与显示屏一起使用 |                     |
+| 4    |                  | 按键 B     |                  |                     |
+| 5    |                  | 按键 C     |                  |     |
+ |6   |       功能接口组二        |  I/O接口  | GPIO引脚 |    |
+|7    | 复位按钮            | 系统复位   | 使主控复位    |
+| 8   | Type C 接口        |    |可用于和 PC 端连接通讯，更新固件使用  |                     |
+| 9  |  Grove 接口1           |       |   |                     |
+|10   | 功能接口组三            |  I/O接口  |   GPIO引脚  |
+| 11  |   Grove 接口2   |    ||                     |
+|   |   Grove 接口3   |    ||                     |
+|12   |电源 DC 输入接口 | DC24V 输入 | DC24V 输入       |                     |
+
+
+
+#### A.功能接口组一接口的定义如下表：
+| 标签 | 类型         | 功能|     备注         |                 
+| :--- | :--------------- | :--------- | :--------------- | 
+|  18 |    I/O     |   GPIO18   |  在使用TF卡时不可用   |
+|  19 |    I/O     |   GPIO19   |  在使用TF卡时不可用   | 
+|  23 |    I/O     |   GPIO23   |  在使用TF卡时不可用   | 
+|  22 |    I/O     |   GPIO22   |   |              
+|  21 |    I/O     |   GPIO21   |   |   
+|  GND|   P    |   GND  |   |   
+|  3V3|    P    |   GPIO22   |   |   
+|  5V |    P    |   DC 5V   |   |   
+
+#### B.功能接口组二与功能组三各个接口定义一致，接口的定义如下表：
+| 标签 | 类型         | 功能|     备注         |                 
+| :--- | :--------------- | :--------- | :--------------- | 
+|  3 |    I/O     |   GPIO3   |  在使用TypeC或Grover 3 时不可用   |
+|  1 |    I/O     |   GPIO1   | 在使用TypeC或Grover 3 时不可用  | 
+|  16 |    I/O     |   GPIO16   |  暂不支持  | 
+|  17 |    I/O     |   GPIO17   |  暂不支持 |              
+|  2 |    I/O     |   GPIO2   |   |   
+|  5 |    I/O     |   GPIO5   |     |
+|  25 |    I/O     |   GPIO25   | 暂不支持  | 
+|  26 |    I/O     |   GPIO26   |  在使用 Grover 2 时不可用  | 
+|  35 |    I/O     |   GPIO35   |  暂不支持 |              
+|  36 |    I/O     |   GPIO36   | 在使用Grover 2 时不可用  |  
+|  RST|  -    |  Controller reset  |  暂不支持 |   
+|  BAT|  -    |  	BTTERY  |  暂不支持 | 
+|  3V3|    P    |   GPIO22   |   |  
+|  5V |    P    |   DC 5V   |   | 
+|  GND|   P    |   GND  |   |   
+ 
+
+> **注意**: I/O:该功能信号包含输入和输出组合。
+
+#### C.Grover接口：Grover接口定义图如下：
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/1.png " width="800" height="auto" />
+图 4.4 Grover接口1定义图
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.png " width="800" height="auto" />
+图 4.5 Grover接口2定义图
+
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.png " width="800" height="auto" />
+图 4.6 Grover接口3定义图
+
+#### D.屏幕 ：屏幕用于显示 myCobot 的通信状态，并通过 2 英寸 IPS 屏幕校准机器人移动到起点。
+
+#### E.按键 A、按键 B 和按键 C 用于以协调的方式操作屏幕。
+
+
+#### F.复位按钮 ：用于主控系统复位
+
+#### G.Type C ：C 型接口用于与个人电脑连接和通信，可供开发人员使用。
+
+
+
+## 机械臂末端电气接口
+
+#### 1.机械臂末端介绍
+
+A. 机械臂末端侧面接口示意如图  所示：
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/末端侧面接口.jpg " width="400" height="auto" /><br>
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/末端正视图.jpg" width="400" height="auto" /><br>
+
+图 2-1 机械臂末端
+
+| 序号 | 接口名称         | 定义       | 功能             | 备注                |
+| :--- | :--------------- | :--------- | :--------------- | :------------------ |
+| 13   | 末端 Atom        | LED   | 用于 5X5 RGB LED（G27）显示和按键功能（G39）          |
+| 14   | Type C 接口        |    |可用于和 PC 端连接通讯，更新固件使用  |                     |
+| 15    | 末端 Grove 接口           |       |   | 
+| 16  | 末端 IO 接口         | 末端工具IO接口   | 与外部设备交互     | 开发使用            |   
+| 17  | 舵机接口     | 连接舵机       | 连接外部设备舵机   |                     |
+
+#### 2.末端接口说明
+
+A. 如表为末端 IO 口的定义。
+
+| 标签名 | 信号名 | 功能                            | 备注 |
+| ------ | ------ | ------------------------------- | ---- |
+| 5V0    | 5V     | 5V 电源                         |      |
+| GND    | GND    | 主板电源信号地                  |      |
+| 3V3    | 3V3    | 3.3V 电源                       |      |
+| G22    | G22    | 3.3V-OUT-PIN 输出/3.3V-INT 输入 |      |
+| G19    | G19    | 3.3V-OUT-PIN 输出/3.3V-INT 输入 |      |
+| G23    | G23    | 3.3V-OUT-PIN 输出/3.3V-INT 输入 |      |
+| G33    | G33    | 3.3V-OUT-PIN 输出/3.3V-INT 输入 |      |
+
+
+B. 末端 Grove 接口：Grove 接口 4 定义如图所示
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/Atom-Grove.png " width="400" height="auto" /><br>
+
+> 
+
+C. Type C 接口：可用于和 PC 端连接通讯，更新固件使用。
+
+D. Atom：用于 5X5 RGB LED（G27）显示和按键功能（G39）
+
+E. 舵机接口：用于末端拓展夹爪时使用，当前支持配套的自适应夹爪使用。
 
 ---
 
