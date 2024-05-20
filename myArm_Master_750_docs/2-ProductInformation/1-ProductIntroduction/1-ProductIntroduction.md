@@ -21,7 +21,7 @@ The design concept of the MyARM M750 universal intelligent robotic arm comes fro
 
 <img src="..\..\resources\2-ProductInformation\1-ProductIntroduction\M750application2.jpg" alt="img-1" width="900" height=“auto” /><br>
 
-| **Design Goals**           | **功能实现**                                                                                                                                |
+| **Design Goals**           | **Functional realisation**                                                                                                                                |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Universal multifunctional platform**     | The MyARM M750 is suitable for various application scenarios such as education, research and business display. Its six -degree of freedom and 750mm wingspan support to perform complex motion control in various working environments, such as precise positioning and path planning.  |
 | **Scientific research and education support**     | The MyARM M750 is suitable for machine learning and artificial intelligence research, which can perform high -precision experiments and technical demonstrations. It supports end -to -end data training and reproduction, and basic visual tasks, which is an ideal device in the laboratory. |
@@ -53,7 +53,7 @@ The design concept of the MyARM M750 universal intelligent robotic arm comes fro
 | **Improve the quality of education**       | In the educational environment, the device can provide opportunities for practical operations to help students better understand theory and cultivate practical ability.                        |
 | **Increase business and display opportunities** | The M750 is not limited to laboratory use, its application in technical exhibitions and public demonstrations can attract audiences and potential customers, enhance the interaction and attractiveness of technical display. |
 
-## 行业贡献
+## Industry Contribution
 
 |                        |                                                                                                            |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------- |

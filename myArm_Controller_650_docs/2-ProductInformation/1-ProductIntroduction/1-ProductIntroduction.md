@@ -111,4 +111,4 @@ AliExpress: [https://elephantrobotics.aliexpress.com/store/1101941423](https://e
 
 ---
 
-[Next Chapter →](../2-ProductParameters/2-ProductParameters.md)
+[Next chapter →](../2-ProductParameters/2-ProductParameters.md)

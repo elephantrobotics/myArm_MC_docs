@@ -18,7 +18,7 @@ Tables 1-1 to 1-3 below outline common safety hazards that may exist when using 
 
 **<center>Table 1-1 High-Level Hazard</center>**
 
-| <div align=center><img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\3-UserInstructions\danger.png" alt="img-1" width="100" height=“auto” />     |
+| <div align=center><img src="../../resources/3-BasicSettings\/3-UserInstructions/3.1 -SafetyInstructions/danger.png" alt="img-1" width="100" height=“auto” />     |
 | :----------------------------------------------------------------------------------------------------------------------------------------- |
 | 1 Personal injury or robot damage caused by incorrect operation during robot handling.                                                   |
 | 2 Failure to secure the robot as required, such as missing screws or insufficient locking ability of the base, resulting in robot tipping over, causing personal injury or robot damage. |
@@ -26,7 +26,7 @@ Tables 1-1 to 1-3 below outline common safety hazards that may exist when using 
 
 **<center>Table 1-2 Warning-Level Hazard</center>**
 
-| <div align=center><img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\3-UserInstructions\warning.png" alt="img-1" width="100" height=“auto” />                      |
+| <div align=center><img src="../../resources/3-BasicSettings/3-UserInstructions/3.1 -SafetyInstructions/warning.png" alt="img-1" width="100" height=“auto” />                      |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1 Do not stay within the robot's range of motion when debugging programs, as inappropriate safety configurations may not prevent collisions that may cause personal injury.                                                                 |
 | 2 Connecting the robot to other devices may pose new risks, requiring a comprehensive risk assessment.                                                                                         |
@@ -39,7 +39,7 @@ Tables 1-1 to 1-3 below outline common safety hazards that may exist when using 
 
 **<center>Table 1-3 Potential Electric Shock Hazards</center>**
 
-| <div align=center><img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\3-UserInstructions\careful.png" alt="img-1" width="100" height=“auto” /> |
+| <div align=center><img src="../../resources/3-BasicSettings/3-UserInstructions/3.1 -SafetyInstructions/careful.png" alt="img-1" width="100" height=“auto” /> |
 | :-------------------------------------------------------------------------------------------------------------------------------------- |
 | 1 Using non-original cables may pose unknown dangers.                                                                                   |
 | 2 Contact of electrical equipment with liquids may cause electric shock hazards.                                                          |
@@ -364,7 +364,7 @@ First of all, think from the perspective of the person answering the question:
 
 **Q: After compilation, when running launch instructions in a new terminal, why does it show the following error?**
 
-![alt text](../../resources/3-BasicSettings/3-UserInstructions/ros_error.png)
+![alt text](../../resources/3-BasicSettings/3-UserInstructions/3.1%20-SafetyInstructions/ros_error.png)
 
 - A1: The ROS environment variables are not added to the system, so you need to source them every time you open a new terminal:
 
@@ -436,4 +436,4 @@ A2: We do not support Android development. If you want to develop it yourself, w
 ---
 
 If you have read all of this chapter, please continue to the next chapter. <br>
-[← Previous chapter](../../2-ProductInformation/2-ProductParameters/2-ProductParameters.md) | [Next chapter→](../4-FirstTimeInstallation/4-FirstTimeInstallation.md)
+[← Previous chapter](../../2-ProductInformation/2-ProductParameters/2-ProductParameters.md) | [Next chapter →](../4-FirstTimeInstallation/4-FirstTimeInstallation.md)

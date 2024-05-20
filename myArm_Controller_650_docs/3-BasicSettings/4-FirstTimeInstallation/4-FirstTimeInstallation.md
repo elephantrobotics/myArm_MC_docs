@@ -11,7 +11,7 @@ Each product is numbered and detailed to ensure you can accurately refer to your
 
 | Serial Number | Product                                                 |
 | :-----------: | :------------------------------------------------------ |
-|       1       | myArm Controller 650 Mechanical Arm                     |
+|       1       | myArm Controller 650  Arm                     |
 |       2       | Product Kit, including USB-Type C, Cup Hexagon Socket Full Thread Stainless Steel Screws |
 |       3       | DC12V Direct Current Power Supply                       |
 |       4       | Fixed Baseplate                                         |
@@ -55,7 +55,7 @@ The myArm weighs 1.8 kilograms. Because the center of gravity changes with the r
 
 - The base fixing hole is the interface between the robot and other bases or surfaces. The specific hole size is shown in the figure below. There are 4 counterbores with a diameter of 4.5 millimeters, which can be fixed with M6 bolts.
 
-<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\底座尺寸.png" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\底座尺寸.jpg" alt="img-1" width="400" height=“auto” /> <br>
 
 - The end is equipped with a flange for compatibility with LEGO component holes and threaded holes. Before installation, make sure there are corresponding threaded holes on the fixed base.
 
