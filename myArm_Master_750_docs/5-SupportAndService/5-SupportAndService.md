@@ -1,6 +1,6 @@
 # Elephant Robotics
 
-<img src="..\..\myArm_Controller_650_docs\resources\5-SupportAndService\公司介绍.png" alt="img-1" width="900" height=“auto” /><br>
+<img src="../resources/5-SupportAndService/公司介绍.png" alt="img-1" width="900" height=“auto” /><br>
 
 ## 1. Company Introduction
 
@@ -14,7 +14,7 @@ In the future, Elephant Robotics hopes to promote the development of the robotic
 
 ---
 
-<img src="..\..\myArm_Controller_650_docs\resources\5-SupportAndService\公司历程.jpg" alt="img-1" width="900" height=“auto” /><br>
+<img src="../resources/5-SupportAndService/公司历程.jpg" alt="img-1" width="900" height=“auto” /><br>
 
 ## 2. Development History
 
@@ -99,7 +99,7 @@ We will reply within 1-2 working days;
 **WeChat**:  
 We only provide one-on-one service for users who purchase myArm M&C series products through WeChat.
 
-<img src="..\..\myArm_Controller_650_docs\resources\5-SupportAndService\WeChat-Code.jpg" alt="img-1" width="900" height=“auto” /><br>
+<img src="../resources/5-SupportAndService/WeChat-Code.jpg" alt="img-1" width="900" height=“auto” /><br>
 
 ---
 

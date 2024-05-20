@@ -2,13 +2,13 @@
 
 ## Product Information
 
-- [1 Product Introduction](2-ProductInformation/1-ProductIntroduction/1-ProductIntroduction.md)
-- [2 Product Specifications]()
+  - [1 Product Introduction](2-ProductInformation/1-ProductIntroduction/1-ProductIntroduction.md)
+  - [2 Product Specifications](2-ProductInformation/2-ProductParameters/2-ProductParameters.md)
 
 ## Initial Setup
 
-- [3 User Instructions](3-BasicSettings/3-UserInstructions/3-UserInstructions.md)
-- [4 Initial Installation](3-BasicSettings/4-FirstTimeInstallation/4-FirstTimeInstallation.md)
+  - [3 User Instructions](3-BasicSettings/3-UserInstructions/3-UserInstructions.md)
+  - [4 Initial Installation](3-BasicSettings/4-FirstTimeInstallation/4-FirstTimeInstallation.md)
 
 ## Features and Applications
 
@@ -37,7 +37,7 @@
     <!-- - [8.5 Promotional Materials]() -->
 
 ## Support and Services
-- [8 About Us](5-SupportAndService/5-SupportAndService.md)
+  - [8 About Us](5-SupportAndService/5-SupportAndService.md)
 
 ## Acknowledgments
-- [9 Acknowledgments](6-Acknowledgments/6-Acknowledgments.md)
+  - [9 Acknowledgments](6-Acknowledgments/6-Acknowledgments.md)

@@ -70,7 +70,7 @@
 - The base needs to be flanged and can be fixed to the corresponding mounting base using M6 screws.
 - Before use, please confirm that the installed base can bear 3 times the weight of the body to prevent damage to the product caused by loosening of the product due to the increase in movement speed during use.
 
-<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\base-D.png" width="800" height="auto" />
+<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\base-D.jpg" width="800" height="auto" />
 
 Figure 1 Front view of the base
 
@@ -225,7 +225,7 @@ A. The following table is the definition of the terminal IO port.
 
 B. End Grove Interface: The Grove Interface 4 definition is shown in the image：
 
-<img src="../../resources/2-ProductInformation/2-ProductParameters/Atom-Grove.png " width="400" height="auto" /><br>
+<img src="../../resources/2-ProductInformation/2-ProductParameters/Atom-Grove.png" width="400" height="auto" /><br>
 
 > 
 
@@ -237,4 +237,4 @@ E. Servo interface: used for terminal expansion grippers, currently supporting t
 
 ---
 
-[← Previous](../1-ProductIntroduction/1-ProductIntroduction.md) | [Next →](../../3-BasicSettings/3-UserInstructions/3-UserInstructions.md)
+[← Previous chapter](../1-ProductIntroduction/1-ProductIntroduction.md) | [Next chapter →](../../3-BasicSettings/3-UserInstructions/3-UserInstructions.md)
