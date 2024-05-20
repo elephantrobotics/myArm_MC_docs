@@ -17,7 +17,7 @@
     - [2 Zero Position Calibration]()
     - [3 Communication Relay]()
     - [4 Status Information]()
-  - [6 Software Development Guide]()
+  - [6 Software Development Guide](4-FunctionsAndApplications/6-SDKDevelopment/README.md)
     - [6.1 Python-based Development Usage]()
       - [API]()
       - [Related Examples]()

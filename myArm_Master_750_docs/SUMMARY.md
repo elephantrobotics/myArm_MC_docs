@@ -23,7 +23,7 @@
   <!-- - [5.2 Software Usage Instructions](features-applications/software-instructions.md)  -->
   <!-- - [5.3 Firmware Feature Instructions](features-applications/firmware-features.md) -->
 
-  - [6 Software Development Guide]()
+  - [6 Software Development Guide](4-FunctionsAndApplications/6-SDKDevelopment/README.md)
     - [6.1 Development and Use Based on Python]()
       - [API]()
       - [Related Examples]()
