@@ -1,34 +1,35 @@
-# 通信
-  我们的MyarmM750主要是采用的是 **话题（Topic）** 的方式进行通信  
+# correspondence
+  Our MyarmC650 mainly uses a **Topic** method for communication    
    
-   > 话题（Topic）是ROS最常用的通信机制之一、它基于发布者-订阅者模式，其中一个节点作为发布者（Publisher）发布消息，而其他节点作为订阅者（Subscriber）接收消息。发布者可以同时向多个订阅者发布消息，而订阅者可以从多个发布者接收消息。这种方式非常适用于需要实时数据更新的情况，例如传感器数据的处理和实时控制。  
+   > Topic is one of the most commonly used communication mechanisms in ROS, which is based on the publisher-subscriber model, in which one node publishes messages as publishers and other nodes receive messages as subscribers. A publisher can publish messages to multiple subscribers at the same time, and subscribers can receive messages from multiple publishers. This approach is ideal for situations that require real-time data updates, such as processing and real-time control of sensor data.    
 
-首先在.py文件中创建一个Publisher，将我们的消息发布给MyarmM750   
+Start by creating a Publisher in the .py file to post our message to the MyarmC650     
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/publisher.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
-接下来在工作空间打开终端,启动ROS：  
+Next, open the terminal in the workspace and start ROS:    
 > roscore
 
-再新建一个终端，输入：  
+Create another terminal and enter:    
 > soure devel/setup.bash  
-> roslaunch myarm_m test.launch
+> roslaunch myarm_c650 test.launch
 
-打开rviz后再启动我们的 **test2.py** 文件  
+Open RVIZ and then launch our **test.py** file    
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/runpython2.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
-再新建一个终端，输入：
+Create another terminal and enter:  
 > rosnode kill /joint_state_publisher_gui  
+
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/kill1.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
-最后我们再打开一个新终端，输入：
+Finally, we open a new terminal and enter:  
 > rqt_graph 
 
-我们能看到节点的所有信息  
+We can see all the information about the node    
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/publisher1.jpg" alt="7.1.1-1" style="zoom:100%;" /> 
 
-MyarmM750也是处于可以手动运动状态  
+The MyarmC650 is also in a state where it can be manually moved    
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/launch6.jpg" alt="7.1.1-1" style="zoom:100%;" /> 
 
 ---
 
-[← 上一页](3_ROScode.md) | [下一节 →](../5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.1-CommunicationDoc.md)
+[← last page](3_ROScode.md) | [next section →](../5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.1-CommunicationDoc.md)

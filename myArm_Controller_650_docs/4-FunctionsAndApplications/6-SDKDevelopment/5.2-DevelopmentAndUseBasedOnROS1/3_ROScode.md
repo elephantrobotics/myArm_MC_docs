@@ -1,229 +1,229 @@
-# 一、前言
+# 1、 Introduction
 
-在 ROS 同提供了一些实用的命令行工具，可以用于获取不同节点的各类信息，常用的命令如下:
+ROS also provides some practical command-line tools, which can be used to obtain various information of different nodes, and the common commands are as follows:  
 
-rosnode : 操作节点  
-rostopic : 操作话题  
-rosservice : 操作服务  
-rosmsg : 操作msg消息  
-rossrv : 操作srv消息  
-rosparam : 操作参数  
-官方参考网址：http://wiki.ros.org/ROS/CommandLineTools  
+rosnode : Operational nodes  
+rostopic : Operational topics  
+rosservice : Operational Services  
+rosmsg : Manipulating MSG messages  
+rossrv : Manipulate SRV messages  
+rosparam : Operational parameters  
+[Official reference URL](http://wiki.ros.org/ROS/CommandLineTools) 
 
-# 二、rosnode
+# 2、 Rosnod
 
-rosnode 是用于获取节点信息的命令  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscode1.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+rosnode is a command used to obtain node information    
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/roscode1.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
-# 三、rostopic
+# 3、rostopic
 
-rostopic包含rostopic命令行工具，用于显示有关ROS 主题的调试信息，包括发布者，订阅者，发布频率和ROS消息。它还包含一个实验性Python库，用于动态获取有关主题的信息并与之交互。  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscode2.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+rostopic contains the rostopic command-line tool to display debugging information about ROS topics, including publishers, subscribers, publishing frequency, and ROS messages. It also contains an experimental Python library for dynamically fetching information about topics and interacting with them.    
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/roscode2.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
 ### 3.1rostopic list
 
-直接调用即可，控制台将打印当前运行状态下的主题名称  
-rostopic list -v : 获取话题详情(比如列出：发布者和订阅者个数…)  
+You can call it directly, and the console will print the name of the topic in the current running state    
+rostopic list -v : Get thread details (e.g. list: number of publishers and subscribers...)    
 ### 3.2rostopic pub
 
-可以直接调用命令向订阅者发布消息  
-为roboware 自动生成的 发布/订阅 模型案例中的 订阅者 发布一条字符串  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscode3.jpg" alt="7.1.1-1" style="zoom:100%;" />  
+Commands can be invoked directly to publish messages to subscribers  
+Publish a string for the Subscriber in the Publish/Subscribe model case that Roboware auto-generated  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/roscode3.jpg" alt="7.1.1-1" style="zoom:100%;" />  
 
-以小海龟为例的发布一条运动信息：  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscode4.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+Take the baby turtle as an example to post a sports message:    
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/roscode4.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
 ### 3.3rostpic echo
-获取指定话题当前发布的消息  
+Gets the current message posted on a specified topic    
 
 ### 3.4rostopic info
-获取当前话题的信息  
-1. 消息类型  
-2. 发布者信息  
-3. 订阅者信息  
+Get information on current topics  
+1. Message type  
+2. Publisher Information  
+3. Subscriber Information  
 
-# 四、rosservice
+# 4、rosservice
 
-rosservice包含用于列出和查询ROSServices的rosservice命令行工具。  
-调用部分服务时，如果对相关工作空间没有配置 path，需要进入工作空间调用 **source devel/setup.bash**  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscode5.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+rosservice contains the rosservice command-line tool for listing and querying ROSServices.  
+When you call some services, if you do not configure a path for the related workspace, you need to go to the workspace to call the service  **source devel/setup.bash**  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/roscode5.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
 ### 4.1rosservice args  
-打印服务参数  
+Print service parameters    
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscode6.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
 ### 4.2rosservice call
 
-调用服务  生成一只 **新的乌龟**  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscode7.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+Invoke service to generate **a new turtle**    
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/roscode7.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
-# 五、rosmsg
+# 5、rosmsg
 
-rosmsg是用于显示有关 ROS消息类型的 信息的命令行工具。  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscode8.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+rosmsgis a command-line tool used to display information about the type of ROS message.    
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/roscode8.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
 ### 5.1rosmsg package
 
-列出某个包下的所有msg   
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscode9.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+Lists all MSGs under a package     
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/roscode9.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
 ### 5.2rosmsg show
 
-显示消息描述  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscode10.jpg" alt="7.1.1-1" style="zoom:100%;" />  
+Displays a description of the message    
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/roscode10.jpg" alt="7.1.1-1" style="zoom:100%;" />  
 
 
-# 六、rossrv
+# 6、rossrv
 
-rossrv是用于显示有关ROS服务类型的信息的命令行工具，与 rosmsg 使用语法高度雷同。  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscode11.jpg" alt="7.1.1-1" style="zoom:100%;" />  
+rossrv is a command-line tool for displaying information about the type of ROS service, and is highly similar to the rosmsg syntax.    
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/roscode11.jpg" alt="7.1.1-1" style="zoom:100%;" />  
 
 ### 6.1rossrv package  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscode12.jpg" alt="7.1.1-1" style="zoom:100%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/roscode12.jpg" alt="7.1.1-1" style="zoom:100%;" />  
 
 ### 6.2rossrv show
 
-显示消息描述  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscode13.jpg" alt="7.1.1-1" style="zoom:100%;" />  
+Displays a description of the message    
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/roscode13.jpg" alt="7.1.1-1" style="zoom:100%;" />  
 
 
-# 七、rosparam
+# 7、rosparam
 
-rosparam包含rosparam命令行工具，用于使用YAML编码文件在参数服务器上获取和设置ROS参数。  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/roscode14.jpg" alt="7.1.1-1" style="zoom:100%;" />  
+rosparam includes the rosparam command-line tool for obtaining and setting ROS parameters on a parameter server using a YAML encoding file.    
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/roscode14.jpg" alt="7.1.1-1" style="zoom:100%;" />  
 
 ### 7.1rosparam set
 
-设置参数  
+Set the parameters    
 > rosparam set name xxx  
 
 ### 7.2rosparam get
 
-获取参数  
+Get the parameters    
 > rosparam get name  
 
 ### 7.3rosparam delete
 
-删除参数  
+Delete the parameter    
 > rosparam delete name  
 
-### 7.4rosparam load(先准备 yaml 文件)
+### 7.4rosparam load(Prepare the yaml file first)
 
-从外部文件加载参数  
+Load parameters from an external file    
 > rosparam load xxx.yaml  
 
 ### 7.5rosparam dump
 
-将参数写出到外部文件  
+Write out the parameters to an external file    
 > rosparam dump yyy.yaml
 
 
 
-# 八、URDF介绍
+# 8、Introduction to the URDF  
 
-- Unified Robot Description Format，统一机器人描述格式，简称为URDF。ROS中的urdf功能包包含一个URDF的C++解析器，URDF文件使用XML格式描述机器人模型。
-- URDF 不能单独使用，需要结合 Rviz 或 Gazebo，URDF 只是一个文件，需要在 Rviz 或 Gazebo 中渲染成图形化的机器人模型。
+- Unified Robot Description Format，The Unified Robot Description Format, or URDF for short. The urdf feature pack in ROS contains a C++ parser for URDF, and URDF files describe the robot model in XML format.  
+- URDF cannot be used on its own and needs to be combined with Rviz or Gazebo, URDF is just a file that needs to be rendered as a graphical robot model in Rviz or Gazebo.  
 
-### 8.1 urdf文件描述
+### 8.1 urdf file description  
 
-代码示例：  
-本处只截取部分代码进行展示：  
+Code examples:  
+Only some of the codes are screenshotted for display:    
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/urdf1.jpg" alt="7.1.1-1" style="zoom:100%;" />    
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/urdf2.jpg" alt="7.1.1-1" style="zoom:100%;" />  
 
-可以看出，urdf文件并不复杂，主要是由 **link** 和 **joint** 两个部分不断重复而成。  
+As you can see, the urdf file is not complicated, and is mainly composed of two parts, **link** and **joint**, which are constantly repeated.  
 
-### 8.2 link部分
-link元素描述具有惯性、可视特征和碰撞属性的刚体  
+### 8.2 link section
+The link element describes a rigid body with inertia, visual features, and collision properties    
 
-#### 8.2.1 属性
-name： 用来描述链接本身的名称  
+#### 8.2.1 attribute
+name： The name used to describe the link itself    
 
-#### 8.2.2 元素  
+#### 8.2.2 element    
 - \<visual>    
-  - 连杆的可视化属性。用于指定连杆显示的形状（矩形、圆柱体等），同一连杆可以存在多个visual元素，连杆的形状为多个元素两个形成。一般情况下模型较为复杂可以通过soildwork绘制后生成stl调用，简单的形状如添加末端执行器等可以直接编写。同时可以在此处可根据理论模型和实际模型差距调整几何形状的位置。  
+  - Visualization properties of the linkage. Used to specify the shape of the linkage display (rectangle, cylinder, etc.), the same link can have multiple visual elements, and the shape of the link is formed by two elements. In general, if the model is more complex, you can generate STL calls after drawing through soildwork, and simple shapes such as adding end effectors can be written directly. At the same time, the position of the geometry can be adjusted here according to the gap between the theoretical and practical models.    
 
-  - \<namel> (可选) 连杆几何形状的名字。
+  - \<namel> (Optional) The name of the geometry of the connecting rod.  
 
-  - \<origin> (可选，defaults to identity if not specified)
-    - 相对于连杆的坐标系的几何形状坐标系。
-    - xyz (optional: defaults to zero vector) 表示x , y , z x,y,zx,y,z 方向的偏置，单位为米。
-    - rpy (optional: defaults to identity if not specified) 表示坐标轴在RPY方向上的旋转，单位为弧度。
+  - \<origin> (Optional，defaults to identity if not specified)
+    - Geometry coordinate system relative to the coordinate system of the linkage.  
+    - xyz (optional: defaults to zero vector) Indicates the offset in the direction of gram, yi, zik, yi, z, yi, z, and z, in meters.  
+    - rpy (optional: defaults to identity if not specified) Represents the rotation of the coordinate axis in the RPY direction, in radians.  
 
-- \<geometry> （必需） 
-  - 可视化对象的形状，可以是下面的其中一种：  
-  - \<box> 矩形，元素包含长、宽、高。原点在中心。
-  - \<cylinder> 圆柱体，元素包含半径、长度。原点中心。
-  - \<sphere> 球体，元素包含半径。原点在中心。
-  - \<mesh> 网格，由文件决定，同时提供 scale ，用于界定其边界。推荐使用 Collada .dae 文件， 也支持.stl文件，但必须为一个本地文件。   
+- \<geometry> (Required) 
+  - The shape of the visualization, which can be one of the following:    
+  - \<box> A rectangle with elements that contain length, width, and height. The origin is in the center.  
+  - \<cylinder> A cylinder, an element containing radius, length. Origin Center.  
+  - \<sphere> A sphere, an element containing a radius. The origin is in the center.  
+  - \<mesh> The grid, which is determined by the file, also provides a scale to delimit its boundaries. Collada .dae files are recommended, and .stl files are also supported, but they must be a local file.     
 
 
-- \<collision> (可选)
-  - 连杆的碰撞属性。碰撞属性和连杆的可视化属性不同，简单的碰撞模型经常用来简化计算。同一个连杆可以有多个碰撞属性标签，连杆的碰撞属性表示由其定义的几何图形集构成。  
-  - \<name> (可选) 指定连杆几何形状的名称  
-  - \<origin> (可选，defaults to identity if not specified)  
-    - 碰撞组件的参考坐标系相对于连杆坐标系的参考坐标系。  
-    - xyz (可选， 默认零向量) 表示x , y , z x,y,zx,y,z 方向的偏置，单位为米。
-    - rpy (可选， defaults to identity if not specified) 表示坐标轴在RPY方向上的旋转，单位为弧度。
-  - \<geometry> 与上述geometry元素描述相同
+- \<collision> (Optional)
+  - Collision properties of the linkage. Collision properties are different from the visual properties of the linkage, and simple collision models are often used to simplify calculations. The same link can have multiple collision attribute labels, and the collision attribute representation of the linkage is made up of the set of geometry it defines.    
+  - \<name> (Optional) Specifies the name of the linkage geometry    
+  - \<origin> (Optional，defaults to identity if not specified)  
+    - The reference coordinate system of the collision component is relative to the reference coordinate system of the linkage coordinate system.    
+    - xyz (Optional， Default zero vector) Indicates the offset in the direction of gram, yi, zik, yi, z, yi, z, and z, in meters.  
+    - rpy (Optional, defaults to identity if not specified) Represents the rotation of the coordinate axis in the RPY direction, in radians.  
+  - \<geometry> Same as described above for the geometry element
 
-详细元素以及各个元素的作用可以前往[官方文档](http://wiki.ros.org/urdf/XML/link)进行查看  
+Details of the elements and what each element does can be found in the [official documentation ](http://wiki.ros.org/urdf/XML/link)to review  
 
-### 8.3 joint部分
-joint部分描述了关节的运动学和动力学，并指定了关节的安全限值。
+### 8.3 Joyn part
+The joint section describes the kinematics and dynamics of the joint and specifies safety limits for the joint.  
 
-#### 8.3.1 joint的属性：
+#### 8.3.1 Properties of joint:
 
 name：  
-指定关节的唯一名称
+Specifies a unique name for the joint  
 
 type：  
-指定关节的类型，其中类型可以是下列类型之一：
+Specifies the type of joint, where the type can be one of the following:  
 
-  - revolute - 沿轴线旋转的铰链接头，其范围由上限和下限指定。
-  - 连续 - 一种连续铰链接头，围绕轴旋转，没有上限和下限。
-  - 棱柱形 - 沿轴滑动的滑动接头，其范围由上限和下限指定。
-  - 固定 - 这不是真正的关节，因为它不能移动。所有自由度都被锁定。这种类型的接头不需要轴，校准，动力学，极限或safety_controller。
-  - 浮动 - 此接头允许所有 6 个自由度的运动。
-  - 平面 - 此接头允许在垂直于轴的平面上运动。  
+  - revolute - A hinged joint head that rotates along an axis, the extent of which is specified by the upper and lower limits.  
+  - 连续 - A continuous hinged link head that rotates around an axis with no upper and lower limits.  
+  - Prismatic - A slip joint that slides along an axis, the range of which is specified by the upper and lower limits.  
+  - fixed - It's not really a joint because it can't move. All degrees of freedom are locked. This type of joint does not require shafts, calibration, dynamics, limits, or safety_controller.  
+  - float - This joint allows movement of all 6 degrees of freedom.  
+  - plane - This joint allows movement in a plane perpendicular to the axis.    
 
-#### 8.3.2 joint的元素
+#### 8.3.2 joint elements
 
-  - \<origin> (可选，defaults to identity if not specified) 从parent link到child link的变换，joint位于child link的原点，修改该参数可以调整连杆的位置，可用在调整实际模型与理论模型误差，但不建议大幅度修改，因为该参数影响连杆stl的位置，容易影响碰撞检测效果。
-    - xyz (可选: 默认为零向量) 代表x , y , z x,y,zx,y,z轴方向上的偏移，单位米。
-    - rpy (可选: 默认为零向量) 代表绕着固定轴旋转的角度：roll绕着x轴,pitch绕着y轴，yaw绕着z轴，用弧度表示。
+  - \<origin> (Optional，defaults to identity if not specified) For the transformation from parent link to child link, the joint is located at the origin of the child link, and the position of the connecting rod can be adjusted by modifying this parameter, which can be used to adjust the error between the actual model and the theoretical model, but it is not recommended to modify it significantly, because this parameter affects the position of the connecting rod STL and is easy to affect the collision detection effect.  
+    - xyz (Optional: The default is a zero vector) Represents the offset in the direction of the axis of gram, yi, zik, yi, z, z, z, z  
+    - rpy (Optional: The default is a zero vector) Represents the angle of rotation around a fixed axis: Roll around the x-axis, Pitch around the Y-axis, and Yaw around the Z-axis, expressed in radians.  
 
-  - \<parent> (必需)
-    - parent link的名字是一个强制的属性。
-    - link parent link的名字，是这个link在机器人结构树中的名字。
+  - \<parent> (Required)
+    - The name of the parent link is a mandatory property.  
+    - The name of the link parent link is the name of the link in the robot structure tree.  
 
-  - \<child> (必需)
-    - child link的名字是一个强制的属性。
-    - link child link的名字，是这个link在机器人结构树中的名字。
+  - \<child> (Required)
+    - The name of the child link is a mandatory attribute.  
+    - The name of the link child link is the name of the link in the robot structure tree.  
 
-  - \<axis>(可选: 默认为(1,0,0))
-    - joint的axis轴在joint的坐标系中。这是旋转轴(revolute joint)，prismatic joint移动的轴，是planar joint的标准平面。这个轴在joint坐标系中被指定。修改该参数可以调整关节的旋转所绕着的轴，常用于调整旋转方向，若模型旋向与实际相反，只需乘-1即可。固定(fixed)和浮动(floating)类型的joint不需要用到这个元素。
-    - xyz(必需) 代表轴向量的x , y , z x,y,zx,y,z分量，为标准化的向量。
+  - \<axis>(Optional: Default is (1,0,0))
+    - The axis of the joint is in the coordinate system of the joint. This is the axis of rotation (revolute joint), the axis on which the prismatic joint moves, and is the standard plane of the Planar joint. This axis is specified in the joint coordinate system. Modify this parameter to adjust the axis around which the rotation of the joint is rotated, which is often used to adjust the direction of rotation, if the rotation direction of the model is opposite to the actual one, you only need to multiply -1. Fixed and floating joints do not need this element.  
+    - xyz(required) The gram, yi, zik, yi, z, yi, yi, yi, zi, zi, zi, yi, zi, yi, z  
 
-  - \<calibration> (可选)
-    - joint的参考点，用来矫正joint的绝对位置。
-    - rising (可选) 当joint正向运动时，参考点会触发一个上升沿。
-    - falling (可选) 当joint正向运动时，参考点会触发一个下降沿。
+  - \<calibration> (Optional)
+    - The reference point of the joint, which is used to correct the absolute position of the joint.  
+    - rising (Optional) When the joint is moving forward, the reference point triggers a rising edge.  
+    - falling (Optional) When the joint is moving forward, the reference point triggers a descending edge.  
 
-  - \<dynamics>(可选)
-    - 该元素用来指定joint的物理性能。它的值被用来描述joint的建模性能，尤其是在仿真的时候。
+  - \<dynamics>(Optional)
+    - This element is used to specify the physical properties of the joint. Its value is used to describe the modeling performance of the joint, especially when simulating.  
 
-  - \<limit> (当关节为旋转或移动关节时为必需)
+  - \<limit> (Required when the joint is rotated or moved)
 
-    - 该元素为关节运动学约束。
-    - lower (可选, 默认为0) 指定joint运动范围下界的属性(revolute joint的单位为弧度，prismatic joint的单位为米)，连续型的joint忽略该属性。
-    - upper (可选, 默认为0) 指定joint运动范围上界的属性(revolute joint的单位为弧度，prismatic joint的单位为米)，连续型的joint忽略该属性。
-    - effort (必需) 该属性指定了joint运行时的最大的力。
-    - velocity (required) 该属性指定了joint运行时的最大的速度。  
+    - This element is a joint kinematic constraint.
+    - lower (Optional, The default value is 0) Specifies the property of the lower bound of the joint's range of motion (in radians for revolute joints and meters for prismatic joints), which is ignored for continuous joints.  
+    - upper (Optional, The default value is 0) Specifies the property of the upper bound of the joint's range of motion (in radians for revolute joints and meters for prismatic joints), which is ignored for continuous joints.  
+    - effort (Required) This property specifies the maximum force at which the joint runs.  
+    - velocity (required) This property specifies the maximum speed at which the joint runs.    
 
-详细元素以及各个元素的作用可以前往 [文档](http://wiki.ros.org/urdf/XML/joint) 进行查看
+Details of the elements and what each element does can be found in [Documentation](http://wiki.ros.org/urdf/XML/joint) to review
 
 
 ---
 
-[← 上一页](2_workcode.md) | [下一页 →](4_communication.md)
+[← last page](2_workcode.md) | [next page →](4_communication.md)

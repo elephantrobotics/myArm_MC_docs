@@ -14,7 +14,7 @@ myArm C650 是基于 PC 开发和使用的。由于机械臂内没有内置系�
 - [5.1 Python](./5.1-BasedOnPythonDevelopmentAndUse/1_download.md)<br>
   我们的机器人支持 Python，Python API 库的开发也日趋完善。机器人的关节角度、坐标、抓手和其他方面都可以通过 Python 进行控制。<br>
 
-- [5.2 ROS1](./5.2-DevelopmentAndUseBasedOnROS1/1_download.md)<br>ROS（Robot Operating System）作为一个开源的机器人操作系统，为机器人的开发和控制提供了无限的可能性。我们的机器人可以通过ROS丰富的控制功能，通过模块化的方式对机器人进行控制。无论是关节控制、路径规划还是感知反馈，ROS都提供了相应的工具和库，使得控制过程更加灵活和高效。</br>
+- [5.2 ROS1](./5.2-DevelopmentAndUseBasedOnROS1/1_download.md)<br>As an open-source robot operating system, ROS (Robot Operating System) provides unlimited possibilities for the development and control of robots. Our robot can be controlled in a modular way through the rich control functions of ROS. Whether it's joint control, path planning, or perceptual feedback, ROS provides tools and libraries to make the control process more flexible and efficient.</br>
 
 
 - [5.4 Communication](./5.4-DevelopmentBasedOnCommunicationProtocolPackage//5.4.1-CommunicationDoc.md)<br>
