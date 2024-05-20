@@ -11,13 +11,13 @@ In order to meet the diverse application requirements of the robot in different 
 | **If you wish to use one of the following programming languages, make sure that your robot is configured for USB/Wi-Fi mode in the Transponder section and that the connection is correct.** |
 | :-------------------------------------------------------------------------------------------------------------|
 
-- [6.1 Python](./5.1-BasedOnPythonDevelopmentAndUse/1_download.md)<br>
+- [6.1 Python](./6.1-BasedOnPythonDevelopmentAndUse/1_download.md)<br>
   If you wish to use one of the following programming languages, make sure that your robot is configured for USB/Wi-Fi mode in the Transponder section and that the connection is correct.。<br>
 
-- [6.2 ROS1](./5.2-DevelopmentAndUseBasedOnROS1/1_download.md)<br>As an open-source robot operating system, ROS (Robot Operating System) provides unlimited possibilities for the development and control of robots. Our robot can be controlled in a modular way through the rich control functions of ROS. Whether it's joint control, path planning, or perceptual feedback, ROS provides tools and libraries to make the control process more flexible and efficient.</br>
+- [6.2 ROS1](./6.2-DevelopmentAndUseBasedOnROS1/1_download.md)<br>As an open-source robot operating system, ROS (Robot Operating System) provides unlimited possibilities for the development and control of robots. Our robot can be controlled in a modular way through the rich control functions of ROS. Whether it's joint control, path planning, or perceptual feedback, ROS provides tools and libraries to make the control process more flexible and efficient.</br>
 
 
-- [6.4 Communication](./5.4-DevelopmentBasedOnCommunicationProtocolPackage//5.4.1-CommunicationDoc.md)<br>
+- [6.4 Communication](./6.4-DevelopmentBasedOnCommunicationProtocolPackage//5.4.1-CommunicationDoc.md)<br>
   If you know anything about information theory, coding and robot communication functions, then you should understand that all communication stems from data transfer. To make it easier for you to operate your robot, we have opened up a communication protocol based on serial port communication. You can control the robot using the Serial Assistant or encapsulate it into any programming language with which you are familiar.
 
 ---
