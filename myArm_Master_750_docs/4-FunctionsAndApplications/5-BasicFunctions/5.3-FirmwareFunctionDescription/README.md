@@ -1,6 +1,6 @@
 # Firmware release notes
 
-## 1 Basic
+## 1 Master Control(Pico)
 
 Version | Features | Updated date |
 | :----: | :---- | :----: |
@@ -15,17 +15,18 @@ Applicable Equipment:
 ## 2 Screen (Basic)
 Version |Features |Update Date|
 |:----: | :---- | :----: |
-|v1.0	| Offline interface operation, drag teaching, zero calibration, communication (serial/Bluetooth/wifi2.4G), joint status & version viewing |April 15, 2024 |
-| v1.1-beta (beta .) |1. The basic functions remain unchanged; </br> 2. Optimize drag teaching, real-time drag speed playback</br> 3. Communication supports real-time speed control</br>  |May 16, 2024 |
+|v1.0	| Offline interface operation, drag teaching, zero calibration, communication (serial/Bluetooth/wifi2.4G), joint status & version viewing. |April 15, 2024 |
+| v1.1-beta |1. The basic functions remain unchanged; </br> 2. Optimize drag teaching, real-time drag speed playback</br> 3. Communication supports real-time speed control.</br>  |May 16, 2024 |
+
 Applicable Equipment:
 
 -MyArm M750
 
-## 3 Atom
+## 3 Tool (Atom)
 Version |Features |Update Date|
 |:----: | :---- | :----: |
 |v1.0	| 1. Set the LED color; </br> 2. Read the status of the LED button pressed/released, io control (2 inputs and 2 outputs). |April 15, 2024 |
-| v1.1-beta (beta |.) 1. The basic functions remain unchanged; </br> 2. Fix the packet loss problem of high-speed communication| May 16, 2024 |
+| v1.1-beta | 1. The basic functions remain unchanged; </br> 2. Fix the packet loss problem of high-speed communication.| May 16, 2024 |
 
 Applicable Equipment:
 
