@@ -204,9 +204,9 @@ A. The schematic diagram of the side interface at the end of the robotic arm is 
 
 | No. | Interface name | Define | Features | Note |
 | :--- | :--------------- | :--------- | :--------------- | :------------------ |
-| 13   | End Atom | LED   | For 5X5 RGB LED (G27) display and key function (G39) |
-| 14   | Type C interface |    |It can be used to connect and communicate with the PC and update the firmware                     |
-| 15    | End Grove Interface |       |   | 
+| 13   | End Atom | LED   | For 5X5 RGB LED (G27) display and key function (G39) ||
+| 14   | Type C interface |    |It can be used to connect and communicate with the PC and update the firmware                     ||
+| 15    | End Grove Interface |       |   | |
 | 16  | End IO interface | End Tool IO Interface | Interact with external devices | Development and use |   
 | 17  | Servo interface | Connect the servo | Connect an external device servo |                     |
 

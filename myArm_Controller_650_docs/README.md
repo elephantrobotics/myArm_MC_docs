@@ -6,9 +6,9 @@ Core Document
 
 This document contains comprehensive information ranging from product introduction, detailed technical specifications to user instructions and initial installation guidance. We delve into the fundamental functionalities of the myArm C650 robotic arm, provide software development guidelines, and showcase successful application cases to help you understand how to effectively integrate the myArm C650 into various applications. Additionally, we offer rich support and service information to ensure you receive necessary assistance when encountering any technical challenges.
 ### gitbook-en
-English Version: https://docs.elephantrobotics.com/docs/myArm_Controller_650-en/
+English Version: https://docs.elephantrobotics.com/docs/myarm-controller-650-en/
 ### gitbook-cn
-Chinese Version: https://docs.elephantrobotics.com/docs/myArm_Controller_650-cn/
+Chinese Version: https://docs.elephantrobotics.com/docs/myarm-controller-650-cn/
 
 Document Overview
 ---

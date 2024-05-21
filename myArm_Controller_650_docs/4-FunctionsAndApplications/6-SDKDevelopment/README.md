@@ -22,4 +22,4 @@ In order to meet the diverse application requirements of the robot in different 
 
 ---
 
-[← Previous chapter](../5-BasicFunctions/5.1-Minirobot/README.md) | [Next chapter →](../7-SuccessfulCases/7-SuccessfulCases.md)
+[← Previous chapter](../5-BasicFunctions/README.md) | [Next chapter →](../7-SuccessfulCases/7-SuccessfulCases.md)
