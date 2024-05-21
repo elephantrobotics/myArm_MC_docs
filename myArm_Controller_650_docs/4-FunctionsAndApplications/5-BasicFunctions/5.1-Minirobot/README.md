@@ -19,4 +19,4 @@ The user interface of the built-in software is simple and easy to use. The commu
 
 ---
 
-[← Previous page](../README.md) | [Next section →](../5.3-FirmwareVersionDescription/README.md)
+[← Previous page](../README.md) | [Next section →](../5.2-SoftwareUsageInstructions/README.md)

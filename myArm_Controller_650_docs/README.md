@@ -55,7 +55,11 @@ Document Directory
       - [2 Zero Position Calibration](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.2-calibrate.md)
       - [3 Communication Relay](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.3-transponder.md)
       - [4 Status Information](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.4-information.md)
-    - [5.2 Firmware Version Description](4-FunctionsAndApplications/5-BasicFunctions/5.3-FirmwareVersionDescription/README.md)
+    - [5.2 myStudio](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/README.md)
+      - [myStudio Environment Setup](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/5.2.1-setup.md)
+      - [Installation of drivers](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/5.2.2-install_driver.md)
+      - [Burning and updating firmware](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/5.2.3-flash_firmwares.md)
+    - [5.3 Firmware Version Description](4-FunctionsAndApplications/5-BasicFunctions/5.3-FirmwareVersionDescription/README.md)
   - [6 Software Development Guide](4-FunctionsAndApplications/6-SDKDevelopment/README.md)
     - [6.1 Development and Use Based on Python](4-FunctionsAndApplications/6-SDKDevelopment/6.1-BasedOnPythonDevelopmentAndUse/1_download.md)
       - [API](4-FunctionsAndApplications/6-SDKDevelopment/6.1-BasedOnPythonDevelopmentAndUse/2_API.md)
@@ -67,12 +71,6 @@ Document Directory
     <!-- - [6.3 Developed and used based on ROS2]() -->
     - [6.3 Development Using Communication Protocol Packages](4-FunctionsAndApplications/6-SDKDevelopment/6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.1-CommunicationDoc.md)
   - [7 Successful Cases](4-FunctionsAndApplications/7-SuccessfulCases/7-SuccessfulCases.md)
-    <!-- - [8. Supporting Resources]() -->
-      <!-- - [8.1 Product Documentation]() -->
-      <!-- - [8.2 Product Drawings]() -->
-      <!-- - [8.3 Software Documentation and Source Code]() -->
-      <!-- - [8.4 System Documentation]() -->
-      <!-- - [8.5 Promotional Materials]() -->
 
 ## Support and Services
   - [8 About Us](5-SupportAndService/5-SupportAndService.md)
