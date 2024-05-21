@@ -14,11 +14,11 @@
 
   - [5 Basic Function](4-FunctionsAndApplications/5-BasicFunctions/README.md)
     - [5.1 Minirobot](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/README.md)
-      - [1 Minirobot User Guide](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.1-MinirobotGuide.md)
+      - [1 Minirobot User Guide](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.1-MinitobotGuide.md)
       - [2 Zero Position Calibration](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.2-calibrate.md)
       - [3 Communication Relay](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.3-transponder.md)
       - [4 Status Information](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.4-information.md)
-    - [5.3 Firmware Version Description](4-FunctionsAndApplications/5-BasicFunctions/5.3-FirmwareFunctionDescription/README.md)
+    - [5.2 Firmware Version Description](4-FunctionsAndApplications/5-BasicFunctions/5.3-FirmwareVersionDescription/README.md)
   - [6 Software Development Guide](4-FunctionsAndApplications/6-SDKDevelopment/README.md)
     - [6.1 Development and Use Based on Python](4-FunctionsAndApplications/6-SDKDevelopment/6.1-BasedOnPythonDevelopmentAndUse/1_download.md)
       - [API](4-FunctionsAndApplications/6-SDKDevelopment/6.1-BasedOnPythonDevelopmentAndUse/2_API.md)
@@ -27,8 +27,8 @@
         - [ROS workspace code and usage](4-FunctionsAndApplications/6-SDKDevelopment/6.2-DevelopmentAndUseBasedOnROS1/2_workcode.md)
         - [Common ROS tool commands](4-FunctionsAndApplications/6-SDKDevelopment/6.2-DevelopmentAndUseBasedOnROS1/3_ROScode.md)
         - [ROS architecture and communication](4-FunctionsAndApplications/6-SDKDevelopment/6.2-DevelopmentAndUseBasedOnROS1/4_communication.md)
-    - [6.3 Developed and used based on ROS2]()
-    - [6.4 Development Using Communication Protocol Packages](4-FunctionsAndApplications/6-SDKDevelopment/6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.1-CommunicationDoc.md)
+    <!-- - [6.3 Developed and used based on ROS2]() -->
+    - [6.3 Development Using Communication Protocol Packages](4-FunctionsAndApplications/6-SDKDevelopment/6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.1-CommunicationDoc.md)
   - [7 Successful Cases](4-FunctionsAndApplications/7-SuccessfulCases/7-SuccessfulCases.md)
     <!-- - [8. Supporting Resources]() -->
       <!-- - [8.1 Product Documentation]() -->

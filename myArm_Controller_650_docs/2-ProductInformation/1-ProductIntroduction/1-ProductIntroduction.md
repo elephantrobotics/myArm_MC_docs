@@ -1,4 +1,4 @@
-## 1. Product Overview
+# 1 Product Overview
 
 ##### myArm Controller 650
 
@@ -62,7 +62,7 @@ The design philosophy of the myArm C650 general-purpose intelligent robotic arm 
 
 ---
 
-## 2. Product Applications
+# 2 Product Applications
 
 <img src="..\..\resources\2-ProductInformation\1-ProductIntroduction\C650  X1-01.jpg" alt="img-1" width="900" height=“auto” /><br>
 
@@ -88,7 +88,7 @@ The design philosophy of the myArm C650 general-purpose intelligent robotic arm 
 
 ---
 
-## 3. Supported Expansion Development
+# 3 Supported Expansion Development
 
 The myArm series robotic arms are highly valuable in the education and research fields, especially in the widely used development environments of Python and ROS (Robot Operating System). These environments provide powerful support, allowing myArm series products to be widely used in tasks such as machine learning, artificial intelligence research, complex motion control, and visual processing.
 
@@ -102,7 +102,7 @@ The myArm series robotic arms are highly valuable in the education and research 
 
 ---
 
-## 4. Purchase Links
+# 4 Purchase Links
 
 If you are interested in purchasing this device, please click on the links below:  
 Taobao: [https://shop504055678.taobao.com](https://shop504055678.taobao.com)  

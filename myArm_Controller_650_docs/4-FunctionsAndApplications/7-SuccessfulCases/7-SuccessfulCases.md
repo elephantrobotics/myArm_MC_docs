@@ -33,4 +33,4 @@ This feature not only enhances the versatility of the myArm C650, but also facil
 
 ---
 
-[← 上一章](../6-SDKDevelopment/README.md) | [下一章 →](../../5-SupportAndService/5-SupportAndService.md)
+[← Previous chapter](../6-SDKDevelopment/README.md) | [Next chapter →](../../5-SupportAndService/5-SupportAndService.md)
