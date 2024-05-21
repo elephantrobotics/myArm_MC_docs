@@ -12,11 +12,13 @@
 
 ## 功能与应用
 
-  - [5 Minirobot](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/README.md)
-    - [1 Minirobot 使用指南](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.1-MinirobotGuide.md)
-    - [2 零位校准](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.2-calibrate.md)
-    - [3 通信转发](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.3-transponder.md)
-    - [4 状态信息](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.4-information.md)
+  - [5 基础功能](4-FunctionsAndApplications/5-BasicFunctions/README.md)
+    - [5.1 Minirobot](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/README.md)
+      - [1 Minirobot 使用指南](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.1-MinirobotGuide.md)
+      - [2 零位校准](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.2-calibrate.md)
+      - [3 通信转发](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.3-transponder.md)
+      - [4 状态信息](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.4-information.md)
+    - [5.3 固件版本](4-FunctionsAndApplications/5-BasicFunctions/5.3-FirmwareVersionDescription/README.md)
   - [6 软件开发指南](4-FunctionsAndApplications/6-SDKDevelopment/README.md)
     - [6.1 基于 python 开发使用](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/1_download.md)
       - [API](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/2_API.md>)
@@ -27,12 +29,12 @@
       - [ROS架构和通信](4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/4_communication.md)
     - [6.4 基于通信协议包开发](4-FunctionsAndApplications/6-SDKDevelopment/5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.1-CommunicationDoc.md)
   - [7 成功案例](4-FunctionsAndApplications/7-SuccessfulCases/7-SuccessfulCases.md)
-    <!-- - [8. 配套资源]() -->
-      <!-- - [8.1 产品资料]() -->
-      <!-- - [8.2 产品图纸]() -->
-      <!-- - [8.3 软件资料及源码]() -->
-      <!-- - [8.4 系统资料]() -->
-      <!-- - [8.5 宣传资料]() -->
+      <!-- - [8. 配套资源]() -->
+        <!-- - [8.1 产品资料]() -->
+        <!-- - [8.2 产品图纸]() -->
+        <!-- - [8.3 软件资料及源码]() -->
+        <!-- - [8.4 系统资料]() -->
+        <!-- - [8.5 宣传资料]() -->
 
 ## 支持与服务
 
