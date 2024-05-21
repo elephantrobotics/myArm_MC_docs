@@ -149,4 +149,4 @@ myArm 必须使用外部电源供电，以提供足够的电力：
 ---
 
 如果您已经阅读了本章的所有内容，请继续阅读下一章。 <br>
-[← 上一章](../3-UserInstructions/UserInstructions.md) | [下一章 →](../../4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/README.md)
+[← 上一章](../3-UserInstructions/UserInstructions.md) | [下一章 →](../../4-FunctionsAndApplications/5-BasicFunctions/README.md)

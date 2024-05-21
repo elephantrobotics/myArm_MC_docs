@@ -32,13 +32,13 @@
 这里的动态仿真是指：运动现实中的MyarmC650与仿真中的MyarmC650交互  
 
 首先我们需要将MyarmC650机械臂通过USB转typeC线连接到我们的电脑上，并给其通电  
-通过按钮选中 **Transponder** 再按“OK”按钮
+通过按钮选中 **Transponder** 再按“OK”按钮  
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/Myarm1.jpg" alt="7.1.1-1" style="zoom:50%;" />  
 
 然后屏幕会显示  
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/Myarm2.jpg" alt="7.1.1-1" style="zoom:50%;" />  
 
-我们可以看到箭头指向 **“USB UART”** ，再按“OK”按钮，进入之后会显示 **“NO”**，再按 **“Exit”** 按钮，回到箭头指向 **“USB UART”** ，再按“OK”按钮，这时会显示 **“OK”**
+我们可以看到箭头指向 **“USB UART”** ，再按“OK”按钮，进入之后会显示 **“NO”**，再按 **“Exit”** 按钮，回到箭头指向 **“USB UART”** ，再按“OK”按钮，这时会显示 **“OK”**  
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/Myarm3.jpg" alt="7.1.1-1" style="zoom:50%;" />  
 
 #### 这时我们的MyarmC650已经成功连接上电脑
