@@ -1,13 +1,13 @@
-# 1. List of product standards
+# 1 List of product standards
 
-## Product List Pictures
+## 1.1 Product List Pictures
 Information is being updated...
 
 <!-- <img src="../.." alt="img-1" width="800" height=“auto” /> <br>
 
 Each product is numbered and detailed to ensure you can accurately refer to your listing. -->
 
-## Product Standards List Comparison Table
+## 1.2 Product Standards List Comparison Table
 
 | Serial Number | Product                                                  |
 | :----: | :---------------------------------------------------- |
@@ -39,6 +39,8 @@ In this section, we strongly recommend following the specified steps for disasse
 
 ## 2.2 Product unboxing video guide
 
+Information is being updated...
+
 <!-- <video id="my-video" class="video-js" controls preload="auto" width="100%"
 poster="" data-setup='{"aspectRatio":"16:9"}'>
 
@@ -56,7 +58,7 @@ myArm weighs 3.2kg. Since the centre of gravity changes as the robot moves durin
 
 - The base mounting holes are the interface between the robot and other bases or planes. The holes are shown below. There are 4 countersunk holes with a diameter of 4.5 mm that can be secured with M6 bolts.
 
-<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3 -PowerOnDetectionGuide/底座尺寸.jpg" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/4.3 -PowerOnDetectionGuide/底座尺寸.jpg" alt="img-1" width="800" height=“auto” /> <br>
 
 - The end mounts have flanges that are compatible with LEGO component holes and threaded holes. Ensure the appropriate threaded holes are present in the fixing base before installation.
 
@@ -148,4 +150,4 @@ The display shows information about the system desktop.
 ---
 
 If you have read all of this chapter, please continue to read the next chapter. <br>
-[← Previous chapter](../3-UserInstructions/UserInstructions.md) | [Previous chapter →](../../4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/README.md)
+[← Previous chapter](../3-UserInstructions/3-UserInstructions.md) | [Previous chapter →](../../4-FunctionsAndApplications/5-BasicFunctions/README.md)

@@ -13,20 +13,20 @@
 |:--------------|:-----------------|
 | Model | myArm  M750    |
 |DOF           |	6+1       |
-Horizontal Reach Range	750            |
-Total span |	1500mm          |
+|Horizontal Reach Range	|750            |
+|Total span |	1500mm          |
 |Self-weight|	3.2kg           |
-Power Specifications		24V5A                |
-Repeatability |±1mm |
-Accuracy |	5 - 8mm                |
-Working load |	Rated 500g, peak 1Kg |
+|Power Specifications	|	24V5A                |
+|Repeatability |±1mm |
+|Accuracy |	5 - 8mm                |
+|Working load |	Rated 500g, peak 1Kg |
 |Number of servos |8 |
 |Servo type|Industrial-grade high-precision digital servo motor|
-Rotation capacity |+/- 180° |
+|Rotation capacity |+/- 180° |
 |End effector|Parallel gripper, optional camera adaptation|
 |USB connection |Type-C	                   |
 |Atom end |5*5 LED light matrix |
-Communication frame rate |>50Hz |
+|Communication frame rate |>50Hz |
 
 ## 1.2 Software Basic Function Support
 
@@ -105,7 +105,7 @@ Communication frame rate |>50Hz |
 
 ## 3.1 Product Dimensions and Workspace
 
-![产品尺寸](../../resources/2-ProductInformation/2-ProductParameters/2.3-StructuralSizeParameters/M750_05.jpg)
+![产品尺寸](../../resources/2-ProductInformation/2-ProductParameters/2.3-StructuralSizeParameters/M750-en_05.jpg)
 
 ## 3.2 Base Mounting Dimensions
 
@@ -120,11 +120,11 @@ Figure 1 Front view of the base
 
 - The end of the arm is compatible with LEGO component holes and threaded holes.
 
-![手臂末端](../../resources/2-ProductInformation/2-ProductParameters/2.3-StructuralSizeParameters/M750_03.jpg)
+![手臂末端](../../resources/2-ProductInformation/2-ProductParameters/2.3-StructuralSizeParameters/M750-en_03.jpg)
 
 ## 3.4 Products
 
-![产品展示](../../resources/2-ProductInformation/2-ProductParameters/2.3-StructuralSizeParameters/M750_00.jpg)
+![产品展示](../../resources/2-ProductInformation/2-ProductParameters/2.3-StructuralSizeParameters/M750-en_00.jpg)
 
 <!-- [PDF Views](<../../resources/2-ProductFeature/320%202022款技术图示(1).pdf>)  -->
 
@@ -150,13 +150,13 @@ Provide a 3D model of the product for your customers' reference.
 
 ## 4.1 Overview of the Electrical Interface of the Base
 
-<img src="../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/base-T.jpg " width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/base-T.jpg " width="800" height="auto" />  
 Figure 1 Front view of the base
 
-<img src="../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/base-L.jpg " width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/base-L.jpg " width="800" height="auto" />  
 Figure 2 Left side of the base
 
-<img src="../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/base-R.jpg " width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.4-ElectricalCharacteristicsParameters/base-R.jpg " width="800" height="auto" />  
 Figure 3 Right side of the base
 
 | No. | Interface name | Define | Features | Note |
@@ -168,7 +168,7 @@ Figure 3 Right side of the base
 | 5    |                  | Press the C |                  |                     |
 | 6    | Switch | Power switch | Control the input power on and off | With light (light on) |
 | 7    | DC/IO interface | GND        | GND              |                     |
-|      |                  | IN6        | Digital input signal 1~6 | Enter | only in NPN mode
+|      |                  | IN6        | Digital input signal 1~6 | only in NPN mode
 |      |                  | IN5        |                  |                     |
 |      |                  | IN4        |                  |                     |
 |      |                  | IN3        |                  |                     |
@@ -178,7 +178,7 @@ Figure 3 Right side of the base
 | 8    | Type C           | Communication Interface | Communicate with a PC | Development and use |
 | 9    | Power DC input interface | DC24V input | DC24V input |                     |
 | 10   | DC/IO interface | 24V        | DC24V            |                     |
-|      |                  | OUT1       | Digital output signal 1~6 | Outputs | only in PNP mode
+|      |                  | OUT1       | Digital output signal 1~6 | only in PNP mode
 |      |                  | OUT2       |                  |                     |
 |      |                  | OUT3       |                  |                     |
 |      |                  | OUT4       |                  |                     |
@@ -264,9 +264,9 @@ D. Atom: for 5X5 RGB LED (G27) display and key function (G39)
 
 E. Servo interface: used for terminal expansion grippers, currently supporting the use of matching adaptive grippers.
 
----
+<!-- --- -->
 
-# 5 Cartesian coordinate system
+<!-- # 5 Cartesian coordinate system
 
 ## 5.1 Joint Coordinate System
 
@@ -274,19 +274,19 @@ E. Servo interface: used for terminal expansion grippers, currently supporting t
 
 The user coordinate system is a user-defined workbench coordinate system or workpiece coordinate system, and its origin and axis direction can be determined according to actual needs, which is convenient for measuring the position of each point in the working area and arranging tasks. The default user coordinate system is determined from the center point of the base of the robotic arm, and the positive direction of the Y axis is the direction of the overload line.
 
-<!-- <img src="../../resources/9-FilesDownload/2-serialproduct/用户坐标.png" width="800" height="auto" /> -->
+<img src="../../resources/9-FilesDownload/2-serialproduct/用户坐标.png" width="800" height="auto" />
 
 ## 5.3 Tool Coordinate System
 
-A tool coordinate system is a coordinate system that defines the position of the tool center point (TCP) and the attitude of the tool, and its origin and orientation are constantly changing with the position and angle of the final workpiece. The default tool coordinate system is determined from the tool flange center point, with the positive direction of the Y axis being opposite to the direction of the aero slot.
+A tool coordinate system is a coordinate system that defines the position of the tool center point (TCP) and the attitude of the tool, and its origin and orientation are constantly changing with the position and angle of the final workpiece. The default tool coordinate system is determined from the tool flange center point, with the positive direction of the Y axis being opposite to the direction of the aero slot. -->
 
 <!-- <img src="../../resources/9-FilesDownload/2-serialproduct/工具坐标.png" width="800" height="auto" /> -->
 
-## 5.4 Joint Linkage Parameter Specifications
+<!-- ## 5.4 Joint Linkage Parameter Specifications -->
 
 <!-- <img src="../../resources/9-FilesDownload/2-serialproduct/DH320.jpg " width="400" height="auto" /> -->
 
-### 5.4.1 DH range
+<!-- ### 5.4.1 DH range -->
 
 <!--
 对于旋转关节 n，设置 0=0.0，其中 X 轴与 X 轴方向一致，并选择坐标系的原点位置（N）以满足 d.=0.0。对于移动关节 n，设置 8 轴的方向，使其满足 0.=0.0。当 d.=0.0 时，将坐标系（N）的原点选择在 XN-1 轴与关节轴 n 的交点处。
@@ -304,7 +304,7 @@ A tool coordinate system is a coordinate system that defines the position of the
 Here is an article to refer to
 [https://blog.csdn.net/hitgavin/article/details/104442034](https://blog.csdn.net/hitgavin/article/details/104442034) -->
 
-### 5.4.2 DH Parameter List
+<!-- ### 5.4.2 DH Parameter List -->
 
 <!-- | 关节 | alpha | a    | d     | theta   | offset |
 | :--- | :---- | :--- | :---- | :------ | :----- |
@@ -317,7 +317,7 @@ Here is an article to refer to
 
 ---
 
-[← Previous chapter](../1-ProductIntroduction/1-ProductIntroduction.md) | [Next chapter →](../../3-BasicSettings/3-UserInstructions/UserInstructions.md)
+[← Previous chapter](../1-ProductIntroduction/1-ProductIntroduction.md) | [Next chapter →](../../3-BasicSettings/3-UserInstructions/3-UserInstructions.md)
 
 
 

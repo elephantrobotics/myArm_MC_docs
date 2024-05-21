@@ -459,7 +459,7 @@ We only give a rough introduction in this part, if you want to know more details
 
 ---
 
-[← last section](../5.1-BasedOnPythonDevelopmentAndUse/6_example.md) | [next page →](2_workcode.md)
+[← Prevopis section](../6.1-BasedOnPythonDevelopmentAndUse/1_download.md) | [Next page →](2_workcode.md)
 
 
 

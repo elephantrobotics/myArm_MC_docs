@@ -52,7 +52,6 @@
 | **LCD Display** | 2.0"@320*240 ILI9342C IPS panel,<br> max brightness 853nit |
 | **Type C** | *1                                                             |
 | **Auxiliary Control Extended IO** | G19, G21, G22, G23, G25, G33                          |
-|</center>
 
 
 ---
@@ -63,7 +62,7 @@
 
 ### Product size and workspace
 
-<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\C650_00.jpg" width="800" height="auto" />
+<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\C650-en_00.jpg" width="800" height="auto" />
 
 ### Base installation dimensions
 
@@ -78,11 +77,11 @@ Figure 1 Front view of the base
 
 - The end of the arm is compatible with LEGO component holes and threaded holes.
 
-<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\C650_01.jpg" width="800" height="auto" />
+<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\C650-en_01.jpg" width="800" height="auto" />
 
 ### Products
 
-<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\C650_03.jpg" width="800" height="auto" />
+<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\C650-en_03.jpg" width="800" height="auto" />
 
 
 
@@ -109,13 +108,13 @@ Updating...
 ## Overview of the base's electrical interfaces
 
 <img src="../../resources/2-ProductInformation/2-ProductParameters/底座正视图.jpg " 
-width="800" height="auto" />
+width="800" height="auto" />  
 Figure 4.1 Front view of the base
 
-<img src="../../resources/2-ProductInformation/2-ProductParameters//底座左视图.jpg " width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters//底座左视图.jpg " width="800" height="auto" />  
 Figure 4.2 Left view of the base
 
-<img src="../../resources/2-ProductInformation/2-ProductParameters/底座右视图.jpg " width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/底座右视图.jpg " width="800" height="auto" />  
 Figure 4.3 Right view of the base
 
 | No. | Interface name | Define | Features | Note |
@@ -126,13 +125,13 @@ Figure 4.3 Right view of the base
 | 4    |                  | Press the B |                  |                     |
 | 5    |                  | Press the C |                  |     |
  |6   |       Functional interface group 2 |  I/O interface | GPIO pin |    |
-|7    | Reset button | System Reset | Reset the master |
-| 8   | Type C interface |    |It can be used to connect and communicate with the PC and update the firmware                     |
+|7    | Reset button | System Reset | Reset the master | |
+| 8   | Type C interface |    |It can be used to connect and communicate with the PC and update the firmware                     | |
 | 9  |  Grove interface 1 |       |   |                     |
-|10   | Functional interface group 3 |  I/O interface |   GPIO pin |
+|10   | Functional interface group 3 |  I/O interface |   GPIO pin | |
 | 11  |   Grove interface 2 |    ||                     |
 |   |   Grove interface 3 |    ||                     |
-12 Power DC input interface | DC24V input | DC24V input |                     |
+| 12 |Power DC input interface | DC24V input | DC24V input |                     |
 
 
 
@@ -153,16 +152,16 @@ Figure 4.3 Right view of the base
 | :--- | :--------------- | :--------- | :--------------- | 
 |  3 |    I/O     |   GPIO3   |  Not available when using TypeC or Grover 3 |
 |  1 |    I/O     |   GPIO1   | Not available when using TypeC or Grover 3 | 
-|  16 |    I/O     |   GPIO16   |  ||Not supported at this time 
-|  17 |    I/O     |   GPIO17   |  ||Not supported at this time              
+|  16 |    I/O     |   GPIO16   | Not supported at this time |
+|  17 |    I/O     |   GPIO17   | Not supported at this time |        
 |  2 |    I/O     |   GPIO2   |   |   
 |  5 |    I/O     |   GPIO5   |     |
-|  25 |    I/O     |   GPIO25   | ||Not supported at this time 
+|  25 |    I/O     |   GPIO25   | Not supported at this time |
 |  26 |    I/O     |   GPIO26   |  Not available when using Grover 2 | 
-|  35 |    I/O     |   GPIO35   |  ||Not supported at this time              
+|  35 |    I/O     |   GPIO35   |  Not supported at this time  |            
 |  36 |    I/O     |   GPIO36   | Not available when using Grover 2 |  
-|  RST|  -    |  Controller reset  |  ||Not supported at this time   
-|  BAT|  -    |  	BTTERY  |  ||Not supported at this time 
+|  RST|  -    |  Controller reset  | Not supported at this time  | 
+|  BAT|  -    |  	BTTERY  | Not supported at this time |
 |  3V3|    P    |   GPIO22   |   |  
 |  5V |    P    |   DC 5V   |   | 
 |  GND|   P    |   GND  |   |   
@@ -172,14 +171,16 @@ Figure 4.3 Right view of the base
 
 #### C.Grover interface: The following diagram shows the definition of the Grover interface:
 
-<img src="../../resources/2-ProductInformation/2-ProductParameters/1.png " width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/1.png " width="800" height="auto" />  
+
 Figure 4.4 Grover Interface 1 Definition Diagram
 
-<img src="../../resources/2-ProductInformation/2-ProductParameters/2.png " width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.png " width="800" height="auto" />  
+
 Figure 4.5 Grover Interface 2 Definition Diagram
 
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.png " width="800" height="auto" />  
 
-<img src="../../resources/2-ProductInformation/2-ProductParameters/2.png " width="800" height="auto" />
 Figure 4.6 Grover Interface 3 Definition Diagram
 
 #### D. Screen: The screen is used to display the communication status of myCobot and to move the robot to the starting point via a 2-inch IPS screen.

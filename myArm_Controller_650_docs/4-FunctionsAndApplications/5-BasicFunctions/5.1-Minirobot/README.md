@@ -8,7 +8,7 @@ The user interface of the built-in software is simple and easy to use. The commu
 
 **miniRoboFlow** It has four main chapters:
 
-- [**Guidelines for use**](5.1.1-MinirobotGuide.md)
+- [**Guidelines for use**](5.1.1-MinitobotGuide.md)
   - Minirobot is an application that controls the MyArm robotic arm through a combination of 3 buttons on the base of the arm and an on-screen display. (It features communication forwarding, zero calibration, and status information), which facilitates the operator's interaction with and proper use of the elephant robot.
 - [**Zero Calibration**](5.1.2-calibrate.md)
   - Calibrating the arm is a prerequisite for precise control of the arm, while setting the joint zeros and initialising the motor potentials are essential for subsequent advanced development.
@@ -19,4 +19,4 @@ The user interface of the built-in software is simple and easy to use. The commu
 
 ---
 
-[← Previous chapter](../../../3-BasicSettings/4-FirstTimeInstallation/4-FirstTimeInstallation.md) | [Next chapter →](../../6-SDKDevelopment/README.md)
+[← Previous page](../README.md) | [Next section →](../5.3-FirmwareVersionDescription/README.md)

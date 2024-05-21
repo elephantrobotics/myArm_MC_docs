@@ -11,7 +11,7 @@ Each product is numbered and detailed to ensure you can accurately refer to your
 
 | Serial Number | Product                                                 |
 | :-----------: | :------------------------------------------------------ |
-|       1       | myArm Controller 650  Arm                     |
+|       1       | myArm Controller 650 robotic Arm                     |
 |       2       | Product Kit, including USB-Type C, Cup Hexagon Socket Full Thread Stainless Steel Screws |
 |       3       | DC12V Direct Current Power Supply                       |
 |       4       | Fixed Baseplate                                         |
@@ -133,4 +133,4 @@ The display screen shows relevant information about the system desktop.
 ---
 
 If you have read all the content of this chapter, please continue reading the next chapter. <br>
-[← Previous Chapter](../3-UserInstructions/3-UserInstructions.md) | [Next Chapter →](../../4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/README.md)
+[← Previous Chapter](../3-UserInstructions/3-UserInstructions.md) | [Next Chapter →](../../4-FunctionsAndApplications/5-BasicFunctions/README.md)

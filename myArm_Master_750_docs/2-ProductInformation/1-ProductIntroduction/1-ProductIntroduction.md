@@ -1,4 +1,4 @@
-# 1. Product Overview
+# Product Overview
 
 #### myArm Master 750
 
@@ -61,7 +61,7 @@ The design concept of the MyARM M750 universal intelligent robotic arm comes fro
 | **Promoting technology adopts** | By providing easy -to -use and highly flexible robot platforms, reducing the technical threshold, so that more institutions can contact and use advanced robotics technology. |
 | **Stimulate innovation and personal development** | Provide developers and engineers with an open platform, support cross -disciplinary learning and innovation, and cultivate key talents for the future development of robotics technology and related fields. |
 
-# 2. Application
+# Application
 
 <img src="..\..\resources\2-ProductInformation\1-ProductIntroduction\M750application4.jpg" alt="img-1" width="900" height=“auto” /><br>
 
@@ -85,7 +85,7 @@ The design concept of the MyARM M750 universal intelligent robotic arm comes fro
 
 ## Peripheral Accessories
 
-<img src="..\..\resources\2-ProductInformation\1-ProductIntroduction\M750tools.jpg" alt="img-1" width="1600" height=“auto” /><br>
+<img src="..\..\resources\2-ProductInformation\1-ProductIntroduction\M750tools.png" alt="img-1" width="1600" height=“auto” /><br>
 A wide range of peripheral accessories provides myArm M750 arm with extensive functionality extensions, making it suitable for a variety of industrial, research and educational scenarios. By combining these accessories, users can significantly increase the flexibility and utility of the myArm M750 arm.
 
 #### myCobot Adaptive jaws
@@ -116,7 +116,7 @@ Camera Flange V2.0 enables a standard camera to be mounted on a robotic arm to p
 
 This accessory allows the myCobot robotic arm to hold and operate a smartphone or similar device and is suitable for automated testing of mobile phone applications, for educational presentations, or for using the phone's camera in specific scenarios.
 
-# 3. Supported Extended Development
+# Supported Extended Development
 
 <img src="..\..\resources\2-ProductInformation\1-ProductIntroduction\M750application3.png" alt="img-1" width="1600" height=“auto” /><br>
 
@@ -130,7 +130,7 @@ The myArm series of robotic arms are extremely valuable in education and researc
 | **Software Library**     | - Provides rich open source libraries and APIs to simplify the development process.                                                                                                                                                                                                        |
 | **System Compatibility** | - Compatible with Windows, Linux, MacOS, adapt to a variety of development environments.                                                                                                                                                                                                 |
 
-# 4. Purchase Address
+# Purchase Address
 
 Purchase Address:  
 Taobao：[https://shop504055678.taobao.com](https://shop504055678.taobao.com)  
@@ -139,4 +139,4 @@ AliExpress：[https://elephantrobotics.aliexpress.com/store/1101941423](https://
 
 ---
 
-[Next chapter →](../2-ProductParameters/ProductParameters.md)
+[Next chapter →](../2-ProductParameters/2-ProductParameters.md)

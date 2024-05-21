@@ -127,6 +127,7 @@ It is recommended to install the free version.
   <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.1 -BasedOnPythonDevelopmentAndUse/1_download/location1.jpg" alt="7.1.1-7" style="zoom: 40%;" />
 
 * Click on `Create` and a sample appears:
+
   <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.1 -BasedOnPythonDevelopmentAndUse/1_download/createproject2.jpg" alt="7.1.1-7" style="zoom: 40%;" />
 
 * Right click on the selection that the red arrow points, and create a new python file.

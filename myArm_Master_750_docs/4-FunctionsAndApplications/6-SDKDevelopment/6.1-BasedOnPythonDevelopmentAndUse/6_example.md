@@ -102,4 +102,4 @@ python main.py
 
 ---
 
-[← 上一页](5_Handle_control.md) | [下一节 →](../5.2-DevelopmentAndUseBasedOnROS1/1_download.md)
+[← Previous page](2_API.md) | [Next section →](../6.2-DevelopmentAndUseBasedOnROS1/1_download.md)
