@@ -28,4 +28,4 @@
 
 ---
 
-[← 上一节](../5.1-Minirobot//README.md) | [下一页 →](5.2.1-setup.md)
+[← 上一节](../5.1-Minirobot//README.md) | [下一节 →](../5.3-FirmwareVersionDescription/README.md)

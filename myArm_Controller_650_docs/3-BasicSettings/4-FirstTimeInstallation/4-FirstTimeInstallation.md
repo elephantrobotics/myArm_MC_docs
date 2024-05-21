@@ -37,6 +37,8 @@ Each product is numbered and detailed to ensure you can accurately refer to your
 
 ## 产品开箱视频引导
 
+资料更新中...
+
 <!-- <video id="my-video" class="video-js" controls preload="auto" width="100%"
 poster="" data-setup='{"aspectRatio":"16:9"}'>
 
@@ -135,4 +137,4 @@ myArm 必须使用外部电源供电，以提供足够的电力：
 ---
 
 如果您已经阅读了本章的所有内容，请继续阅读下一章。 <br>
-[← 上一章](../3-UserInstructions/3-UserInstructions.md) | [下一章 →](../../4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/README.md)
+[← 上一章](../3-UserInstructions/3-UserInstructions.md) | [下一章 →](../../4-FunctionsAndApplications/5-BasicFunctions/README.md)

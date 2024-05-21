@@ -35,6 +35,7 @@
 
 ---
 
+
 # Summary
 
 ## 产品信息
@@ -49,21 +50,19 @@
 
 ## 功能与应用
 
-  - [5 Minirobot](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/README.md)
-    - [1 Minirobot 使用指南](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.1-MinirobotGuide.md)
-    - [2 拖动示教](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.2-maincontrol.md)
-    - [3 零位校准](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.3-calibrate.md)
-    - [4 通信转发](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.4-transponder.md)
-    - [5 状态信息](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.5-information.md)
-    - [6 烧录功能](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.6-flash.md)
-
-  - [5.2 软件使用说明](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/README.md)
-    - [myStudio 环境搭建](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/5.2.1-setup.md)
-    - [安装驱动](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/5.2.2-install_driver.md)
-    - [烧录和更新固件](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/5.2.3-flash_firmwares.md)
-
-
-  - [5.3 固件功能说明](4-FunctionsAndApplications/5-BasicFunctions/5.3-FirmwareVersionDescription/README.md)
+  - [5 基础功能](4-FunctionsAndApplications/5-BasicFunctions/README.md)
+    - [5.1 Minirobot](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/README.md)
+      - [1 Minirobot 使用指南](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.1-MinirobotGuide.md)
+      - [2 拖动示教](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.2-maincontrol.md)
+      - [3 零位校准](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.3-calibrate.md)
+      - [4 通信转发](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.4-transponder.md)
+      - [5 状态信息](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.5-information.md)
+      - [6 烧录功能](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.6-flash.md)
+    - [5.2 软件使用说明](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/README.md)
+      - [myStudio 环境搭建](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/5.2.1-setup.md)
+      - [安装驱动](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/5.2.2-install_driver.md)
+      - [烧录和更新固件](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/5.2.3-flash_firmwares.md)
+    - [5.3 固件版本](4-FunctionsAndApplications/5-BasicFunctions/5.3-FirmwareVersionDescription/README.md)
 
   - [6 软件开发指南](4-FunctionsAndApplications/6-SDKDevelopment/README.md)
     - [6.1 基于 python 开发使用](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/1_download.md)
@@ -73,7 +72,7 @@
       - [ROS工作空间代码和使用](4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_workcode.md)
       - [ROS常用工具命令](4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/3_ROScode.md)
       - [ROS架构和通信](4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/4_communication.md)
-    - [6.4 基于通信协议包开发](4-FunctionsAndApplications/6-SDKDevelopment/5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.1-CommunicationDoc.md)
+    - [6.3 基于通信协议包开发](4-FunctionsAndApplications/6-SDKDevelopment/5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.1-CommunicationDoc.md)
 
   <!-- - [6.2 基于 ROS1 开发使用]() -->
   <!-- - [6.3 基于 ROS2 开发使用]() -->

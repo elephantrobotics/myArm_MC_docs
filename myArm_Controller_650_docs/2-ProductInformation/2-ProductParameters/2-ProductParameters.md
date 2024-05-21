@@ -111,13 +111,13 @@
 ## 底座电气接口概述
 
 <img src="../../resources/2-ProductInformation/2-ProductParameters/底座正视图.jpg " 
-width="800" height="auto" />
+width="800" height="auto" />  
 图 4.1 底座正视图
 
-<img src="../../resources/2-ProductInformation/2-ProductParameters//底座左视图.jpg " width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters//底座左视图.jpg " width="800" height="auto" />  
 图 4.2 底座左视图
 
-<img src="../../resources/2-ProductInformation/2-ProductParameters/底座右视图.jpg " width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/底座右视图.jpg " width="800" height="auto" />  
 图 4.3 底座右视图
 
 | 序号 | 接口名称         | 定义       | 功能             | 备注                |
@@ -128,10 +128,10 @@ width="800" height="auto" />
 | 4    |                  | 按键 B     |                  |                     |
 | 5    |                  | 按键 C     |                  |     |
  |6   |       功能接口组二        |  I/O接口  | GPIO引脚 |    |
-|7    | 复位按钮            | 系统复位   | 使主控复位    |
+|7    | 复位按钮            | 系统复位   | 使主控复位    | |
 | 8   | Type C 接口        |    |可用于和 PC 端连接通讯，更新固件使用  |                     |
 | 9  |  Grove 接口1           |       |   |                     |
-|10   | 功能接口组三            |  I/O接口  |   GPIO引脚  |
+|10   | 功能接口组三            |  I/O接口  |   GPIO引脚  | |
 | 11  |   Grove 接口2   |    ||                     |
 |   |   Grove 接口3   |    ||                     |
 |12   |电源 DC 输入接口 | DC24V 输入 | DC24V 输入       |                     |
@@ -174,14 +174,14 @@ width="800" height="auto" />
 
 #### C.Grover接口：Grover接口定义图如下：
 
-<img src="../../resources/2-ProductInformation/2-ProductParameters/1.png " width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/1.png " width="800" height="auto" />  
 图 4.4 Grover接口1定义图
 
-<img src="../../resources/2-ProductInformation/2-ProductParameters/2.png " width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.png " width="800" height="auto" />  
 图 4.5 Grover接口2定义图
 
 
-<img src="../../resources/2-ProductInformation/2-ProductParameters/2.png " width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.png " width="800" height="auto" />  
 图 4.6 Grover接口3定义图
 
 #### D.屏幕 ：屏幕用于显示 myCobot 的通信状态，并通过 2 英寸 IPS 屏幕校准机器人移动到起点。
@@ -209,9 +209,9 @@ A. 机械臂末端侧面接口示意如图  所示：
 
 | 序号 | 接口名称         | 定义       | 功能             | 备注                |
 | :--- | :--------------- | :--------- | :--------------- | :------------------ |
-| 13   | 末端 Atom        | LED   | 用于 5X5 RGB LED（G27）显示和按键功能（G39）          |
+| 13   | 末端 Atom        | LED   | 用于 5X5 RGB LED（G27）显示和按键功能（G39）          | |
 | 14   | Type C 接口        |    |可用于和 PC 端连接通讯，更新固件使用  |                     |
-| 15    | 末端 Grove 接口           |       |   | 
+| 15    | 末端 Grove 接口           |       |   |  |
 | 16  | 末端 IO 接口         | 末端工具IO接口   | 与外部设备交互     | 开发使用            |   
 | 17  | 舵机接口     | 连接舵机       | 连接外部设备舵机   |                     |
 

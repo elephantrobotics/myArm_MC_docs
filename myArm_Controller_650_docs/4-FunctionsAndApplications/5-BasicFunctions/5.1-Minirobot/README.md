@@ -19,4 +19,4 @@ MyArm C650 版本内置由 Elephant Robotics 独立开发的 miniRoboflow 应用
 
 ---
 
-[← 上一页](../README.md) | [下一节 →](../5.3-FirmwareVersionDescription/README.md)
+[← 上一页](../README.md) | [下一节 →](../5.2-SoftwareUsageInstructions/README.md)

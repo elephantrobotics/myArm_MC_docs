@@ -470,7 +470,7 @@ rviz是ROS中一款三维可视化平台，一方面能够实现对外部信息�
 
 ---
 
-[← 上一节](../5.1-BasedOnPythonDevelopmentAndUse/6_example.md) | [下一页 →](2_workcode.md)
+[← 上一节](../5.1-BasedOnPythonDevelopmentAndUse/1_download.md) | [下一页 →](2_workcode.md)
 
 
 
