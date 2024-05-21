@@ -1,6 +1,6 @@
 # myStudio
 
-<img src="C:\Users\Administrator\Desktop\myArm_MC_docs\myArm_Controller_650_docs\4-FunctionsAndApplications\5-BasicFunctions\5.2-SoftwareUsageInstructions\img\320\0.png" alt="basic" style="zoom: 80%;" />
+<img src=".\img\320\0.png" alt="basic" style="zoom: 80%;" />
 
 ## 1 myStudio 设计初衷
 
