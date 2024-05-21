@@ -25,4 +25,4 @@ The user interface of the built-in software is simple and easy to use. The commu
 
 ---
 
-[← Previous chapter](../../../3-BasicSettings/4-FirstTimeInstallation/FirstTimeInstallation.md) | [Next chapter →](../../6-SDKDevelopment/README.md)
+[← Previous page](../README.md) | [Next section →](../5.2-SoftwareUsageInstructions/README.md)

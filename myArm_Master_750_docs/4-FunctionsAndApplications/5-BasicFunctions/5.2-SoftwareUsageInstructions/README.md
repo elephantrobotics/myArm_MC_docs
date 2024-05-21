@@ -1,4 +1,4 @@
-#myStudio
+# myStudio
 
 <img src=".\img\320\0.png" alt="basic" style="zoom: 80%;" />
 
@@ -28,4 +28,4 @@
 
 ---
 
-[← Previous section](../5.1-Minirobot/README.md) | [Next page →](5.2.1-setup.md)
+[← Previous section](../5.1-Minirobot/README.md) | [Next section →](../5.3-FirmwareFunctionDescription/README.md)

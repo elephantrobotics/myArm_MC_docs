@@ -23,4 +23,4 @@ Applicable Equipment:
 
 ---
 
-[← Previous section](../5.1-Minirobot/README.md) | [Next chapter →](../../6-SDKDevelopment/README.md)
+[← Previous section](../5.2-SoftwareUsageInstructions/README.md) | [Next chapter →](../../6-SDKDevelopment/README.md)
