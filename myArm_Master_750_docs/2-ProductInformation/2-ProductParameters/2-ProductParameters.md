@@ -232,8 +232,8 @@ Figure 2-1 End of the robotic arm
 | :--- | :--------------- | :--------- | :--------------- | :------------------ |
 | 9   | End IO interface | End Tool IO Interface | Interact with external devices | Development and use |
 | 10    | End Grove Interface |       |   |                     |
-| 11   | Type C interface |    |It can be used to connect and communicate with the PC and update the firmware                     |
-| 12   | End Atom | LED   | For 5X5 RGB LED (G27) display and key function (G39) |
+| 11   | Type C interface |    |It can be used to connect and communicate with the PC and update the firmware                     ||
+| 12   | End Atom | LED   | For 5X5 RGB LED (G27) display and key function (G39) ||
 | 13   | Servo interface | Connect the servo | Connect an external device servo |                     |
 
 #### 4.2.2 End Interface Description

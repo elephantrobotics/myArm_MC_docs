@@ -6,9 +6,9 @@ Core Document
 
 This document contains comprehensive information ranging from product introduction, detailed technical specifications to user instructions and initial installation guidance. We delve into the fundamental functionalities of the myArm M750 robotic arm, provide software development guidelines, and showcase successful application cases to help you understand how to effectively integrate the myArm M750 into various applications. Additionally, we offer rich support and service information to ensure you receive necessary assistance when encountering any technical challenges.
 ### gitbook-en
-English Version: https://docs.elephantrobotics.com/docs/myArm_Master_750-en/
+English Version: https://docs.elephantrobotics.com/docs/myarm-master_750-en/
 ### gitbook-cn
-Chinese Version: https://docs.elephantrobotics.com/docs/myArm_Master_750-cn/
+Chinese Version: https://docs.elephantrobotics.com/docs/myarm-master_750-cn/
 
 Document Overview
 ---

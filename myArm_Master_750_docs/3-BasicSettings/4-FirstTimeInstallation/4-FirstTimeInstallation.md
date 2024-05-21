@@ -150,4 +150,4 @@ The display shows information about the system desktop.
 ---
 
 If you have read all of this chapter, please continue to read the next chapter. <br>
-[← Previous chapter](../3-UserInstructions/3-UserInstructions.md) | [Previous chapter →](../../4-FunctionsAndApplications/5-BasicFunctions/README.md)
+[← Previous chapter](../3-UserInstructions/3-UserInstructions.md) | [Next chapter →](../../4-FunctionsAndApplications/5-BasicFunctions/README.md)
