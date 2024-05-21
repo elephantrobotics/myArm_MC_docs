@@ -13,13 +13,15 @@
 
 ## 功能与应用
 
-  - [5 Minirobot](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/README.md)
-    - [1 Minirobot 使用指南](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.1-MinirobotGuide.md)
-    - [2 拖动示教](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.2-maincontrol.md)
-    - [3 零位校准](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.3-calibrate.md)
-    - [4 通信转发](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.4-transponder.md)
-    - [5 状态信息](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.5-information.md)
-    - [6 烧录功能](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.6-flash.md)
+  - [5 基础功能](4-FunctionsAndApplications/5-BasicFunctions/README.md)
+    - [5.1 Minirobot](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/README.md)
+      - [1 Minirobot 使用指南](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.1-MinirobotGuide.md)
+      - [2 拖动示教](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.2-maincontrol.md)
+      - [3 零位校准](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.3-calibrate.md)
+      - [4 通信转发](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.4-transponder.md)
+      - [5 状态信息](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.5-information.md)
+      - [6 烧录功能](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.6-flash.md)
+    - [5.3 固件版本](4-FunctionsAndApplications/5-BasicFunctions/5.3-FirmwareVersionDescription/README.md)
 
   <!-- - [5.2 软件使用说明](features-applications/software-instructions.md)  -->
   <!-- - [5.3 固件功能说明](features-applications/firmware-features.md) -->
