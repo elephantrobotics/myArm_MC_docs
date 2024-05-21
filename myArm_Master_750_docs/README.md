@@ -1,5 +1,5 @@
-# myArm Master 750 
-通用型智能六自由度机械臂     
+# myArm Master 750
+通用型智能六自由度机械臂
 
 核心文档
 ---
@@ -31,7 +31,7 @@
 我们非常感谢您花时间阅读 myArm M750 用户手册。我们希望本文档能够帮助您更好地了解并有效使用这款机器人，从而激发您的创造力。如果您有任何疑问或需要进一步帮助，请随时联系我们的客户支持团队。我们期待看到您使用 myArm M750 完成创新项目，并欢迎您加入我们快速发展的开发者社区。
 
 
-文档目录  
+文档目录
 
 ---
 
@@ -57,8 +57,13 @@
     - [5 状态信息](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.5-information.md)
     - [6 烧录功能](4-FunctionsAndApplications/5-BasicFunctions/5.1-Minirobot/5.1.6-flash.md)
 
-  <!-- - [5.2 软件使用说明](features-applications/software-instructions.md)  -->
-  <!-- - [5.3 固件功能说明](features-applications/firmware-features.md) -->
+  - [5.2 软件使用说明](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/README.md)
+    - [myStudio 环境搭建](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/5.2.1-setup.md)
+    - [安装驱动](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/5.2.2-install_driver.md)
+    - [烧录和更新固件](4-FunctionsAndApplications/5-BasicFunctions/5.2-SoftwareUsageInstructions/5.2.3-flash_firmwares.md)
+
+
+  - [5.3 固件功能说明](4-FunctionsAndApplications/5-BasicFunctions/5.3-FirmwareVersionDescription/README.md)
 
   - [6 软件开发指南](4-FunctionsAndApplications/6-SDKDevelopment/README.md)
     - [6.1 基于 python 开发使用](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/1_download.md)
