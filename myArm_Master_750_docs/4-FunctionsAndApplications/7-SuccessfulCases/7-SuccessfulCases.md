@@ -1,4 +1,4 @@
-# Success Stories`
+# Success Stories
 The myArm M750 general-purpose intelligent 6-degree-of-freedom robot motion control verification device represents the latest advancement in robotics in terms of precision and flexibility.
 
 It not only meets the demand for high-precision robot motion control, but is also particularly suitable for entry-level robot motion algorithm validation and hands-on teaching scenarios. Its standardised robotic arm structure provides an ideal learning platform for students and beginners to master the basic principles and applications of robot kinematics.
