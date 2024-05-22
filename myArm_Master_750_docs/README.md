@@ -62,14 +62,14 @@ Document Directory
     - [5.3 Firmware Version Description](4-FunctionsAndApplications/5-BasicFunctions/5.3-FirmwareFunctionDescription/README.md)
 
   - [6 Software Development Guide](4-FunctionsAndApplications/6-SDKDevelopment/README.md)
-    - [6.1 Development and Use Based on Python](4-FunctionsAndApplications/6-SDKDevelopment/6.1-BasedOnPythonDevelopmentAndUse/1_download.md)
+    - [6.1 Python](4-FunctionsAndApplications/6-SDKDevelopment/6.1-BasedOnPythonDevelopmentAndUse/1_download.md)
       - [API](4-FunctionsAndApplications/6-SDKDevelopment/6.1-BasedOnPythonDevelopmentAndUse/2_API.md)
       - [Related Examples](4-FunctionsAndApplications/6-SDKDevelopment/6.1-BasedOnPythonDevelopmentAndUse/6_example.md)
-    - [6.2 Developed and used based on ROS1](4-FunctionsAndApplications/6-SDKDevelopment/6.2-DevelopmentAndUseBasedOnROS1/1_download.md)
+    - [6.2 ROS1](4-FunctionsAndApplications/6-SDKDevelopment/6.2-DevelopmentAndUseBasedOnROS1/1_download.md)
       - [ROS workspace code and usage](4-FunctionsAndApplications/6-SDKDevelopment/6.2-DevelopmentAndUseBasedOnROS1/2_workcode.md)
       - [Common ROS tool commands](4-FunctionsAndApplications/6-SDKDevelopment/6.2-DevelopmentAndUseBasedOnROS1/3_ROScode.md)
       - [ROS architecture and communication](4-FunctionsAndApplications/6-SDKDevelopment/6.2-DevelopmentAndUseBasedOnROS1/4_communication.md)
-    - [6.3 Development Based on Communication Protocol Package](4-FunctionsAndApplications/6-SDKDevelopment/6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.1-CommunicationDoc.md)
+    - [6.3 Communication Package](4-FunctionsAndApplications/6-SDKDevelopment/6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.1-CommunicationDoc.md)
 
     <!-- - [6.3 Developed and used based on ROS2]() -->
     

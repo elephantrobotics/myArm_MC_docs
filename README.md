@@ -55,23 +55,23 @@ The myArm MC series products are designed to provide highly flexible and precise
 
 - **myArm Controller 650**:
 
-  - [English Version]()
-  - [Chinese Version](myArm_Controller_650_docs/README.md)
+  - [English Version](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-en/myArm_Controller_650_docs/README.md)
+  - [Chinese Version](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-cn/myArm_Controller_650_docs/README.md)
 
 - **myArm Master 750**:
 
-  - [English Version]()
-  - [Chinese Version](myArm_Master_750_docs/README.md)
+  - [English Version](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-en/myArm_Master_750_docs/README.md)
+  - [Chinese Version](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-cn/myArm_Master_750_docs/README.md)
 
 - **myArm M&C Remote Control Arm Kit**:
 
-  - [English Version]()
-  - [Chinese Version](myArm_TowArm_Kit_docs/README.md)
+  - [English Version](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-en/myArm_TowArm_Kit_docs/README.md)
+  - [Chinese Version](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-cn/myArm_TowArm_Kit_docs/README.md)
 
 - **myArm M&C Embodied Humanoid Compound Kit**:
 
-  - [English Version]()
-  - [Chinese Version](myArm_Embodied_Humanoid_docs/README.md)
+  - [English Version](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-en/myArm_Embodied_Humanoid_docs/README.md)
+  - [Chinese Version](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-cn/myArm_Embodied_Humanoid_docs/README.md)
 
 - **myArm M&C Quadruped Robot Compound Kit**:
   - [English Version]()
