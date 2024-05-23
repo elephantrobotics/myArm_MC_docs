@@ -55,23 +55,23 @@ myArm MC 系列产品旨在为科研、教育和商业展示等领域提供高�
 
 - **myArm Controller 650**：
 
-  - [英文版本]()
-  - [中文版本](myArm_Controller_650_docs/README.md)
+  - [英文版本](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-en/myArm_Controller_650_docs/README.md)
+  - [中文版本](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-cn/myArm_Controller_650_docs/README.md)
 
 - **myArm Master 750**：
 
-  - [英文版本]()
-  - [中文版本](myArm_Master_750_docs/README.md)
+  - [英文版本](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-en/myArm_Master_750_docs/README.md)
+  - [中文版本](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-cn/myArm_Master_750_docs/README.md)
 
 - **myArm M&C 遥操作机械臂套件**：
 
-  - [英文版本]()
-  - [中文版本](myArm_TowArm_Kit_docs/README.md)
+  - [英文版本](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-en/myArm_TowArm_Kit_docs/README.md)
+  - [中文版本](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-cn/myArm_TowArm_Kit_docs/README.md)
 
 - **myArm M&C 具身人型复合套件**：
 
-  - [英文版本]()
-  - [中文版本](myArm_Embodied_Humanoid_docs/README.md)
+  - [英文版本](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-en/myArm_Embodied_Humanoid_docs/README.md)
+  - [中文版本](https://github.com/elephantrobotics/myArm_MC_docs/blob/gitbook-cn/myArm_Embodied_Humanoid_docs/README.md)
 
 - **myArm M&C 四足机器人复合套件**：
   - [英文版本]()

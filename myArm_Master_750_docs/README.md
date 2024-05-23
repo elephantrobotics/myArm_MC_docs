@@ -6,9 +6,9 @@
 
 本文档包含从产品简介、详细的技术参数到用户须知和首次安装指导的全面信息。我们将深入解释myArm M750机械臂的基础功能，提供软件开发指南，并展示成功的应用案例，帮助您了解如何将 myArm M750 有效整合进各种应用中。此外，我们还提供了丰富的支持与服务信息，确保您在遇到任何技术挑战时能够获得必要的帮助。
 ### gitbook-en
-英文版本: https://docs.elephantrobotics.com/docs/myArm_Master_750-en/
+英文版本: https://docs.elephantrobotics.com/docs/myarm-master_750-en/
 ### gitbook-cn
-中文版本: https://docs.elephantrobotics.com/docs/myArm_Master_750-cn/
+中文版本: https://docs.elephantrobotics.com/docs/myarm-master_750-cn/
 
 文档说明
 ---
