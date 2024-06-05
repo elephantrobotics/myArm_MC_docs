@@ -53,14 +53,14 @@ Tables 1-1 to 1-3 below outline common safety hazards that may exist when using 
 - The robotic arm is an electrified device, and non-professionals are not allowed to change the circuit at will, as this may cause damage to the equipment or personal injury.
 - When operating the robotic arm, local regulations and standards should be strictly followed. The safety precautions and descriptions of "danger," "warning," and "caution" in the manual are only supplementary to local safety regulations.
 - Please use the robotic arm within the specified environmental range. Exceeding the specifications and load conditions of the robotic arm can shorten the product's service life or even damage the equipment.
-- Personnel responsible for installing, operating, and maintaining the myCobot robotic arm must undergo rigorous training, understand various safety precautions, and master the correct operation and maintenance methods before operating and maintaining the robot.
+- Personnel responsible for installing, operating, and maintaining the myArm robotic arm must undergo rigorous training, understand various safety precautions, and master the correct operation and maintenance methods before operating and maintaining the robot.
 - Please do not use this product for long periods in a humid environment. This product contains precision electronic components, and working in a humid environment for a long time can damage the equipment.
 - Please do not use this device in a high-temperature environment. The outer surface of this device is made of photosensitive resin, and higher temperatures can damage the device's shell, leading to equipment failure.
 - High-corrosive cleaning is not suitable for cleaning the robotic arm, and anodized parts are not suitable for immersion cleaning.
 - Please do not use this product without installing the base to avoid damage to the equipment or accidents. The product should be used in a fixed environment with no obstacles.
 - Please do not use other power adapters for power supply. If the equipment is damaged due to the use of non-standard adapters, it will not be covered by after-sales service.
 - Please do not disassemble or open the screws or casing of the robotic arm. If disassembled, warranty service cannot be provided.
-- Unauthorized personnel are not allowed to repair faulty products or dismantle robotic arms without authorization. If the product fails, please contact myCobot technical support engineers promptly.
+- Unauthorized personnel are not allowed to repair faulty products or dismantle robotic arms without authorization. If the product fails, please contact myArm technical support engineers promptly.
 - If the product is scrapped, please comply with relevant laws to properly dispose of industrial waste and protect the environment.
 - Children must be monitored by an adult during use, and the device should be turned off promptly when the operation is completed.
 - Please do not stretch your hands into the range of motion of the robotic arm during operation to avoid injury.

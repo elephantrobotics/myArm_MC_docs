@@ -114,7 +114,7 @@ Camera Flange V2.0 enables a standard camera to be mounted on a robotic arm to p
 
 #### myCobot Mobile phone holder
 
-This accessory allows the myCobot robotic arm to hold and operate a smartphone or similar device and is suitable for automated testing of mobile phone applications, for educational presentations, or for using the phone's camera in specific scenarios.
+This accessory allows the myCobotrobotic arm to hold and operate a smartphone or similar device and is suitable for automated testing of mobile phone applications, for educational presentations, or for using the phone's camera in specific scenarios.
 
 # Supported Extended Development
 

@@ -189,7 +189,7 @@ Figure 3 Right side of the base
 
 #### 4.1.1 Type C: The Type-C interface is used to connect and communicate with PCs and can be used by developers.
 
-#### 4.1.2 Screen: The screen is used to display the communication status of myCobot and calibrate the robot to the starting point through a 2-inch IPS screen.
+#### 4.1.2 Screen: The screen is used to display the communication status of myArm and calibrate the robot to the starting point through a 2-inch IPS screen.
 
 #### 4.1.3 Keys A, B, and C are used to operate the screen in a coordinated manner.
 

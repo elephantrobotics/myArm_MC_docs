@@ -1,6 +1,6 @@
 # Environment Building
 
-pymycobot is a Python package used for serial communication with myCobot. It supports Python2, Python3.5 and later versions.
+pymycobot is a Python package used for serial communication with myCobot/myArm. It supports Python2, Python3.5 and later versions.
 
 Before using pymycobot, make sure to build a Python environment. Follow the steps below to install Python.
 
