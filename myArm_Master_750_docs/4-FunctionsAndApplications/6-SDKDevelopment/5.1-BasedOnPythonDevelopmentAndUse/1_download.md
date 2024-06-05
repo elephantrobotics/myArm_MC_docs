@@ -1,6 +1,6 @@
 # 环境配置
 
-pymycobot 是一个和 myCobot 进行串口通讯的 Python 包，支持 Python2、Python3.5 及之后版本。
+pymycobot 是一个和 myArm 进行串口通讯的 Python 包，支持 Python2、Python3.5 及之后版本。
 
 在使用 pymycobot 控制机械臂之前需要搭建 Python 环境，下面就对 Python 的下载安装做出详细说明。
 

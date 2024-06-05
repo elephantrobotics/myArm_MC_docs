@@ -184,7 +184,7 @@ width="800" height="auto" />
 <img src="../../resources/2-ProductInformation/2-ProductParameters/2.png " width="800" height="auto" />  
 图 4.6 Grover接口3定义图
 
-#### D.屏幕 ：屏幕用于显示 myCobot 的通信状态，并通过 2 英寸 IPS 屏幕校准机器人移动到起点。
+#### D.屏幕 ：屏幕用于显示 myArm 的通信状态，并通过 2 英寸 IPS 屏幕校准机器人移动到起点。
 
 #### E.按键 A、按键 B 和按键 C 用于以协调的方式操作屏幕。
 

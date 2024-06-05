@@ -389,7 +389,7 @@ ros2安装成功表明rviz2也一起安装成功了，因为ros2的安装包含�
 
 ---
 
-[← 上一节](../5.1-BasedOnPythonDevelopmentAndUse/1_download.md) | [下一页 →](2_workcode.md)
+[← 上一节](../5.2-DevelopmentAndUseBasedOnROS1/1_download.md) | [下一页 →](2_workcode.md)
 
 
 
