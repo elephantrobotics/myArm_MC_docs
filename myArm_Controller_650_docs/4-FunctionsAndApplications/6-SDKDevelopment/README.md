@@ -16,8 +16,9 @@ In order to meet the diverse application requirements of the robot in different 
 
 - [6.2 ROS1](./6.2-DevelopmentAndUseBasedOnROS1/1_download.md)<br>As an open-source robot operating system, ROS (Robot Operating System) provides unlimited possibilities for the development and control of robots. Our robot can be controlled in a modular way through the rich control functions of ROS. Whether it's joint control, path planning, or perceptual feedback, ROS provides tools and libraries to make the control process more flexible and efficient.</br>
 
+- [6.3 ROS2](./6.2-DevelopmentAndUseBasedOnROS1/1_download.md)<br>ROS 2 (Robot Operating System 2) is a flexible software framework designed specifically for robot software development. Our robots make application development more efficient and modular by providing hardware abstraction, device drivers, library functions, visualization tools, messaging, and package management.</br>
 
-- [6.3 Communication](./6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.1-CommunicationDoc.md)<br>
+- [6.4 Communication](./6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.1-CommunicationDoc.md)<br>
   If you know anything about information theory, coding and robot communication functions, then you should understand that all communication stems from data transfer. To make it easier for you to operate your robot, we have opened up a communication protocol based on serial port communication. You can control the robot using the Serial Assistant or encapsulate it into any programming language with which you are familiar.
 
 ---
