@@ -30,7 +30,7 @@ Each product is numbered and detailed to ensure you can accurately refer to your
 In this section, we strongly recommend disassembling the product according to the specified steps. This not only helps ensure that the product is not damaged during transportation but also minimizes the risk of accidental faults. Please carefully read the following graphic guide to ensure the safety of your product during unboxing.
 
 - **1** Check if the packaging box is damaged. If damaged, please contact the logistics company and your local supplier promptly.
-- **2** Open the packaging box and take out the product brochure, sponge packaging cover, myCobot robot arm, matching power supply, emergency stop switch, flat base, and accessory package.
+- **2** Open the packaging box and take out the product brochure, sponge packaging cover, myArm robot arm, matching power supply, emergency stop switch, flat base, and accessory package.
 - **3** Make sure each step is completed before proceeding to the next to prevent unnecessary damage or omissions.
 
 **Note:** After removing the product, carefully inspect the appearance of each item. Check the actual items in the packaging box against the item list.

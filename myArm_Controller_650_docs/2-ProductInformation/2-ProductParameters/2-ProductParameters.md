@@ -183,7 +183,7 @@ Figure 4.5 Grover Interface 2 Definition Diagram
 
 Figure 4.6 Grover Interface 3 Definition Diagram
 
-#### D. Screen: The screen is used to display the communication status of myCobot and to move the robot to the starting point via a 2-inch IPS screen.
+#### D. Screen: The screen is used to display the communication status of myArm and to move the robot to the starting point via a 2-inch IPS screen.
 
 #### E. Keys A, B, and C are used to operate the screen in a coordinated manner.
 

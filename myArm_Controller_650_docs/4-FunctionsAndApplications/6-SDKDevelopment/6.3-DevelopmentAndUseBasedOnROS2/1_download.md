@@ -371,7 +371,7 @@ We only give a rough introduction in this part, if you want to know more details
 
 ---
 
-[← Prevopis section](../6.1-BasedOnPythonDevelopmentAndUse/1_download.md) | [Next page →](2_workcode.md)
+[← Prevopis section](../6.2-DevelopmentAndUseBasedOnROS1/1_download.md) | [Next page →](2_workcode.md)
 
 
 
