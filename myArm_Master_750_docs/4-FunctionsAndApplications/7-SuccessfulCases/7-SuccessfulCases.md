@@ -24,4 +24,4 @@ myArm M750的多功能性，在其末端执行器的设计上显得尤为突出�
 
 ---
 
-[← 上一章](../6-SDKDevelopment/README.md) | [下一章 →](../../5-SupportAndService/5-SupportAndService.md)
+[← 上一章](../6-SDKDevelopment/README.md) | [下一章 →](./7.1-demo_add.md)
