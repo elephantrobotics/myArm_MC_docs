@@ -44,6 +44,9 @@
 
     
   - [7 Successful Cases](4-FunctionsAndApplications/7-SuccessfulCases/7-SuccessfulCases.md)
+    * [7.1 myarm mc remote operation case](4-FunctionsAndApplications/7-SuccessfulCases/7.1-demo_add.md)
+
+
 
     <!-- - [8. Supporting Resources](features-applications/supporting-resources.md) -->
       <!-- - [8.1 Product Information](features-applications/product-info.md) -->

@@ -22,4 +22,5 @@ In addition to this, the myArm M750 is compatible with a range of optional acces
 
 ---
 
-[← Previous chapter](../6-SDKDevelopment/README.md) | [Next chapter →](../../5-SupportAndService/5-SupportAndService.md)
+
+[← Previous chapter](../6-SDKDevelopment/README.md) | [Next chapter →](./7.1-demo_add.md)
