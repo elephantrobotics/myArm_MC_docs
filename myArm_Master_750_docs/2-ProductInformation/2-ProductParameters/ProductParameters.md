@@ -264,56 +264,64 @@ D. Atom：用于 5X5 RGB LED（G27）显示和按键功能（G39）
 
 E. 舵机接口：用于末端拓展夹爪时使用，当前支持配套的自适应夹爪使用。
 
-<!-- ---
+
 
 # 5 笛卡尔坐标系
 
 ## 5.1 关节坐标系
+关节坐标系是以机械臂各旋转关节为基准的坐标系，下图中的白色虚线表示各关节的旋转轴，红色箭头表示关节的旋转方向，q1~q6表示1~6关节坐标系。
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/关节坐标系.jpg " width="auto" height="auto" /><br>
 
-## 5.2 用户坐标系
+## 5.2 基坐标系
 
-用户坐标系是用户自定义的工作台坐标系或工件坐标系，其原点和轴线方向可根据实际需要确定，便于测量工作区间内各点的位置和安排任务。默认的用户坐标系是以机械臂底座的中心点为基准确定的，Y 轴的正方向是重载线的方向。 -->
+基坐标系是固定在机械臂底部的坐标系，其原点和坐标轴方向在运动学算法建模时确定，一般情况原点定在底座的中心点。 
 
-<!-- <img src="../../resources/9-FilesDownload/2-serialproduct/用户坐标.png" width="800" height="auto" /> -->
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/基坐标系.jpg " width="auto" height="auto" /><br>
 
-<!-- ## 5.3 工具坐标系
+ ## 5.3 工具坐标系
 
-刀具坐标系是定义刀具中心点 (TCP) 位置和刀具姿态的坐标系，其原点和方向随最终工件的位置和角度不断变化。默认的刀具坐标系是根据刀具法兰中心点确定的，Y 轴的正方向与航空插口的方向相反。 -->
+工具坐标系是固定在机械臂末端的坐标系，其原点和坐标轴方向在运动学算法建模时确定，一般情况原点定在机械臂末端法兰盘的中心点。
 
-<!-- <img src="../../resources/9-FilesDownload/2-serialproduct/工具坐标.png" width="800" height="auto" /> -->
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/工具坐标系.jpg " width="auto" height="auto" /><br>
 
-<!-- ## 5.4 关节连杆参数规格 -->
+ ## 5.4 运动学模型
+下图所示是机械臂的运动学模型，图示位置是算法模型上的零点
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/dh_model.jpg " width="auto" height="auto" /><br>
+ 
+ ### 5.4.1 零位校准
+在运动学模型中，实际的零点在2、3关节上存在一些偏置，考虑到校准的方便，用户使用零位校准时对齐刻度线即可，无需对齐模型上的实际零点。
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/零位校准.jpg " width="auto" height="auto" /><br>
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/零位校准2D.jpg " width="auto" height="auto" /><br>
+ 
 
-<!-- <img src="../../resources/9-FilesDownload/2-serialproduct/DH320.jpg " width="400" height="auto" /> -->
 
-<!-- ### 5.4.1 DH 范围 -->
+ ### 5.4.2 MDH 参数
 
-<!--
-对于旋转关节 n，设置 0=0.0，其中 X 轴与 X 轴方向一致，并选择坐标系的原点位置（N）以满足 d.=0.0。对于移动关节 n，设置 8 轴的方向，使其满足 0.=0.0。当 d.=0.0 时，将坐标系（N）的原点选择在 XN-1 轴与关节轴 n 的交点处。
 
-联动坐标系中联动参数的归纳 如果根据上述规定将联动坐标系固定在联动装置上，则联动参数可定义如下：
 
-- a_i-1：沿 x_i-1：从 z_i-1 到 z_i 的距离
+DH参数用于描述相邻连杆的相对关系：
 
-- alpha_i-1：绕 x_i-1：从 z_i-1 到 z_i
+- a_i：沿 x_i：从 z_i 到 z_i+1 的距离
+
+- alpha_i：绕 x_i：从 z_i 到 z_i+1
 
 - d_i: 表示沿 z_i 从 x_i-1 到 x_i 的距离
 
 - θ_i：围绕 z_i：从 x_i-1 到 x_i 的角度
 
-Here is an article to refer to
-[https://blog.csdn.net/hitgavin/article/details/104442034](https://blog.csdn.net/hitgavin/article/details/104442034) -->
+<!-- Here is an article to refer to
+[https://blog.csdn.net/hitgavin/article/details/104442034](https://blog.csdn.net/hitgavin/article/details/104442034)  -->
 
-<!-- ### 5.4.2 DH 参数列表 -->
+ ### 5.4.3 MDH 参数列表 
 
-<!-- | 关节 | alpha | a    | d     | theta   | offset |
+ | 关节 | alpha_i-1 | a_i-1    | d     | theta   | offset |
 | :--- | :---- | :--- | :---- | :------ | :----- |
 | 1    | 0     | 0    | 173.9 | theta_1 | 0      |
-| 2    | PI/2  | 0    | 0     | theta_2 | -PI/2  |
-| 3    | 0     | -135 | 0     | theta_3 | 0      |
-| 4    | 0     | -120 | 95    | theta_4 | -PI/2  |
-| 5    | PI/2  | 0    | 87.78 | theta_5 | 0      |
-| 6    | -PI/2 | 0    | 65.5  | theta_6 | 0      | -->
+| 2    | -PI/2  | 0    | 0     | theta_2 | -PI/2  |
+| 3    | 0     | 308.315 | 0     | theta_3 | 0      |
+| 4    | -PI/2     | 0 |327.91    | theta_4 | 0  |
+| 5    | PI/2  | 0    | 0 | theta_5 | 0      |
+| 6    | -PI/2 | 0    | 197.1  | theta_6 | PI      |
 
 ---
 
