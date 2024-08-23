@@ -46,11 +46,6 @@
 | Serial Port Control Protocol | Yes |
 
 
-## 1.3 Extended Development Capabilities
-| Expansion Interface | Extend the way you develop |
-| :------------: | :--------: |
-| ROS  |    |
-| Python  |     |
 
 ---
 
