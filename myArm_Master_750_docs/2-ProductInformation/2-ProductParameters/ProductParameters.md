@@ -42,15 +42,10 @@
 | MAC          | 支持 |
 | ROS        | 支持 |
 | Python       | 支持 |
-| C++          | 支持 |
-| C#           | 支持 |
-| JavaScript   | 支持 |
 | myblockly    | 支持 |
-| Arduino      | 支持 |
 | mystudio     | 支持 |
 | 串口控制协议 | 支持 |
-| TCP/IP       | 支持 |
-| MODBUS       | 支持 |
+     
 
 ## 1.3 扩展开发功能
 | 扩展接口 | 扩展开发方式 |
