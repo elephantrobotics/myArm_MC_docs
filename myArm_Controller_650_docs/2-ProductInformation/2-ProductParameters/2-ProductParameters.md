@@ -244,4 +244,62 @@ E. 舵机接口：用于末端拓展夹爪时使用，当前支持配套的自�
 
 ---
 
+
+# 3 笛卡尔坐标系
+
+## 3.1 关节坐标系
+关节坐标系是以机械臂各旋转关节为基准的坐标系，下图中的白色虚线表示各关节的旋转轴，红色箭头表示关节的旋转方向，q1~q6表示1~6关节坐标系。
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.3-CartesianCoordinateSystem/关节坐标系.jpg " width="auto" height="auto" /><br>
+
+## 3.2 基坐标系
+
+基坐标系是固定在机械臂底部的坐标系，其原点和坐标轴方向在运动学算法建模时确定，一般情况原点定在底座的中心点。 
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.3-CartesianCoordinateSystem/基坐标系.jpg " width="auto" height="auto" /><br>
+
+ ## 3.3 工具坐标系
+
+工具坐标系是固定在机械臂末端的坐标系，其原点和坐标轴方向在运动学算法建模时确定，一般情况原点定在机械臂末端法兰盘的中心点。
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.3-CartesianCoordinateSystem/工具坐标系.jpg " width="auto" height="auto" /><br>
+
+ ## 3.4 运动学模型
+下图所示是机械臂的运动学模型，图示位置是算法模型上的零点
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.3-CartesianCoordinateSystem/dh_model.jpg " width="auto" height="auto" /><br>
+ 
+ ### 3.4.1 零位校准
+在运动学模型中，实际的零点在2、3关节上存在一些偏置，考虑到校准的方便，用户使用零位校准时对齐刻度线即可，无需对齐模型上的实际零点。
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.3-CartesianCoordinateSystem/零位校准.jpg " width="auto" height="auto" /><br>
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.3-CartesianCoordinateSystem/零位校准2D.jpg " width="auto" height="auto" /><br>
+ 
+
+
+ ### 3.4.2 MDH 参数
+
+
+
+DH参数用于描述相邻连杆的相对关系：
+
+- a_i：沿 x_i：从 z_i 到 z_i+1 的距离
+
+- alpha_i：绕 x_i：从 z_i 到 z_i+1
+
+- d_i: 表示沿 z_i 从 x_i-1 到 x_i 的距离
+
+- θ_i：围绕 z_i：从 x_i-1 到 x_i 的角度
+
+
+ ### 3.4.3 MDH 参数列表 
+
+ | 关节 | alpha_i-1 | a_i-1    | d     | theta   | offset |
+| :--- | :---- | :--- | :---- | :------ | :----- |
+| 1    | 0     | 0    | 154 | theta_1 | 0      |
+| 2    | -PI/2  | 0    | 0     | theta_2 | -PI/2  |
+| 3    | 0     | 308.3 | 0     | theta_3 | 0      |
+| 4    | -PI/2     | 0 |327.9    | theta_4 | 0  |
+| 5    | PI/2  | 0    | 0 | theta_5 | 0      |
+| 6    | -PI/2 | 0    | 131.3  | theta_6 | PI      |
+
+---
+
 [← 上一章](../1-ProductIntroduction/1-ProductIntroduction.md) | [下一章 →](../../3-BasicSettings/3-UserInstructions/3-UserInstructions.md)
