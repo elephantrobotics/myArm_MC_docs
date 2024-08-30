@@ -270,7 +270,7 @@ E. 舵机接口：用于末端拓展夹爪时使用，当前支持配套的自�
  ### 3.4.1 零位校准
 在运动学模型中，实际的零点在2、3关节上存在一些偏置，考虑到校准的方便，用户使用零位校准时对齐刻度线即可，无需对齐模型上的实际零点。
 <img src="../../resources/2-ProductInformation/2-ProductParameters/2.3-CartesianCoordinateSystem/零位校准.jpg " width="auto" height="auto" /><br>
-<img src="../../resources/2-ProductInformation/2-ProductParameters/2.3-CartesianCoordinateSystem/零位校准2D.jpg " width="auto" height="auto" /><br>
+
  
 
 
