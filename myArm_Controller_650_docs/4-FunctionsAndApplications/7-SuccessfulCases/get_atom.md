@@ -17,7 +17,7 @@
 ![](./img/3.jpg)
 
 ## 1 获取 Atom 按钮状态
-
+![](./img/6.jpg)
 ```python
 from pymycobot import MyArmC
 import time
