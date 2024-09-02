@@ -41,3 +41,29 @@ while 1:
     #当杜邦线接通时输出1,未接通输出0
     print(arm.get_master_in_io_state(2))
 ```
+
+## 3 获取末端IO1输入状态
+将杜邦线一端插到GND，杜邦线的另一端插到GPIO19上，模拟按键按下的效果
+![](./img/7.jpg)
+
+```python
+from pymycobot import MyArmC
+import time
+arm = MyArmC("COM18")
+while 1: 
+    #当杜邦线接通时输出0,未接通输出1
+    print(arm.get_tool_in_io_state(1))
+```
+
+## 4 获取末端IO2输入状态
+将杜邦线一端插到GND，杜邦线的另一端插到GPIO22上，模拟按键按下的效果
+![](./img/8.jpg)
+
+```python
+from pymycobot import MyArmC
+import time
+arm = MyArmC("COM18")
+while 1: 
+    #当杜邦线接通时输出0,未接通输出1
+    print(arm.get_tool_in_io_state(2))
+```
