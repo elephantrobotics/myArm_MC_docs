@@ -45,3 +45,6 @@ After the program is executed, the command does not take effect and returns to n
 <img src="./img/2.jpg" alt="" width="40%" height="40%">
 
 **Note**: If it displays no, try to exit and then enter again
+
+---
+[← Previous chapter](./get_angles) | [Next chapter →](./get_io.md)
