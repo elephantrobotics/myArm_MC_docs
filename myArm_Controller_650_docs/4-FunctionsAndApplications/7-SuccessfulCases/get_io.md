@@ -95,3 +95,6 @@ while 1:
 <img src="./img/2.jpg" alt="" width="40%" height="40%">
 
 **注意事项**：若是显示no，尝试重新退出后再进入即可
+
+---
+[← 上一章](./get_atom.md) | [下一章 →](../../5-SupportAndService/5-SupportAndService.md)
