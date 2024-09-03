@@ -41,21 +41,11 @@
 | MAC          | Yes |
 | ROS        | Yes |
 | Python       | Yes |
-| C++          | Yes |
-| C#           | Yes |
-| JavaScript   | Yes |
 | myblockly    | Yes |
-| Arduino      | Yes |
 | mystudio     | Yes |
 | Serial Port Control Protocol | Yes |
-| TCP/IP       | Yes |
-| MODBUS       | Yes |
 
-## 1.3 Extended Development Capabilities
-| Expansion Interface | Extend the way you develop |
-| :------------: | :--------: |
-| ROS  |    |
-| Python  |     |
+
 
 ---
 
