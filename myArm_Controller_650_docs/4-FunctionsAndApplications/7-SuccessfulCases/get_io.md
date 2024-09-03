@@ -23,7 +23,7 @@ while 1:
 ```
 **运行效果**：
 
-<img src="./img/5.gif" alt="" width="100%" height="40%">
+<img src="./img/5.gif" alt="" width="90%" height="40%">
 
 ## 2 获取底部IO2输入状态
 将杜邦线一端插到3.3V，杜邦线的另一端插到GPIO36上，模拟按键按下的效果
@@ -40,7 +40,7 @@ while 1:
 ```
 **运行效果**：
 
-<img src="./img/6.gif" alt="" width="100%" height="40%">
+<img src="./img/6.gif" alt="" width="90%" height="40%">
 
 ## 3 获取末端IO1输入状态
 将杜邦线一端插到GND，杜邦线的另一端插到GPIO19上，模拟按键按下的效果
@@ -57,7 +57,7 @@ while 1:
 ```
 **运行效果**：
 
-<img src="./img/7.gif" alt="" width="100%" height="40%">
+<img src="./img/7.gif" alt="" width="90%" height="40%">
 
 
 ## 4 获取末端IO2输入状态
@@ -76,7 +76,7 @@ while 1:
 ```
 **运行效果**：
 
-<img src="./img/8.gif" alt="" width="100%" height="40%">
+<img src="./img/8.gif" alt="" width="90%" height="40%">
 
 ## 常见问题
 程序执行后，指令不生效，返回none现象，先检查屏幕底座的界面是否处于通信界面，且通信界面是否为OK，若显示no,先退出回到主界面，按照下面操作重新进入通信界面
