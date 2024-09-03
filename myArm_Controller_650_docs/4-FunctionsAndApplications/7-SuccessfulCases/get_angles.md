@@ -63,4 +63,4 @@ After the program is executed, the command does not take effect and returns to n
 **Note**: If it shows no, try to exit and then enter again
 
 ---
-[← Previous chapter]() | [Next chapter →]()
+[← Previous chapter](./7-) | [Next chapter →](./get_atom.md)
