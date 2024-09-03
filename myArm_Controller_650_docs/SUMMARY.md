@@ -39,6 +39,9 @@
 
     - [6.4 Communication Packages](4-FunctionsAndApplications/6-SDKDevelopment/6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.1-CommunicationDoc.md)
   - [7 Successful Cases](4-FunctionsAndApplications/7-SuccessfulCases/7-SuccessfulCases.md)
+      - [1 Python example of obtaining angle information and coordinate information](4-FunctionsAndApplications/7-SuccessfulCases/get_angles.md)
+      - [2 Python example of obtaining the terminal ATOM button status](4-FunctionsAndApplications/7-SuccessfulCases/get_atom.md)
+      - [3 Python example of obtaining IO input status](4-FunctionsAndApplications/7-SuccessfulCases/get_io.md)
 
 ## Support and Services
   - [8 About Us](5-SupportAndService/5-SupportAndService.md)
