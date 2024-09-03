@@ -27,7 +27,7 @@ while 1:
 ```
 **Running effect**:
 
-<img src="./img/4.gif" alt="" width="60%" height="40%">
+<img src="./img/4.gif" alt="" width="90%" height="40%">
 
 ## Common Problems
 After the program is executed, the command does not take effect and returns to none. First check whether the interface of the screen base is in the communication interface and whether the communication interface is OK. If it shows no, exit and return to the main interface first, and follow the following steps to re-enter the communication interface
