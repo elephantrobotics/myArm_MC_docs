@@ -33,4 +33,4 @@ myArm C650与Python和ROS的兼容性，加上提供开源的遥控示范文件�
 
 ---
 
-[← 上一章](../6-SDKDevelopment/README.md) | [下一章 →](../../5-SupportAndService/5-SupportAndService.md)
+[← 上一章](../6-SDKDevelopment/README.md) | [下一章 →](./get_angles.md)
