@@ -18,7 +18,7 @@ while 1:
 ```
 **Running effect**:
 
-<img src="./img/1.gif" alt="" width="100%" height="100%">
+<img src="./img/1.gif" alt="" width="90%" height="40%">
 
 ## 2 Get a single joint angle
 ```python
@@ -31,7 +31,7 @@ while 1:
 ```
 **Running effect**:
 
-<img src="./img/2.gif" alt="" width="60%" height="40%">
+<img src="./img/2.gif" alt="" width="90%" height="40%">
 
 ## 3 Get coordinate information
 ```python
@@ -43,7 +43,7 @@ while 1:
 ```
 **Running effect**:
 
-<img src="./img/3.gif" alt="" width="60%" height="40%">
+<img src="./img/3.gif" alt="" width="90%" height="40%">
 
 ## Common Problems
 After the program is executed, the command does not take effect and returns to none. First check whether the interface of the screen base is in the communication interface and whether the communication interface is OK. If it shows no, exit and return to the main interface first, and follow the following steps to re-enter the communication interface

@@ -21,7 +21,7 @@ while 1:
 ```
 **Running effect**:
 
-<img src="./img/5.gif" alt="" width="60%" height="40%">
+<img src="./img/5.gif" alt="" width="90%" height="40%">
 
 ## 2 Get the bottom IO2 input status
 Plug one end of the DuPont line into 3.3V and the other end of the DuPont line into GPIO36 to simulate the effect of pressing the button
@@ -37,7 +37,7 @@ while 1:
 ```
 **Running effect**:
 
-<img src="./img/6.gif" alt="" width="60%" height="40%">
+<img src="./img/6.gif" alt="" width="90%" height="40%">
 
 ## 3 Get the terminal IO1 input status
 Plug one end of the DuPont line into GND and the other end of the DuPont line into GPIO19 to simulate the effect of pressing the button
@@ -54,7 +54,7 @@ while 1:
 ```
 **Running effect**:
 
-<img src="./img/7.gif" alt="" width="60%" height="40%">
+<img src="./img/7.gif" alt="" width="90%" height="40%">
 
 ## 4 Get the terminal IO2 input status
 Plug one end of the DuPont line into GND and the other end of the DuPont line into GPIO22 to simulate the effect of pressing the button
@@ -71,7 +71,7 @@ while 1:
 ```
 **Running effect**:
 
-<img src="./img/8.gif" alt="" width="60%" height="40%">
+<img src="./img/8.gif" alt="" width="90%" height="40%">
 
 ## Common Problems
 After the program is executed, the command does not take effect and returns to none. First check whether the interface of the screen base is in the communication interface and whether the communication interface is OK. If it shows no, exit and return to the main interface first, and follow the following steps to re-enter the communication interface
