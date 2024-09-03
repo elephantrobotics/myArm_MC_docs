@@ -236,6 +236,58 @@ D. Atom: for 5X5 RGB LED (G27) display and key function (G39)
 
 E. Servo interface: used for terminal expansion grippers, currently supporting the use of matching adaptive grippers.
 
+
+# 5 Cartesian Coordinate System
+
+## 5.1 Joint Coordinate System
+The joint coordinate system is a coordinate system based on the rotation joints of the robot arm. The white dotted lines in the figure below represent the rotation axes of each joint, the red arrows represent the rotation directions of the joints, and q1-q6 represent the 1-6 joint coordinate systems.
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.3-CartesianCoordinateSystem/关节坐标系.jpg " width="auto" height="auto" /><br>
+
+## 5.2 Base Coordinate System
+
+The base coordinate system is a coordinate system fixed at the bottom of the robot arm. Its origin and coordinate axis directions are determined when the kinematic algorithm is modeled. Generally, the origin is set at the center point of the base.
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.3-CartesianCoordinateSystem/基坐标系.jpg " width="auto" height="auto" /><br>
+
+## 5.3 Tool Coordinate System
+
+The tool coordinate system is a coordinate system fixed at the end of the robot arm. Its origin and coordinate axis direction are determined during kinematic algorithm modeling. Generally, the origin is set at the center point of the flange at the end of the robot arm.
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.3-CartesianCoordinateSystem/工具坐标系.jpg " width="auto" height="auto" /><br>
+
+## 5.4 Kinematic model
+The figure below shows the kinematic model of the robot arm. The position shown is the zero point on the algorithm model
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.3-CartesianCoordinateSystem/dh_model.jpg " width="auto" height="auto" /><br>
+
+### 5.4.1 Zero point calibration
+In the kinematic model, the actual zero point has some offset on joints 2 and 3. Considering the convenience of calibration, users can align the scale line when using zero point calibration, without aligning the actual zero point on the model.
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.3-CartesianCoordinateSystem/零位校准.jpg " width="auto" height="auto" /><br>
+
+### 5.4.2 MDH parameters
+
+DH parameters are used to describe the relative relationship between adjacent links:
+
+- a_i: along x_i: the distance from z_i to z_i+1
+
+- alpha_i: around x_i: from z_i to z_i+1
+
+- d_i: represents the distance from x_i-1 to x_i along z_i
+
+- θ_i: around z_i: the angle from x_i-1 to x_i
+
+### 5.4.3 MDH parameter list
+
+| Joint | alpha_i-1 | a_i-1    | d     | theta   | offset |
+| :--- | :---- | :--- | :---- | :------ | :----- |
+| 1    | 0     | 0    | 154 | theta_1 | 0      |
+| 2    | -PI/2  | 0    | 0     | theta_2 | -PI/2  |
+| 3    | 0     | 308.3 | 0     | theta_3 | 0      |
+| 4    | -PI/2     | 0 |327.9    | theta_4 | 0  |
+| 5    | PI/2  | 0    | 0 | theta_5 | 0      |
+| 6    | -PI/2 | 0    | 131.3  | theta_6 | PI      |
 ---
 
 [← Previous chapter](../1-ProductIntroduction/1-ProductIntroduction.md) | [Next chapter →](../../3-BasicSettings/3-UserInstructions/3-UserInstructions.md)
