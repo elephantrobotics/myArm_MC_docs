@@ -256,54 +256,59 @@ E. Servo interface: used for terminal expansion grippers, currently supporting t
 
 <!-- --- -->
 
-<!-- # 5 Cartesian coordinate system
+# 5 Cartesian Coordinate System
 
 ## 5.1 Joint Coordinate System
+The joint coordinate system is a coordinate system based on the rotation joints of the robot arm. The white dotted lines in the figure below represent the rotation axes of each joint, the red arrows represent the rotation directions of the joints, and q1-q6 represent the 1-6 joint coordinate systems.
 
-## 5.2 User Coordinate System
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/关节坐标系.jpg " width="auto" height="auto" /><br>
 
-The user coordinate system is a user-defined workbench coordinate system or workpiece coordinate system, and its origin and axis direction can be determined according to actual needs, which is convenient for measuring the position of each point in the working area and arranging tasks. The default user coordinate system is determined from the center point of the base of the robotic arm, and the positive direction of the Y axis is the direction of the overload line.
+## 5.2 Base Coordinate System
 
-<img src="../../resources/9-FilesDownload/2-serialproduct/用户坐标.png" width="800" height="auto" />
+The base coordinate system is a coordinate system fixed at the bottom of the robot arm. Its origin and coordinate axis directions are determined when the kinematic algorithm is modeled. Generally, the origin is set at the center point of the base.
+
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/基坐标系.jpg " width="auto" height="auto" /><br>
 
 ## 5.3 Tool Coordinate System
 
-A tool coordinate system is a coordinate system that defines the position of the tool center point (TCP) and the attitude of the tool, and its origin and orientation are constantly changing with the position and angle of the final workpiece. The default tool coordinate system is determined from the tool flange center point, with the positive direction of the Y axis being opposite to the direction of the aero slot. -->
+The tool coordinate system is a coordinate system fixed at the end of the robot arm. Its origin and coordinate axis direction are determined during the kinematic algorithm modeling. Generally, the origin is set at the center point of the flange at the end of the robot arm.
 
-<!-- <img src="../../resources/9-FilesDownload/2-serialproduct/工具坐标.png" width="800" height="auto" /> -->
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/工具坐标系.jpg " width="auto" height="auto" /><br>
 
-<!-- ## 5.4 Joint Linkage Parameter Specifications -->
+## 5.4 Kinematic model
+The figure below shows the kinematic model of the robot arm. The position shown is the zero point on the algorithm model
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/dh_model.jpg " width="auto" height="auto" /><br>
 
-<!-- <img src="../../resources/9-FilesDownload/2-serialproduct/DH320.jpg " width="400" height="auto" /> -->
+### 5.4.1 Zero point calibration
+In the kinematic model, the actual zero point has some offset on joints 2 and 3. Considering the convenience of calibration, users can align the scale line when using zero point calibration, without aligning the actual zero point on the model.
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/零位校准.jpg " width="auto" height="auto" /><br>
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/零位校准2D.jpg " width="auto" height="auto" /><br>
 
-<!-- ### 5.4.1 DH range -->
+### 5.4.2 MDH parameters
 
-<!--
-对于旋转关节 n，设置 0=0.0，其中 X 轴与 X 轴方向一致，并选择坐标系的原点位置（N）以满足 d.=0.0。对于移动关节 n，设置 8 轴的方向，使其满足 0.=0.0。当 d.=0.0 时，将坐标系（N）的原点选择在 XN-1 轴与关节轴 n 的交点处。
+DH parameters are used to describe the relative relationship between adjacent links:
 
-联动坐标系中联动参数的归纳 如果根据上述规定将联动坐标系固定在联动装置上，则联动参数可定义如下：
+- a_i: along x_i: the distance from z_i to z_i+1
 
-- a_i-1：沿 x_i-1：从 z_i-1 到 z_i 的距离
+- alpha_i: around x_i: from z_i to z_i+1
 
-- alpha_i-1：绕 x_i-1：从 z_i-1 到 z_i
+- d_i: represents the distance from x_i-1 to x_i along z_i
 
-- d_i: 表示沿 z_i 从 x_i-1 到 x_i 的距离
+- θ_i: around z_i: from x_i-1 to The angle of x_i
 
-- θ_i：围绕 z_i：从 x_i-1 到 x_i 的角度
-
-Here is an article to refer to
+<!-- Here is an article to refer to
 [https://blog.csdn.net/hitgavin/article/details/104442034](https://blog.csdn.net/hitgavin/article/details/104442034) -->
 
-<!-- ### 5.4.2 DH Parameter List -->
+### 5.4.3 MDH parameter list
 
-<!-- | 关节 | alpha | a    | d     | theta   | offset |
+| Joint | alpha_i-1 | a_i-1    | d     | theta   | offset |
 | :--- | :---- | :--- | :---- | :------ | :----- |
 | 1    | 0     | 0    | 173.9 | theta_1 | 0      |
-| 2    | PI/2  | 0    | 0     | theta_2 | -PI/2  |
-| 3    | 0     | -135 | 0     | theta_3 | 0      |
-| 4    | 0     | -120 | 95    | theta_4 | -PI/2  |
-| 5    | PI/2  | 0    | 87.78 | theta_5 | 0      |
-| 6    | -PI/2 | 0    | 65.5  | theta_6 | 0      | -->
+| 2    | -PI/2  | 0    | 0     | theta_2 | -PI/2  |
+| 3    | 0     | 308.315 | 0     | theta_3 | 0      |
+| 4    | -PI/2     | 0 |327.91    | theta_4 | 0  |
+| 5    | PI/2  | 0    | 0 | theta_5 | 0      |
+| 6    | -PI/2 | 0    | 197.1  | theta_6 | PI      |
 
 ---
 
