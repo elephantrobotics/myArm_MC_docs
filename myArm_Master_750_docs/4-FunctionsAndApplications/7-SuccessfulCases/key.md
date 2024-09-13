@@ -18,6 +18,7 @@ pip install pymycobot --upgrade
 <img src="./img/0.jpg" alt="" width="70%" height="70%">
 
 确保底座屏幕显示ok
+
 <img src="./img/1.png" alt="" width="70%" height="70%">
 
 ## 4 案例复现
