@@ -47,7 +47,8 @@
 
 
   - [7 成功案例](4-FunctionsAndApplications/7-SuccessfulCases/7-SuccessfulCases.md)
-    * [7.1 myarm mc遥操作案例](4-FunctionsAndApplications/7-SuccessfulCases/7.1-demo_add.md)
+    * [1 myarm mc遥操作案例](4-FunctionsAndApplications/7-SuccessfulCases/7.1-demo_add.md)
+    * [2 键盘控制案例](4-FunctionsAndApplications/7-SuccessfulCases/key.md)
 
 
     <!-- - [8. 配套资源](features-applications/supporting-resources.md) -->
