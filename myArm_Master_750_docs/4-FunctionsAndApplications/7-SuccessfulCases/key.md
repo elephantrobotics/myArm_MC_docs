@@ -16,6 +16,7 @@ Before connecting the robot arm to 24V, manually adjust the robot arm to the pos
 <img src="./img/0.jpg" alt="" width="70%" height="70%">
 
 Make sure the base screen displays ok
+
 <img src="./img/1.png" alt="" width="70%" height="70%">
 
 ## 4 Case reproduction
