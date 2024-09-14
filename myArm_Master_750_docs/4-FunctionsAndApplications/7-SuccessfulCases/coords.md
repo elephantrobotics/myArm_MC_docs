@@ -17,6 +17,7 @@ Before connecting the robot arm to 24V, manually adjust the robot arm to the pos
 <img src="./img/0.jpg" alt="" width="70%" height="70%">
 
 Make sure the base screen displays ok
+
 <img src="./img/1.png" alt="" width="70%" height="70%">
 
 ## 4 Keyboard control
@@ -110,6 +111,7 @@ if __name__ == "__main__":
     keyborad_ctrl()
 ```
 When the robot reaches the target point, record the current coordinates and close the program
+
 <img src="./img/3.jpg" alt="" width="50%" height="50%">
 
 <img src="./img/4.png" alt="" width="50%" height="50%">
