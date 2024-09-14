@@ -19,6 +19,7 @@ pip install pymycobot --upgrade
 <img src="./img/0.jpg" alt="" width="70%" height="70%">
 
 确保底座屏幕显示ok
+
 <img src="./img/1.png" alt="" width="70%" height="70%">
 
 ## 4 键盘控制
@@ -112,6 +113,7 @@ if __name__ == "__main__":
     keyborad_ctrl()  
 ```
 当控制机器人到达目标点后，记录下当前坐标，再关闭程序
+
 <img src="./img/3.jpg" alt="" width="50%" height="50%">
 
 <img src="./img/4.png" alt="" width="50%" height="50%">
