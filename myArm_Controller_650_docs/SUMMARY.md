@@ -42,6 +42,8 @@
       - [1 Python example of obtaining angle information and coordinate information](4-FunctionsAndApplications/7-SuccessfulCases/get_angles.md)
       - [2 Python example of obtaining the terminal ATOM button status](4-FunctionsAndApplications/7-SuccessfulCases/get_atom.md)
       - [3 Python example of obtaining IO input status](4-FunctionsAndApplications/7-SuccessfulCases/get_io.md)
+      - [4 C650&320M5 remote operation case](4-FunctionsAndApplications/7-SuccessfulCases/320.md)
+      - [5 C650&Pro630 remote operation case](4-FunctionsAndApplications/7-SuccessfulCases/630.md)
 
 ## Support and Services
   - [8 About Us](5-SupportAndService/5-SupportAndService.md)
