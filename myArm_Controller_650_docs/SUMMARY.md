@@ -43,6 +43,7 @@
       - [2 python 获取末端ATOM按钮状态案例](4-FunctionsAndApplications/7-SuccessfulCases/get_atom.md)
       - [3 python 获取IO输入状态案例](4-FunctionsAndApplications/7-SuccessfulCases/get_io.md)
       - [4 C650&320M5遥操作案例](4-FunctionsAndApplications/7-SuccessfulCases/320.md)
+      - [5 C650&Pro630遥操作案例](4-FunctionsAndApplications/7-SuccessfulCases/630.md)
     <!-- - [8. 配套资源]() -->
       <!-- - [8.1 产品资料]() -->
       <!-- - [8.2 产品图纸]() -->
