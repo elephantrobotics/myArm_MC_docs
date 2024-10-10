@@ -70,10 +70,16 @@ myarmm.set_joints_angle([90, 45, -90, 90, -90, 90], 40)
 time.sleep(3)
 ```
 
-## 3 控制程序案例
+## 3 C650和M750摇操控制程序案例
 
 ## 程序地址
+
+固件版本v1.0:
 > https://github.com/elephantrobotics/pymycobot/tree/main/demo/myArm_M&C_demo
+
+固件版本v1.1及以上，请参考[固件版本v1.1 C650和M750摇操控制程序](../../7-SuccessfulCases/7.1-demo_add.md#12-案例程序下载):
+> https://github.com/elephantrobotics/pymycobot/tree/main/demo/myArm_M&C_demo_v1.1
+
 
 ## 安装依赖
 
