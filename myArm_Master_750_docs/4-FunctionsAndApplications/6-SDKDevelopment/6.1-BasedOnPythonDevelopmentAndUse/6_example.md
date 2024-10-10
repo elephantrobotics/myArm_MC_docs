@@ -76,7 +76,12 @@ time.sleep(3)
 ## 3 The case for control procedures
 
 ## Program address
+
+Firmware v1.0:
 > https://github.com/elephantrobotics/pymycobot/tree/main/demo/myArm_M&C_demo
+
+Firmware v1.1 and above，用法请参考[myArm_M&C_demo_v1.1](../../7-SuccessfulCases/7.1-demo_add.md#12-download-the-case-program)
+> https://github.com/elephantrobotics/pymycobot/tree/main/demo/myArm_M&C_demo_v1.1
 
 ## Install dependencies
 
