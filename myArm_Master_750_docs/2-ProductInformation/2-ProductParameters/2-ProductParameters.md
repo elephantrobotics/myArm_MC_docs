@@ -122,19 +122,7 @@ Figure 1 Front view of the base
 
 [M750 model download](https://download-elephantrobotics.oss-cn-shenzhen.aliyuncs.com/Product_3d_files/myArm300/%E5%A4%96%E5%8F%91_myarm%20M750.STEP)
 
-<!-- Download link: [https://download.elephantrobotics.com/Product_3d_files/myCobot_320_M5_2022v1.2_230708.STEP](https://download.elephantrobotics.com/Product_3d_files/myCobot_320_M5_2022v1.2_230708.STEP) -->
 
-<!-- <iframe
-    src=""
-    width="100%"
-    height="600px"
-    allowfullscreen="true"
-    webkitallowfullscreen="true"
-    mozallowfullscreen="true"
-    frameborder="0">
-</iframe> -->
-
----
 
 # 4 Electrical Characteristic Parameters
 
