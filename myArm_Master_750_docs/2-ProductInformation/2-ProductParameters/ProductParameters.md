@@ -281,14 +281,8 @@ E. 舵机接口：用于末端拓展夹爪时使用，当前支持配套的自�
  ### 5.4.1 零位校准
 在运动学模型中，实际的零点在2、3关节上存在一些偏置，考虑到校准的方便，用户使用零位校准时对齐刻度线即可，无需对齐模型上的实际零点。
 <img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/零位校准.jpg " width="auto" height="auto" /><br>
-<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/零位校准2D.jpg " width="auto" height="auto" /><br>
  
-
-
  ### 5.4.2 MDH 参数
-
-
-
 DH参数用于描述相邻连杆的相对关系：
 
 - a_i：沿 x_i：从 z_i 到 z_i+1 的距离
@@ -304,14 +298,26 @@ DH参数用于描述相邻连杆的相对关系：
 
  ### 5.4.3 MDH 参数列表 
 
- | 关节 | alpha_i-1 | a_i-1    | d     | theta   | offset |
-| :--- | :---- | :--- | :---- | :------ | :----- |
-| 1    | 0     | 0    | 173.9 | theta_1 | 0      |
-| 2    | -PI/2  | 0    | 0     | theta_2 | -PI/2  |
-| 3    | 0     | 308.315 | 0     | theta_3 | 0      |
-| 4    | -PI/2     | 0 |327.91    | theta_4 | 0  |
-| 5    | PI/2  | 0    | 0 | theta_5 | 0      |
-| 6    | -PI/2 | 0    | 197.1  | theta_6 | PI      |
+| 关节 | theta   | d     | a_i-1 |alpha_i-1 | offset |
+| :--- | :------ | :---- | :---  | :----    | :----- |
+| 1    | theta_1 | 173.9 | 0     | 0        | 0      |
+| 2    | theta_2 | 0     | 0     | -PI/2    | -PI/2  |
+| 3    | theta_3 | 0     |308.315| 0        | 0      |
+| 4    | theta_4 | 327.9 | 0     | -PI/2    | 0      |
+| 5    | theta_5 | 0     | 0     | PI/2     | 0      |
+| 6    | theta_6 | 207   | 0     | -PI/2    | PI     |
+
+
+ ### 5.4.4 关节限位
+| Joint | Min   | Max  |
+| :---  | :---- | :----|
+| 1     | -165  | 165  |
+| 2     | -80   | 100  |
+| 3     | -100  | 80   |
+| 4     | -160  | 160  |
+| 5     | -90   | 120  |
+| 6     | -180  | 180  |
+
 
 ---
 
