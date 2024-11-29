@@ -38,33 +38,4 @@ else:
 
 ```
 
-## 3 The case for control procedures
-
-## Program address
-> https://github.com/elephantrobotics/pymycobot/tree/main/demo/myArm_M&C_demo
-
-## Install dependencies
-
-```shell
-pip install -r requirement.txt
-```
-
-## Run the program
-
-```shell
-python main.py
-```
-
-## Instructions for use of the program
-
-> There are sequential requirements for the opening of the serial port: first open the serial port connection of myArmM, and then open the serial port connection of myArmC.
-
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.1 -BasedOnPythonDevelopmentAndUse/6_example/app_1.png" alt="7.1.1-7" style="zoom: 50%;" />
-
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.1 -BasedOnPythonDevelopmentAndUse/6_example/app_2.png" alt="7.1.1-1" style="zoom: 50%;" />
-
-> After both serial ports are turned on, you can control the `myArmM` movement by moving `myArmC`.
-
----
-
 [← 上一页](5_Handle_control.md) | [下一节 →](../5.2-DevelopmentAndUseBasedOnROS1/1_download.md)

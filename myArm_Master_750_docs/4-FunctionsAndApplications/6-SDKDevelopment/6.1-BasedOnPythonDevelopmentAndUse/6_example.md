@@ -73,38 +73,4 @@ myarmm.set_joints_angle([90, 45, -90, 90, -90, 90], 40)
 time.sleep(3)
 ```
 
-## 3 The case for control procedures
-
-## Program address
-
-Firmware v1.0:
-> https://github.com/elephantrobotics/pymycobot/tree/main/demo/myArm_M&C_demo
-
-Firmware v1.1 and above，用法请参考[myArm_M&C_demo_v1.1](../../7-SuccessfulCases/7.1-demo_add.md#12-download-the-case-program)
-> https://github.com/elephantrobotics/pymycobot/tree/main/demo/myArm_M&C_demo_v1.1
-
-## Install dependencies
-
-```shell
-pip install -r requirement.txt
-```
-
-## Run the program
-
-```shell
-python main.py
-```
-
-## Instructions for use of the program
-
-> There are sequential requirements for the opening of the serial port: first open the serial port connection of myArmM, and then open the serial port connection of myArmC.
-
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.1 -BasedOnPythonDevelopmentAndUse/6_example/app_1.png" alt="7.1.1-7" style="zoom: 50%;" />
-
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.1 -BasedOnPythonDevelopmentAndUse/6_example/app_2.png" alt="7.1.1-1" style="zoom: 50%;" />
-
-> After both serial ports are turned on, you can control the `myArmM` movement by moving `myArmC`.
-
----
-
 [← Previous page](2_API.md) | [Next section →](../6.2-DevelopmentAndUseBasedOnROS1/1_download.md)
