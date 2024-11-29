@@ -47,7 +47,7 @@
 
 
   - [7 成功案例](4-FunctionsAndApplications/7-SuccessfulCases/7-SuccessfulCases.md)
-    * [1 myarm mc遥操作案例](4-FunctionsAndApplications/7-SuccessfulCases/7.1-demo_add.md)
+    * [1 C650&M750遥操作案例](4-FunctionsAndApplications/7-SuccessfulCases/MC_control.md)
     * [2 键盘控制案例](4-FunctionsAndApplications/7-SuccessfulCases/key.md)
     * [3 码垛搬运案例](4-FunctionsAndApplications/7-SuccessfulCases/coords.md)
 

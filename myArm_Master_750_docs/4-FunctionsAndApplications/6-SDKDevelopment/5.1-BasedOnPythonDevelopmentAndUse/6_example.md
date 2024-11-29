@@ -70,41 +70,5 @@ myarmm.set_joints_angle([90, 45, -90, 90, -90, 90], 40)
 time.sleep(3)
 ```
 
-## 3 C650和M750摇操控制程序案例
-
-## 程序地址
-
-固件版本v1.0:
-> https://github.com/elephantrobotics/pymycobot/tree/main/demo/myArm_M&C_demo
-
-固件版本v1.1及以上，请参考[固件版本v1.1 C650和M750摇操控制程序](../../7-SuccessfulCases/7.1-demo_add.md#12-案例程序下载):
-> https://github.com/elephantrobotics/pymycobot/tree/main/demo/myArm_M&C_demo_v1.1
-
-
-## 安装依赖
-
-```shell
-pip install -r requirement.txt
-```
-
-## 运行程序
-
-```shell
-python main.py
-```
-
-## 程序使用说明
-
-> 串口的打开有顺序要求：先开启myArmM的串口连接，再开启myArmC的串口连接。
-
-
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.1 -BasedOnPythonDevelopmentAndUse/6_example/app_1.png" alt="7.1.1-7" style="zoom: 50%;" />
-
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.1 -BasedOnPythonDevelopmentAndUse/6_example/app_2.png" alt="7.1.1-1" style="zoom: 50%;" />
-
-> 两个串口都开启以后就可以通过移动myArmC来控制myArmM运动。
-
----
-
 [← 上一页](2_API.md) | [下一节 →](../5.2-DevelopmentAndUseBasedOnROS1/1_download.md)
 
