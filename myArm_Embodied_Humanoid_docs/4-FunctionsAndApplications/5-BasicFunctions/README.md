@@ -5,7 +5,7 @@
 - [5.1 MyArm M750-Minirobot](5.1-M750-Minirobot/README.md)  
 MyArm M750 版本内置由 Elephant Robotics 独立开发的 miniRoboflow 应用软件。通过简单的按钮交互，即可实现拖动示教、通信转发、状态检查和零点校准等功能。
 
-- [5.1 MyArm C650-Minirobot](5.2-C650-Minirobot/README.md)  
+- [5.2 MyArm C650-Minirobot](5.2-C650-Minirobot/README.md)  
 MyArm C650 版本内置由 Elephant Robotics 独立开发的 miniRoboflow 应用软件。通过简单的按钮交互，即可实现拖动示教、通信转发、状态检查和零点校准等功能。
 内置软件的用户界面简单明了，易于使用。通过通信转发功能，您可以使用各种编程语言和开发环境控制机器人，从而轻松实现机器人控制。
 
