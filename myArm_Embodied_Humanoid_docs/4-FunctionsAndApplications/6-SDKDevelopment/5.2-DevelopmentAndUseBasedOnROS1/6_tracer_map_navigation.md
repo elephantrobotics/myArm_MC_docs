@@ -80,6 +80,13 @@ rosrun map_server map_saver
 
 ![tracer save map](../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/tracer_use/save_map.png)
 
+移动底盘建图实际效果如下（**视频已加速**），仅供参考：
+
+<video id="my-video" class="video-js" controls preload="auto" width="100%"
+poster="" data-setup='{"aspectRatio":"16:9"}'>
+  <source src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/tracer_use/SLAM_mapping.mp4" type='video/mp4' >
+</video>
+
 ## 2 地图导航
 
 >> 注意：开始导航之前，建议将小车的初始位置放在绘制地图时小车所在的起点位置。
@@ -140,6 +147,13 @@ Reset
 设置任务的目标点数量，点击确认并保存。然后点击工具栏上的 "**2D Nav Goal**"，在地图上定义目标点。（每次设置点时，都要先点击 "**2D Nav Goal**"）。目标点区分方向，箭头代表车辆的航向。点击 "Start Navigation "开始导航。在 Rviz 中，您将看到一条从起点到目标点的规划路径，车辆将沿着这条路线行驶到达目的地。
 
 ![navigation_2](../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/tracer_use/navigation_2.png)
+
+导航效果如下（**视频已加速**），仅供参考：
+
+<video id="my-video" class="video-js" controls preload="auto" width="100%"
+poster="" data-setup='{"aspectRatio":"16:9"}'>
+  <source src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/tracer_use/navigation.mp4" type='video/mp4' >
+</video>
 
 ---
 

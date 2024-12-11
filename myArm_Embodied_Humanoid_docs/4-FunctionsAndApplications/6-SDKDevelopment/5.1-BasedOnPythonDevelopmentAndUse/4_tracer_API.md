@@ -4,25 +4,25 @@
 
 * 终端切换到目标目录之后，输入 `python` 指令：
 
-    ```
+    ```bash
     cd ~/catkin_ws/src/mc_embodied_kit_ros/tracer_bringup/scripts
     python
     ```
 * 导入底盘控制的API库
 
-    ```
+    ```python
     from chassis_controller import ChassisController
     ```
  * 简单使用
-    ```
+    ```python
     # 示例
     from chassis_controller import ChassisController
 
     cc = ChassisController()
 
     # 前进、后退
-    cc.move_forward(1.0, 2)  # 前进 2 秒, 速度为 1 m/s
-    cc.move_backward(-1, 2)  # 后退 2 秒, 速度为 -1 m/s
+    cc.move_forward(0.5, 2)  # 前进 2 秒, 速度为 0.5 m/s
+    cc.move_backward(-0.5, 2)  # 后退 2 秒, 速度为 -0.5 m/s
     # 停止小车
     cc.stop()
     ```
@@ -33,28 +33,28 @@
 - **function:** 前进，默认运动1秒
   
 - **Parameters:**
-  - `speed`: 前进速度，范围为 0.0 ~ 1.8 米/秒。
+  - `speed`: 前进速度，范围为 0.0 ~ 0.5 米/秒。
   - `duration`: 运动时长，正整数，单位：秒。
 
 #### 2 `move_backward(speed, duration)`
 - **function:** 后退，默认运动1秒
   
 - **Parameters:**
-  - `speed`: 后退速度，范围为 -1.8 ~ 0 米/秒。
+  - `speed`: 后退速度，范围为 -0.5 ~ 0 米/秒。
   - `duration`: 运动时长，正整数，单位：秒。
 
 #### 3 `turn_left(speed, duration)`
 - **function:** 向左旋转，默认运动1秒
   
 - **Parameters:**
-  - `speed`:运动速度，范围为 0.0 ~ 1.8 米/秒。
+  - `speed`:运动速度，范围为 0.0 ~ 0.5 米/秒。
   - `duration`: 运动时长，正整数，单位：秒。
 
 #### 4 `turn_right(speed, duration)`
 - **function:** 向右旋转，默认运动1秒
   
 - **Parameters:**
-  - `speed`: 运动速度，范围为 -1.8 ~ 0 米/秒。
+  - `speed`: 运动速度，范围为 -0.5 ~ 0 米/秒。
   - `duration`: 运动时长，正整数，单位：秒。
 
 #### 5 `stop(speed, duration)`
