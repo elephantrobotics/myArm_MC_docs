@@ -53,41 +53,39 @@ def keyborad_ctrl():
     print("按下键盘X,往J6+方向运动")
     print("按下键盘E,往J6-方向运动")
     print("按下键盘F,获取当前坐标")
+    print("按下键盘G,控制夹爪开合")
     print("按下键盘ESC,结束程序")
-    blocked_keys = ['w', 'a', 's', 'd', 'q', 'z','f','e','x']
+
+    blocked_keys = ['w', 'a', 's', 'd', 'q', 'z', 'f', 'e', 'x', 'g']
     for key in blocked_keys:
-        keyboard.block_key(key)   
-    key_processed = {
-        'w': False,
-        'a': False,
-        's': False,
-        'd': False,
-        'q': False,
-        'z': False,
-        'f':False,
-        'e': False,
-        'x':False,
-    }
-    else_executed = False  
+        keyboard.block_key(key)
+    key_processed = {key: False for key in blocked_keys}
+    else_executed = False
+    gripper_opened = True  # 默认状态为夹爪打开
+
     try:
         while True:
             if keyboard.is_pressed('esc'):
                 print("退出控制...")
-                break           
+                break
             for key in blocked_keys:
                 if keyboard.is_pressed(key) and not key_processed[key]:
-                    threading.Thread(target=handle_key, args=(key,)).start()
+                    if key == 'g':  # 特殊处理G键
+                        gripper_opened = handle_gripper(gripper_opened)
+                    else:
+                        threading.Thread(target=handle_key, args=(key,)).start()
                     key_processed[key] = True
-                    else_executed = False            
+                    else_executed = False
             if all(not keyboard.is_pressed(key) for key in blocked_keys) and not else_executed:
                 m.stop()
-                else_executed = True      
+                else_executed = True
             for key in key_processed:
                 if not keyboard.is_pressed(key):
                     key_processed[key] = False
-            time.sleep(0.01)      
+            time.sleep(0.01)
     finally:
         keyboard.unhook_all()
+
 
 def handle_key(key):
     if key == 'w':
@@ -103,11 +101,21 @@ def handle_key(key):
     elif key == 'z':
         m.jog_coord(3, 0, 60)
     elif key == 'e':
-        m.jog_angle(6,0,50)   
+        m.jog_angle(6, 0, 50)
     elif key == 'x':
-        m.jog_angle(6,1,50)
+        m.jog_angle(6, 1, 50)
     elif key == 'f':
-        print("当前坐标=",m.get_coords())
+        print("当前坐标=", m.get_coords())
+
+
+def handle_gripper(gripper_opened):
+    if gripper_opened:
+        m.set_gripper_state(1, 100)  # 关闭夹爪
+        # print("夹爪已闭合")
+    else:
+        m.set_gripper_state(0, 100)  # 打开夹爪
+        # print("夹爪已打开")
+    return not gripper_opened  # 切换状态
 
 if __name__ == "__main__": 
     init()

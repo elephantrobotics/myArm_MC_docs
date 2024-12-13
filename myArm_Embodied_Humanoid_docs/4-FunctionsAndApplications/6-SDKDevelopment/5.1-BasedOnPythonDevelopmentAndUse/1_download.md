@@ -201,21 +201,25 @@ from pymycobot import MyArmM
 
 ```python
 # demo.py
-from pymycobot import MyArmM
+from pymycobot import MyArmM, MyArmC
 import time
 
 # 初始化一个MyArmM对象
 # 下面为 MyArmM-windows 版本创建对象代码
-myarmm = MyArmM("COM4", 115200)
+myarmm = MyArmM("COM4", 1000000)
+myarmc = MyArmC("COM5", 1000000)
 
 i = 7
 # 循环7次
 while i > 0:
     myarmm.set_tool_led_color(0, 0, 255)  # 蓝灯亮
+    myarmc.set_tool_led_color(0, 0, 255)  # 蓝灯亮
     time.sleep(2)  # 等2秒
     myarmm.set_tool_led_color(255, 0, 0)  # 红灯亮
+    myarmc.set_tool_led_color(255, 0, 0)  # 红灯亮
     time.sleep(2)  # 等2秒
     myarmm.set_tool_led_color(0, 255, 0)  # 绿灯亮
+    myarmc.set_tool_led_color(0, 255, 0)  # 绿灯亮
     time.sleep(2)  # 等2秒
     i -= 1
 ```

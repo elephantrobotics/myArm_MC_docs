@@ -25,7 +25,7 @@
     - [5.3 固件版本](4-FunctionsAndApplications/5-BasicFunctions/5.3-FirmwareVersionDescription/README.md)
   - [6 软件开发指南](4-FunctionsAndApplications/6-SDKDevelopment/README.md)
     - [6.1 基于 python 开发使用](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/1_download.md)
-      - [API](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/2_API.md>)
+      - [API](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/2_API.md)
       - [相关案例](4-FunctionsAndApplications/6-SDKDevelopment/5.1-BasedOnPythonDevelopmentAndUse/6_example.md)
     - [6.2 基于 ROS1 开发使用](4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download.md)
       - [ROS工作空间代码和使用](4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_workcode.md)

@@ -1,4 +1,4 @@
-# Myarm M750版本:
+# Myarm M&C:
 ## 在Linux中安装不同版本的ubuntu系统
 ### 1 虚拟机安装
 
@@ -353,9 +353,9 @@ https://git-scm.com/book/zh/v2
 https://www.runoob.com/git/git-tutorial.html
 
 
-# MyarmM750 安装
+# Myarm_ros 安装
 
-MyarmM750 是 ElephantRobotics 推出的，适配旗下桌面型六轴机械臂 Myarm系列 的ROS 包。
+Myarm_ros 是 ElephantRobotics 推出的，适配旗下桌面型六轴机械臂 Myarm系列 的ROS 包。
 
 项目地址：https://github.com/elephantrobotics/mycobot_ros/tree/myarm-c650/myArm/myarm_m
 

@@ -6,25 +6,18 @@
 这里的静态仿真是指：用rviz中的滑动模块与仿真中的MyarmM750交互  
 在工作空间打开终端命令行中输入:  
 > source devel/setup.bash # 添加环境变量  
-> roslaunch myarm_m demo_rviz.launch  
+> roslaunch myarm_m mc_embodied_control.launch  
+  
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/launch1.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+**同时会打开rviz，生成Myarm M&C 具身人型复合套件的仿真模型**
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/launch7.jpg" alt="7.1.1-1" style="zoom:100%;" />   
-
-**成功运行launch文件后，终端会显示：**
-
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/launch3.jpg" alt="7.1.1-1" style="zoom:100%;" />    
-
-**同时会打开rviz，生成MyarmM750的仿真模型**
-
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/launch4.jpg" alt="7.1.1-1" style="zoom:100%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/mc_launch2.jpg" alt="7.1.1-1" style="zoom:100%;" />  
 
 
 ## 1.2 动态仿真
-这里的动态仿真是指：运动现实中的MyarmM750与仿真中的MyarmM750交互  
+这里的动态仿真是指：运动现实中的MyarmM&C具身套件与仿真中的MyarmM&C具身套件的交互  
 
-首先我们需要将MyarmM750机械臂通过USB转typeC线连接到我们的电脑上，并给其通电  
+首先我们需要将MyarmM750机械臂通过USB转typeC线连接到系统上，并给其通电  
 通过按钮选中 **Transponder** 再按“OK”按钮
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/Myarm1.jpg" alt="7.1.1-1" style="zoom:50%;" />  
 
@@ -34,77 +27,69 @@
 我们可以看到箭头指向 **“USB UART”** ，再按“OK”按钮，进入之后会显示 **“NO”**，再按 **“Exit”** 按钮，回到箭头指向 **“USB UART”** ，再按“OK”按钮，这时会显示 **“OK”**
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/Myarm3.jpg" alt="7.1.1-1" style="zoom:50%;" />  
 
-#### 这时我们的MyarmM750已经成功连接上电脑
+首先我们需要将MyarmC650机械臂通过USB转typeC线连接到系统上，并给其通电  
+通过按钮选中 **Transponder** 再按“OK”按钮  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/Myarmc1.jpg" alt="7.1.1-1" style="zoom:50%;" />  
 
+然后屏幕会显示  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/Myarmc2.jpg" alt="7.1.1-1" style="zoom:50%;" />  
 
-接下来在工作空间打开终端命令行中输入:  
-> source devel/setup.bash # 添加环境变量  
-> roslaunch myarm_m demo_rviz.launch  
+我们可以看到箭头指向 **“USB UART”** ，再按“OK”按钮，进入之后会显示 **“NO”**，再按 **“Exit”** 按钮，回到箭头指向 **“USB UART”** ，再按“OK”按钮，这时会显示 **“OK”**  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/Myarmc3.jpg" alt="7.1.1-1" style="zoom:50%;" />  
 
+#### 这时我们的MyarmM750 和 MyArmC650已经成功启动
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/MC_1.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/launch1.jpg" alt="7.1.1-1" style="zoom:100%;" />   
-
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/launch7.jpg" alt="7.1.1-1" style="zoom:100%;" />    
-
-**成功运行launch文件后，终端会显示：**
-
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/launch3.jpg" alt="7.1.1-1" style="zoom:100%;" />    
-
-rviz文件也会正常显示
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/launch5.jpg" alt="7.1.1-1" style="zoom:100%;" />  
-
-
-打开VS code中的项目，找到  myArm/myarm_m/scripts/read_control.py 这个 **read_control.py** 文件  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/runpython1.jpg" alt="7.1.1-1" style="zoom:100%;" /> 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/runpython2.jpg" alt="7.1.1-1" style="zoom:100%;" />  
- 
-
-我们也可以继续在终端输入下面的指令，以便查看MyarmM750每个关节的角度变化：  
-> rostopic echo /joint_state  
-
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/topic1.jpg" alt="7.1.1-1" style="zoom:100%;" />    
-
-接下来我们用手移动现实中的MyarmM750机械臂，rviz中的机械臂也会跟着运动：      
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/launch6.jpg" alt="7.1.1-1" style="zoom:100%;" />    
-
-#### 至此与MyarmM750机械臂的交互已全部完成
-
-
-# 二、MyarmC650控制MyarmM750运动
-此功能需要将两台机械臂通过USB的方式同时连接到我们的电脑上，我们要区分每台机械臂连接我们的串口是多少，新建终端：  
+此功能需要将四台机械臂通过USB的方式同时连接到系统上，我们要区分每台机械臂连接我们的串口是多少，新建终端：  
 
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/tty.jpg" alt="7.1.1-1" style="zoom:100%;" />    
 
 按 **TAB键**  
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/tty1.jpg" alt="7.1.1-1" style="zoom:100%;" />    
 
-**如何区分串口号：先连接一台机械臂然后输入ls /dev/tty查看当前串口号，在不断开这一台机械臂的情况下，连接另一台机械臂，输入该指令查看串口号**  
+**如何区分串口号：先连接一台机械臂然后输入ls /dev/tty查看当前串口号，在不断开这一台机械臂的情况下，连接另一台机械臂，输入该指令查看四个机械臂的串口号** 
+根据对应的串口号修改**mc_embodied_kit_ros/myarm_m/scripts/mc_embodied_control.py文件**中的串口号，如图：
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/mc_serial.jpg" alt="7.1.1-1" style="zoom:100%;" />
 
 在工作空间新建一个终端输入：  
 > roscore  
-
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/launch1.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/roscore.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
-再新建一个终端，输入：  
-> source devel/setup.bash  
-> roslaunch myarm_m combined_control.launch  
+再新建一个终端，输入：   
+> roslaunch myarm_m mc_embodied_control.launch  
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/combinedlaunch.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/mc_rviz.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
-启动rviz仿真之后，再打开**myArm/myarm_m/scripts/combined_control.py** 路径下的.py文件   
+启动rviz仿真之后，再打开一个新的Terminal，输入：
+> rosrun myarm_m mc_embodied_control.py
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/combinedrunpython.jpg" alt="7.1.1-1" style="zoom:100%;" />   
-
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/combinedrunpython1.jpg" alt="7.1.1-1" style="zoom:100%;" />    
+即可实现MyarmC650控制MyarmM750的功能
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/mc_rviz_2.jpg" alt="7.1.1-1" style="zoom:100%;" />    
 
 此时，我们就能用手去运动MyarmC650机械臂，rivz中的两款机械臂都跟随现实中的MyarmC650运动，在此同时，现实中的MayrmM750机械臂也会跟随MyarmC650运动（夹抓功能也可以运动）  
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/combinedlaunch1.jpg" alt="7.1.1-1" style="zoom:100%;" />    
-
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/combinedlaunch2.jpg" alt="7.1.1-1" style="zoom:100%;" />    
 
 ## 至此，MyarmC650控制MyarmM750的功能全部实现
+
+## 1.3 开启摄像头节点
+### 1.3.1首先启动一个终端，输入：
+> sudo apt-get update
+>
+> sudo apt-get install ros-noetic-usb-cam
+
+### 1.3.2再启动一个终端，输入：
+> cd mc_embodied_kit_ros
+>
+> catkin_make
+>
+> source devel/setup.bash
+>
+> roslaunch my_camera usb_cam.launch
+
+#### 运行指令之后即可打开两个摄像头：
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/pic_1.jpg" alt="7.1.1-1" style="zoom:100%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/pic_2.jpg" alt="7.1.1-1" style="zoom:100%;" />  
+
 
 ---
 
