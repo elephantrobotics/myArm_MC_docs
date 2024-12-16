@@ -47,7 +47,7 @@
       - [ROS2常用工具命令](4-FunctionsAndApplications/6-SDKDevelopment/5.3-DevelopmentAndUseBasedOnROS2/3_ROScode.md)
       - [ROS2架构和通信](4-FunctionsAndApplications/6-SDKDevelopment/5.3-DevelopmentAndUseBasedOnROS2/4_communication.md)
 
-    - [6.4 基于通信协议包开发](./)
+    - [6.4 基于通信协议包开发](4-FunctionsAndApplications/6-SDKDevelopment/5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.1-M750-CommunicationDoc.md)
       - [1 MyArm M750](4-FunctionsAndApplications/6-SDKDevelopment/5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.1-M750-CommunicationDoc.md)
       - [ 2 MyArm C650](4-FunctionsAndApplications/6-SDKDevelopment/5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.2-C650-CommunicationDoc.md)
       - [ 3 Tracer 移动底盘](4-FunctionsAndApplications/6-SDKDevelopment/5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.3-Tracer-CommunicationDoc.md)
