@@ -1,14 +1,14 @@
-# myArm Master 750
+# myArm M&C Embodied Human Composite Kit
 Universal Intelligent Six Degree of Freedom Robotic Arm
 
 Core Document
 ---
 
-This document contains comprehensive information ranging from product introduction, detailed technical specifications to user instructions and initial installation guidance. We delve into the fundamental functionalities of the myArm M750 robotic arm, provide software development guidelines, and showcase successful application cases to help you understand how to effectively integrate the myArm M750 into various applications. Additionally, we offer rich support and service information to ensure you receive necessary assistance when encountering any technical challenges.
+This document contains comprehensive information from product introduction and detailed technical specifications to user notes and initial installation instructions. We will explain in depth the basic functions of the myArm M&C Embodied Human Composite arm, provide a software development guide, and showcase successful application cases to help you understand how to effectively integrate the myArm M&C Embodied Human Composite Suite into a variety of applications. In addition, we provide a wealth of support and service information to ensure that you can get the necessary help in any technical challenge.
 ### gitbook-en
-English Version: https://docs.elephantrobotics.com/docs/myarm-master_750-en/
+English Version: https://docs.elephantrobotics.com/docs/myarm-MC-embodied-en/
 ### gitbook-cn
-Chinese Version: https://docs.elephantrobotics.com/docs/myarm-master_750-cn/
+Chinese Version: https://docs.elephantrobotics.com/docs/myarm-MC-embodied-cn/
 
 Document Overview
 ---
@@ -28,7 +28,7 @@ The Features and Applications section elaborates on the basic functionalities of
 The Support and Services section will provide you with comprehensive troubleshooting guides and post-purchase service information such as warranty and service terms, helping you quickly resolve issues and ensuring you understand your rights and obligations after purchase. Additionally, the 'About Us' section enhances users' understanding of the design and manufacturer of the myArm series products, aiming to build trust and brand loyalty.
 
 #### Acknowledgments
-We greatly appreciate your time spent reading the myArm M750 user manual. We hope this document will help you better understand and effectively use this robot, inspiring your creativity. If you have any questions or need further assistance, please feel free to contact our customer support team. We look forward to seeing you use the myArm M750 for innovative projects and welcome you to join our rapidly growing developer community.
+We appreciate you taking the time to read the myArm M&C Embodied Human Composite Kit user manual. We hope that this document will help you better understand and use this robot effectively, thereby stimulating your creativity. If you have any questions or need further assistance, please feel free to contact our customer support team. We look forward to seeing you complete innovative projects with the myArm M&C Embodied Human Composite Kit and welcome you to our rapidly growing developer community.
 
 # Summary
 
@@ -77,7 +77,7 @@ We greatly appreciate your time spent reading the myArm M750 user manual. We hop
       - [Common ROS tool commands](4-FunctionsAndApplications/6-SDKDevelopment/6.3-DevelopmentAndUseBasedOnROS2/3_ROScode.md)
       - [ROS architecture and communication](4-FunctionsAndApplications/6-SDKDevelopment/6.3-DevelopmentAndUseBasedOnROS2/4_communication.md)
 
-    - [6.4 Communication Packages](./)
+    - [6.4 Communication Packages](4-FunctionsAndApplications/6-SDKDevelopment/5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.1-M750-CommunicationDoc.md)
       - [1 MyArm M750](4-FunctionsAndApplications/6-SDKDevelopment/6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.1-M750-CommunicationDoc.md)
       - [ 2 MyArm C650](4-FunctionsAndApplications/6-SDKDevelopment/6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.2-C650-CommunicationDoc.md)
       - [ 3 Tracer Mobile Chassis](4-FunctionsAndApplications/6-SDKDevelopment/6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.3-Tracer-CommunicationDoc.md)

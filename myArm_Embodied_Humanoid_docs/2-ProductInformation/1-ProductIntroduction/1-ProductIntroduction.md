@@ -1,21 +1,22 @@
 # Product Overview
 
-#### myArm Master 750
+#### myArm M&C Embodied Human Composite Kit
 
-<img src="..\..\resources\2-ProductInformation\1-ProductIntroduction\M750.png" alt="img-1" width="900" height=“auto” /><br>
+<img src="..\..\resources\2-ProductInformation\1-ProductIntroduction\M&C.jpg" alt="img-1" width="900" height=“auto” /><br>
 
-#### General -purpose intelligent six free degree robotic arm
+#### A human-shaped composite kit with four general-purpose intelligent six-DOF robotic arms
 
 ## Product introduction
 
-The device of Myarm Master 750 Six Freedom Movement Control Verification
-It is a universal intelligent robotic arm with an advanced Master main controller. As a device for exercise control verification, it is suitable for a variety of scenarios that require complex motion control, accurate positioning and highly programmed, which can realize end -to -end data training and duplication, research and business display.
+myArm M&C Embodied Human Composite Kit is an innovative human robot platform launched by Shenzhen Elephant Robot Technology Co., LTD., designed for education, research and industrial applications. The suite's highly integrated composite design, combined with a human-shaped structure and adjustable joints, provides flexible motion control and precise task execution. Through embodied intelligence technology, the myArm M&C Embodied Human Composite Kit is not only capable of autonomously performing tasks, but also intelligently interacting, sensing and responding to the external environment in real time. Its modular design allows users to customize the hardware and software according to the needs, which greatly improves the scalability and flexibility of the application.
 
-The robotic arm has a six -degree -free precision operation ability. It is designed for education and research, suitable for machine learning, AI, and visual -based tasks. The robotic wing is 750mm and the standard load is 500g. Under specific conditions, it can carry a maximum of 1kg, which can meet the needs of various scientific research and experimental needs.
+The precision control system of the myArm M&C Embodied Human Composite Kit ensures the high precision and stability of the robot in the execution of tasks, and is widely used in many fields such as industrial automation, robot education and research and development. Support ROS, Python and other development platforms, developers can easily carry out secondary development and application customization. myArm M&C Embodied Human Composite Kit not only provides a powerful hardware platform for the research and development of robotics technology, but also provides a highly potential solution for intelligent interaction and service robots, and is an ideal tool to explore future robot applications.
 
 ## Design Philosophy
 
-The design concept of the MyARM M750 universal intelligent robotic arm comes from a deep understanding of the current demand for scientific and technological education and research. The rapid development of high -tech fields such as machine learning and artificial intelligence requires experimental equipment not only to have common functionality, but also to have flexibility and accuracy. The design aims to meet these complex needs and provide a solution that is both flexible and accurate and adapted to various application scenarios.
+The design concept of myArm M&C Embodied Human Composite Kit comes from the deep integration of human intelligence and machine intelligence, and is committed to creating a robot platform with high flexibility, precision and scalability. By combining the human-shaped structure and advanced embodied intelligent technology, the product not only focuses on the precision and stability of the mechanical structure, but also pays more attention to the perception and interaction ability of the robot, and strives to provide users with an intelligent, easy-to-use and powerful tool to promote the popularization and application of robot technology.
+
+During the design process, the myArm M&C Embodied Human Composite Suite adheres to the principles of modularity and openness, allowing users to freely customize hardware and software configurations according to their needs. Through high-precision motion control and flexible operation mode, the product can adapt to a variety of complex application scenarios, from education and scientific research to industrial automation, from single task execution to intelligent interactive experience, myArm M&C Embodied Human composite kit can provide users with efficient, accurate and personalized solutions. Its strong compatibility and extensive development platform support give developers unlimited creative space and promote the development of robot technology in a more intelligent, open and practical direction.
 
 ## Design Goals
 
@@ -23,18 +24,18 @@ The design concept of the MyARM M750 universal intelligent robotic arm comes fro
 
 | **Design Goals**           | **Functional realisation**                                                                                                                                |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Universal multifunctional platform**     | The MyARM M750 is suitable for various application scenarios such as education, research and business display. Its six -degree of freedom and 750mm wingspan support to perform complex motion control in various working environments, such as precise positioning and path planning.  |
-| **Scientific research and education support**     | The MyARM M750 is suitable for machine learning and artificial intelligence research, which can perform high -precision experiments and technical demonstrations. It supports end -to -end data training and reproduction, and basic visual tasks, which is an ideal device in the laboratory. |
-| **Programming and scalability**   | The highly programmer of the MyARM M750 allows users to customize and programming according to emerging technology to meet future technical needs and achieve optimized operations and experimental results.                                     |
-| **Technical innovation and knowledge spread** | In business display, the MyARM M750 can be used as a platform carrier to show the latest scientific and technological achievements. It aims to improve the public's understanding and interest in science and technology and promote the transformation of scientific and technological innovation to commercialization.                       |
+| **Universal multifunctional platform**     | The MyARM Embodied Human Composite Kit is suitable for various application scenarios such as education, research and business display. Its six -degree of freedom and 750mm wingspan support to perform complex motion control in various working environments, such as precise positioning and path planning.  |
+| **Scientific research and education support**     | The MyARM Embodied Human Composite Kit is suitable for machine learning and artificial intelligence research, which can perform high -precision experiments and technical demonstrations. It supports end -to -end data training and reproduction, and basic visual tasks, which is an ideal device in the laboratory. |
+| **Programming and scalability**   | The highly programmer of the MyARM Embodied Human Composite Kit allows users to customize and programming according to emerging technology to meet future technical needs and achieve optimized operations and experimental results.                                     |
+| **Technical innovation and knowledge spread** | In business display, the MyARM Embodied Human Composite Kit can be used as a platform carrier to show the latest scientific and technological achievements. It aims to improve the public's understanding and interest in science and technology and promote the transformation of scientific and technological innovation to commercialization.                       |
 
 ## Features
 
-<img src="..\..\resources\2-ProductInformation\1-ProductIntroduction\M750product.jpg" alt="img-1" width="900" height=“auto” /><br>
+<img src="../../resources/2-ProductInformation/1-ProductIntroduction/MC_product.png" alt="img-1" width="900" height=“auto” /><br>
 
 | **Feature description** | **content** |
 |--------------------------|-------------------------------------------------------------------------------|
-| **6 Freedom modular design** | The perfect combination of flexibility and scalability is suitable for complex operations. |
+| **4 units 6 degrees of freedom modular design** | The perfect combination of flexibility and scalability is suitable for complex operations. |
 | **Industrial -grade digital servo motor** | Ensure the precise control and long term stable operation of the robotic arm. |
 | **High-precision encoder** | Provide accurate location, speed and acceleration information to optimize performance. |
 | **Support multiple development environments** | Including Python and ROS to meet different development needs. |
@@ -49,9 +50,9 @@ The design concept of the MyARM M750 universal intelligent robotic arm comes fro
 
 |                        |                                                                                                                 |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------- |
-| **Enhance experiment and research capabilities** | The MyARM M750 provides researchers with a platform that can perform high precision operations to help complex data analysis and algorithm verification.                       |
+| **Enhance experiment and research capabilities** | The MyARM Embodied Human Composite Kit provides researchers with a platform that can perform high precision operations to help complex data analysis and algorithm verification.                       |
 | **Improve the quality of education**       | In the educational environment, the device can provide opportunities for practical operations to help students better understand theory and cultivate practical ability.                        |
-| **Increase business and display opportunities** | The M750 is not limited to laboratory use, its application in technical exhibitions and public demonstrations can attract audiences and potential customers, enhance the interaction and attractiveness of technical display. |
+| **Increase business and display opportunities** | The Embodied Human Composite Kit is not limited to laboratory use, its application in technical exhibitions and public demonstrations can attract audiences and potential customers, enhance the interaction and attractiveness of technical display. |
 
 ## Industry Contribution
 
@@ -63,15 +64,15 @@ The design concept of the MyARM M750 universal intelligent robotic arm comes fro
 
 # Application
 
-<img src="..\..\resources\2-ProductInformation\1-ProductIntroduction\M750application4.jpg" alt="img-1" width="900" height=“auto” /><br>
+<img src="..\..\resources\2-ProductInformation\1-ProductIntroduction\MC_app.png" alt="img-1" width="900" height=“auto” /><br>
 
 ## Client
 
 |                              |                                                                                                                                                                    |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Higher education institutions and research laboratories** | myArm M750 is a teaching and research tool designed for high-precision experiments and technology demonstrations. It can effectively support complex data analysis, algorithm development and validation activities, significantly improving research quality and educational effectiveness.                            |
-| **Higher education institutions and research laboratories**       | Supporting both Python and ROS development environments, the myArm M750 is suitable for professionals who need personalised programming and system integration. Its modular design and high programmability make it the ideal platform for developing and testing new control algorithms or robotics applications. |
-| **Organiser of commercial displays and public exhibitions** | The myArm M750 has become the preferred equipment for science and technology demonstrations and product presentations due to its precision operation and display advantages. Dynamic demonstration not only attracts the audience, but also enhances the sense of participation and effectively promotes technological innovations and products.                                    |
+| **Higher education institutions and research laboratories** | myArm Embodied Human Composite Kit is a teaching and research tool designed for high-precision experiments and technology demonstrations. It can effectively support complex data analysis, algorithm development and validation activities, significantly improving research quality and educational effectiveness.                            |
+| **Higher education institutions and research laboratories**       | Supporting both Python and ROS development environments, the myArm Embodied Human Composite Kit is suitable for professionals who need personalised programming and system integration. Its modular design and high programmability make it the ideal platform for developing and testing new control algorithms or robotics applications. |
+| **Organiser of commercial displays and public exhibitions** | The myArm Embodied Human Composite Kit has become the preferred equipment for science and technology demonstrations and product presentations due to its precision operation and display advantages. Dynamic demonstration not only attracts the audience, but also enhances the sense of participation and effectively promotes technological innovations and products.                                    |
 | **Innovative enterprises and start-ups**       | The myArm Master 750 provides powerful support for companies seeking to integrate cutting-edge robotics to enhance product functionality or optimise production processes. Its outstanding performance and adaptability make it ideal for exploring new technologies and solutions.              |
 
 ## Application Scenario
@@ -86,7 +87,7 @@ The design concept of the MyARM M750 universal intelligent robotic arm comes fro
 ## Peripheral Accessories
 
 <img src="..\..\resources\2-ProductInformation\1-ProductIntroduction\M750tools.png" alt="img-1" width="1600" height=“auto” /><br>
-A wide range of peripheral accessories provides myArm M750 arm with extensive functionality extensions, making it suitable for a variety of industrial, research and educational scenarios. By combining these accessories, users can significantly increase the flexibility and utility of the myArm M750 arm.
+A wide range of peripheral accessories provides myArm Embodied Human Composite Kit arm with extensive functionality extensions, making it suitable for a variety of industrial, research and educational scenarios. By combining these accessories, users can significantly increase the flexibility and utility of the myArm Embodied Human Composite Kit arm.
 
 #### myCobot Adaptive jaws
 

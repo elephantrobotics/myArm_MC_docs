@@ -2,7 +2,8 @@
 
 ## 1 Environment
 
-The myArm C650 is developed and used on a PC. Since there is no built-in system in the robot arm, it is necessary to combine the robot arm with a PC during use. Please prepare a PC before use.
+The myArm M&C Embodied Human Composite Kit consists of two robotic arms, one M750 and one C650. among
+The myArm M750 and myArm C650 are based on PC development and use. Since there is no built-in system in the robot arm, it is necessary to combine the robot arm and the PC during use. Please prepare your PC before use.
 
 ## 2 Development Environment
 

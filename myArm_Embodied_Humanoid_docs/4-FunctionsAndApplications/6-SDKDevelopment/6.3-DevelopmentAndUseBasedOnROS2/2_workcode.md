@@ -11,19 +11,19 @@ Create a new terminal:
 > source install/setup.bash   
 > ros2 launch myarm_m750 test.launch.py  
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3 -DevelopmentAndUseBasedOnROS2/1_download/colcon_2.jpg" alt="7.1.1-1" style="zoom:100%;" />   
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3 -DevelopmentAndUseBasedOnROS2/1_download/colcon2.jpg" alt="7.1.1-1" style="zoom:100%;" />   
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3 -DevelopmentAndUseBasedOnROS2/1_download/colcon1.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3-DevelopmentAndUseBasedOnROS2/1_download/colcon_2.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3-DevelopmentAndUseBasedOnROS2/1_download/colcon2.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3-DevelopmentAndUseBasedOnROS2/1_download/colcon1.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3 -DevelopmentAndUseBasedOnROS2/1_download/launch.py4.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3-DevelopmentAndUseBasedOnROS2/1_download/launch.py4.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
 **After successfully running the launch file, the terminal will display:**
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3 -DevelopmentAndUseBasedOnROS2/1_download/launch.py.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3-DevelopmentAndUseBasedOnROS2/1_download/launch.py.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
 **At the same time, rviz will be opened to generate a simulation model of MyarmM750**
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/launch4.jpg" alt="7.1.1-1" style="zoom:100%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/launch4.jpg" alt="7.1.1-1" style="zoom:100%;" />  
 
 
 ## 1.2 Dynamic simulation
@@ -31,13 +31,13 @@ Dynamic simulation here refers to the interaction of the MyarmM750 in motion rea
 
 First of all, we need to connect the MyarmM750 robotic arm to our computer via a USB to TypeC cable and power it on    
 Select the **Transponder** button and press the **OK** button
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download1/Myarm1.jpg" alt="7.1.1-1" style="zoom:50%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/Myarm1.jpg" alt="7.1.1-1" style="zoom:50%;" />  
 
 Then the screen will be displayed:    
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download1/Myarm2.jpg" alt="7.1.1-1" style="zoom:50%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/Myarm2.jpg" alt="7.1.1-1" style="zoom:50%;" />  
 
 We can see that the arrow points to **"USB UART"**, then press the **"OK"** button, after entering **"NO"**, then press the **"Exit"** button, go back to the arrow pointing to **"USB UART"**, and then press the **"OK"** button, then **"OK"** will be displayed **"OK"**  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download1/Myarm3.jpg" alt="7.1.1-1" style="zoom:50%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/Myarm3.jpg" alt="7.1.1-1" style="zoom:50%;" />  
 
 #### At this time, our MyarmM750 has been successfully connected to the computer
 
@@ -48,35 +48,35 @@ Next, enter it in the Workspace Open Terminal command line:
 > ros2 launch myarm_m750 test.launch.py   
 
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3 -DevelopmentAndUseBasedOnROS2/1_download/colcon_2.jpg" alt="7.1.1-1" style="zoom:100%;" />   
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3 -DevelopmentAndUseBasedOnROS2/1_download/colcon2.jpg" alt="7.1.1-1" style="zoom:100%;" />   
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3 -DevelopmentAndUseBasedOnROS2/1_download/colcon1.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3-DevelopmentAndUseBasedOnROS2/1_download/colcon_2.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3-DevelopmentAndUseBasedOnROS2/1_download/colcon2.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3-DevelopmentAndUseBasedOnROS2/1_download/colcon1.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3 -DevelopmentAndUseBasedOnROS2/1_download/launch.py4.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3-DevelopmentAndUseBasedOnROS2/1_download/launch.py4.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
 **After successfully running the launch file, the terminal will display:**
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3 -DevelopmentAndUseBasedOnROS2/1_download/launch.py.jpg" alt="7.1.1-1" style="zoom:100%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3-DevelopmentAndUseBasedOnROS2/1_download/launch.py.jpg" alt="7.1.1-1" style="zoom:100%;" />   
 
 The rviz file will also display normally
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download1/launch5.jpg" alt="7.1.1-1" style="zoom:100%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/launch5.jpg" alt="7.1.1-1" style="zoom:100%;" />  
 
 
 Open the project in VS code and find the **read_control.py** file myArm/myarm_m750/myarm_m750/read_control.py     
 
 - **Open the .py file, right-click, select "Run Python", and then click "Run Python file in the terminal"**    
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download1/runpython2.jpg" alt="7.1.1-1" style="zoom:100%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/runpython2.jpg" alt="7.1.1-1" style="zoom:100%;" />  
 
 To create a new terminal in the workspace, enter the following command, first look at the running node, then look at the PID of the **joint_state_publisher** node, and finally kill the number string generated by this node:  
 > ros2 node list  
 > ps aux | grep joint_state_publisher   
 >  kill 32695  #This string of numbers is generated at random   
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3 -DevelopmentAndUseBasedOnROS2/1_download/ros2kill1.jpg" alt="7.1.1-1" style="zoom:100%;" />    
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3-DevelopmentAndUseBasedOnROS2/1_download/ros2kill1.jpg" alt="7.1.1-1" style="zoom:100%;" />    
 
 Next, we move the real-life MyarmM750 robotic arm with our hands, and the robotic arm in rviz will also follow:        
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download1/launch6.jpg" alt="7.1.1-1" style="zoom:100%;" />    
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/launch6.jpg" alt="7.1.1-1" style="zoom:100%;" />    
 
 #### At this point, the interaction with the MyarmM750 robotic arm has been completed  
 

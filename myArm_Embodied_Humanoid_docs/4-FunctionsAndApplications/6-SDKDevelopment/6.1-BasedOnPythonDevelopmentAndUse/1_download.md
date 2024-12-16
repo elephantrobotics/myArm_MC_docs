@@ -207,21 +207,25 @@ Create a new Python file, and type the following codes to set the color of RGB l
 
 ```python
 # demo.py
-from pymycobot import MyArmM
+from pymycobot import MyArmM, MyArmC
 import time
 
 # Initiate MyCobot
 # Create object code here for windows version
-myarmm = MyArmM("COM4", 115200)
+myarmm = MyArmM("COM4", 1000000)
+myarmc = MyArmC("COM5", 1000000)
 
 i = 7
 #loop 7 times
 while i > 0:
-    myarmm.set_tool_led_color(0, 0, 255)  # blue light on
+    myarmm.set_tool_led_color(0, 0, 255)  # 蓝灯亮
+    myarmc.set_tool_led_color(0, 0, 255)   # blue light on
     time.sleep(2)  # wait for 2 seconds		
-    myarmm.set_tool_led_color(255, 0, 0)  #red light on
+    myarmm.set_tool_led_color(255, 0, 0)
+    myarmc.set_tool_led_color(255, 0, 0)  #red light on
     time.sleep(2)  # wait for 2 seconds	
     myarmm.set_tool_led_color(0, 255, 0)  #green light on
+    myarmc.set_tool_led_color(0, 255, 0)
     time.sleep(2)  # wait for 2 seconds	
     i -= 1
 ```

@@ -30,7 +30,7 @@ The release version and maintenance cycle corresponding to ROS2 and Ubuntu.
 # 3 Comparison of ROS and ROS2
 
 ROS2 redesigned the system architecture. The architecture changes between the two generations of ROS are as follows:  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3 -DevelopmentAndUseBasedOnROS2/1_download/ros-ros2.png" alt="7.1.1-1" style="zoom:0%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3-DevelopmentAndUseBasedOnROS2/1_download/ros-ros2.png" alt="7.1.1-1" style="zoom:0%;" />  
 
 
 
@@ -61,28 +61,28 @@ Go to [Official website](https://www.virtualbox.org/wiki/Downloads) to download 
 Of course, if you already have your virtual machine, you can skip that step.    
 We chose to download the Virtual box because it is free.  
 
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/box.png" alt="7.1.1-1" style="zoom:0%;" />
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/installbox.gif" alt="7.1.1-1" style="zoom:0%;" />
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/box.png" alt="7.1.1-1" style="zoom:0%;" />
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/box2.gif" alt="7.1.1-1" style="zoom:0%;" />
 
 ### 2 Create a new virtual machine
 #### 2.1 Create a virtual machine
 
 **In Control, select New**  
 Enter the name of the VM and the location where the VM is stored, select the VM type as Linux, and select the ubuntu 64-bit version to proceed to the next step.  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/vbox-1.jpg" alt="7.1.1-1" style="zoom:0%;" />
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/vbox-1.jpg" alt="7.1.1-1" style="zoom:0%;" />
 
 Configure the memory size according to your needs and proceed to the next step.    
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/vbox-4.jpg" alt="7.1.1-1" style="zoom:0%;" />
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/vbox-4.jpg" alt="7.1.1-1" style="zoom:0%;" />
 
 Select **Create virtual hard disk** now to create it.   
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/vbox-5.jpg" alt="7.1.1-1" style="zoom:0%;" />
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/vbox-5.jpg" alt="7.1.1-1" style="zoom:0%;" />
 
 Select **VDI** for Virtual Hard Disk Type and proceed to the next step.   
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/vbox-6.jpg" alt="7.1.1-1" style="zoom:0%;" />
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/vbox-6.jpg" alt="7.1.1-1" style="zoom:0%;" />
 
 Allocate the size of the virtual hard disk, since the ubuntu system needs to be installed, and it will also operate in the system, it is recommended that the size should not be less than 20G.     
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/vbox-7.jpg" alt="7.1.1-1" style="zoom:0%;" />  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/vbox-8.jpg" alt="7.1.1-1" style="zoom:0%;" />
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/vbox-7.jpg" alt="7.1.1-1" style="zoom:0%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/vbox-8.jpg" alt="7.1.1-1" style="zoom:0%;" />
 
 #### 2.2 Import the Ubuntu system
 ##### 2.2.1 Download the Ubuntu system
@@ -94,47 +94,47 @@ Note: ROS2 requires version 20.04 to be downloaded.
 > [20.04 version](https://old-releases.ubuntu.com/releases/20.04.3/)
 
 **The installation method and process are the same for all three versions, and version 18.04 is used as an example for installation**  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/u-1.jpg" alt="7.1.1-1" style="zoom:0%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/u-1.jpg" alt="7.1.1-1" style="zoom:0%;" />  
 
 After the download is completed, there is a file as shown in the figure:    
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/u-2.jpg" alt="7.1.1-1" style="zoom:0%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/u-2.jpg" alt="7.1.1-1" style="zoom:0%;" />  
 
 ##### 2.2.2 Import Ubuntu to the virtual machine
 
 Locate the previously installed virtual machine in the virtual box, go to **Settings**, and assign a disc to the controller in **Storage**：  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/vbox-2.jpg" alt="7.1.1-1" style="zoom:0%;" />  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/ros-1.jpg" alt="7.1.1-1" style="zoom:0%;" />  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/vbox-3.jpg" alt="7.1.1-1" style="zoom:0%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/vbox-2.jpg" alt="7.1.1-1" style="zoom:0%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/ros-1.jpg" alt="7.1.1-1" style="zoom:0%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/vbox-3.jpg" alt="7.1.1-1" style="zoom:0%;" />  
 Then open the virtual machine for ubuntu installation and click start.    
 
 ##### 2.2.3 ubuntu installation
 
 Wait for the system to boot, enter the **Welcome** interface, select "Chinese (Simplified)", and click the "Install Ubuntu" button；
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/uit-1.jpg" alt="7.1.1-1" style="zoom:0%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/uit-1.jpg" alt="7.1.1-1" style="zoom:0%;" />  
 
 Click “Continue” button;  
   
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/uit-2.jpg" alt="7.1.1-1" style="zoom:0%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/uit-2.jpg" alt="7.1.1-1" style="zoom:0%;" />  
 
 Select the "Clear entire disk and install Ubuntu" option, and click the "Install Now" button;  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/uit-3.jpg" alt="7.1.1-1" style="zoom:0%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/uit-3.jpg" alt="7.1.1-1" style="zoom:0%;" />  
 
 Click the "Continue" button in the pop-up dialog box;  
   
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/uit-4.jpg" alt="7.1.1-1" style="zoom:98%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/uit-4.jpg" alt="7.1.1-1" style="zoom:98%;" />   
 
 Set a geographic position and click the “Continue” button;  
   
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/uit-5.jpg" alt="7.1.1-1" style="zoom:0%;" />  
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/uit-5.jpg" alt="7.1.1-1" style="zoom:0%;" />  
 
 Set a user name and password, and click the “Continue” button;  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/uit-6.jpg" alt="7.1.1-1" style="zoom:0%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/uit-6.jpg" alt="7.1.1-1" style="zoom:0%;" />   
 
 Enter the system installation interface, and wait patiently;   
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/uit-7.jpg" alt="7.1.1-1" style="zoom:100%;" />    
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/uit-7.jpg" alt="7.1.1-1" style="zoom:100%;" />    
 
 After installation is complete, click the "Restart now" button in the pop-up dialog box to complete the installation.  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/2_download_en/uit-8.jpg" alt="7.1.1-1" style="zoom:155%;" />
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download_en/uit-8.jpg" alt="7.1.1-1" style="zoom:155%;" />
 
 # 1 ROS2 Environment building  
 ## 1.1 Installing ROS2 
@@ -234,7 +234,7 @@ To verify whether ROS2 has been installed successfully, open a console terminal 
 > ros2
 
 When the following interface is displayed, it means that ROS2 has been installed successfully.  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3 -DevelopmentAndUseBasedOnROS2/1_download/12.2.1-1.png" alt="7.1.1-1" style="zoom:0%;" />      
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.3-DevelopmentAndUseBasedOnROS2/1_download/12.2.1-1.png" alt="7.1.1-1" style="zoom:0%;" />      
 
 
 ## 1.2 MoveIt2 Installation
@@ -271,7 +271,7 @@ Read the git version, open a console terminal (shortcut key: Ctrl+Alt+T) and inp
 
 The git version number can be displayed in the terminal as follows, that is, the installation is successful.
 
-><img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/git.jpg" alt="7.1.1-1" style="zoom:100%;" />
+><img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/git.jpg" alt="7.1.1-1" style="zoom:100%;" />
 
 
 
@@ -308,7 +308,7 @@ The official default ROS2 workspace is colcon_ws.
 - Quick Installation:pip install pymycobot --upgrade
 
 When executing the Pip Instale Pimicobo-Uprad command, if the following error message appears:  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/ros-5.jpg" alt="7.1.1-1" style="zoom:0%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/ros-5.jpg" alt="7.1.1-1" style="zoom:0%;" />   
 
 Enter the following command to install pip when prompted:  
 
@@ -334,13 +334,13 @@ The official default ROS1 workspace is colcon_ws.
 
 ### For the subsequent programming, we also need to download one VS code
 #### Here we will choose the most convenient method: **Installing in Ubuntu Software [Easy & Convenient]**  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/vs1.jpg" alt="7.1.1-1" style="zoom:0%;" />   
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/vs2.png" alt="7.1.1-1" style="zoom:0%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/vs1.jpg" alt="7.1.1-1" style="zoom:0%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/vs2.png" alt="7.1.1-1" style="zoom:0%;" />   
 
 **After installation, we also need to install the python environment**  
 To run a python file, click on the left extension (ctrl+shift+X) - search for python, download and install        
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/python2.jpg" alt="7.1.1-1" style="zoom:0%;" />     
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/python.jpg" alt="7.1.1-1" style="zoom:0%;" />      
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/python2.jpg" alt="7.1.1-1" style="zoom:0%;" />     
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/python.jpg" alt="7.1.1-1" style="zoom:0%;" />      
 
 After installation, you can click on the upper left file, select New File, select the file type as Python, write your own Python code, and then click Run in the upper menu bar    
 
@@ -354,7 +354,7 @@ Open a new terminal (shortcutCtrl+Alt+T)enter the command to open rviz2
 > rviz2  
 
 Open RVIZ2 and display the following interface:  
-<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2 -DevelopmentAndUseBasedOnROS1/1_download/rviz1.jpg" alt="7.1.1-1" style="zoom:0%;" />   
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/rviz1.jpg" alt="7.1.1-1" style="zoom:0%;" />   
 
 ### 3.1.1 Introduction to each area
 

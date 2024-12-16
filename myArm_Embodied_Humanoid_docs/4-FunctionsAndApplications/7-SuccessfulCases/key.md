@@ -25,6 +25,7 @@ After running the following program, the robot arm will first move to an initial
 <img src="./img/2.jpg" alt="" width="70%" height="70%">
 
 <img src="./img/4.png" alt="" width="70%" height="70%">
+** Note ** : When performing keyboard control, the firmware version of the robot arm cannot use v1.1.
 
 ```python
 import threading
@@ -41,51 +42,49 @@ def init():
 
 # 用于键盘输入检测的函数
 def keyborad_ctrl():
-    print("Start control...")
-    print("Press the W keyboard to move in the X+ direction")
-    print("Press the S keyboard to move in the X- direction")
-    print("Press the D keyboard to move in the Y+ direction")
-    print("Press the A keyboard to move in the Y- direction")
-    print("Press the Q keyboard to move in the Z+ direction")
-    print("Press the Z keyboard to move in the Z- direction")
-    print("Press the X keyboard to move in the J6+ direction")
-    print("Press the E keyboard to move in the J6- direction")
-    print("Press the F keyboard to get the current coordinates")
-    print("Press the ESC keyboard to end the program")
-    blocked_keys = ['w', 'a', 's', 'd', 'q', 'z','f','e','x']
+    print("开始控制...")
+    print("按下键盘W,往X+方向运动")
+    print("按下键盘S,往X-方向运动")
+    print("按下键盘D,往Y+方向运动")
+    print("按下键盘A,往Y-方向运动")
+    print("按下键盘Q,往Z+方向运动")
+    print("按下键盘Z,往Z-方向运动")
+    print("按下键盘X,往J6+方向运动")
+    print("按下键盘E,往J6-方向运动")
+    print("按下键盘F,获取当前坐标")
+    print("按下键盘G,控制夹爪开合")
+    print("按下键盘ESC,结束程序")
+
+    blocked_keys = ['w', 'a', 's', 'd', 'q', 'z', 'f', 'e', 'x', 'g']
     for key in blocked_keys:
-        keyboard.block_key(key)   
-    key_processed = {
-        'w': False,
-        'a': False,
-        's': False,
-        'd': False,
-        'q': False,
-        'z': False,
-        'f':False,
-        'e': False,
-        'x':False,
-    }
-    else_executed = False  
+        keyboard.block_key(key)
+    key_processed = {key: False for key in blocked_keys}
+    else_executed = False
+    gripper_opened = True  # 默认状态为夹爪打开
+
     try:
         while True:
             if keyboard.is_pressed('esc'):
-                print("Exit control...")
-                break           
+                print("退出控制...")
+                break
             for key in blocked_keys:
                 if keyboard.is_pressed(key) and not key_processed[key]:
-                    threading.Thread(target=handle_key, args=(key,)).start()
+                    if key == 'g':  # 特殊处理G键
+                        gripper_opened = handle_gripper(gripper_opened)
+                    else:
+                        threading.Thread(target=handle_key, args=(key,)).start()
                     key_processed[key] = True
-                    else_executed = False            
+                    else_executed = False
             if all(not keyboard.is_pressed(key) for key in blocked_keys) and not else_executed:
                 m.stop()
-                else_executed = True      
+                else_executed = True
             for key in key_processed:
                 if not keyboard.is_pressed(key):
                     key_processed[key] = False
-            time.sleep(0.01)      
+            time.sleep(0.01)
     finally:
         keyboard.unhook_all()
+
 
 def handle_key(key):
     if key == 'w':
@@ -101,15 +100,25 @@ def handle_key(key):
     elif key == 'z':
         m.jog_coord(3, 0, 60)
     elif key == 'e':
-        m.jog_angle(6,0,50)   
+        m.jog_angle(6, 0, 50)
     elif key == 'x':
-        m.jog_angle(6,1,50)
+        m.jog_angle(6, 1, 50)
     elif key == 'f':
-        print("Current coordinates=",m.get_coords())
+        print("当前坐标=", m.get_coords())
+
+
+def handle_gripper(gripper_opened):
+    if gripper_opened:
+        m.set_gripper_state(1, 100)  # 关闭夹爪
+        # print("夹爪已闭合")
+    else:
+        m.set_gripper_state(0, 100)  # 打开夹爪
+        # print("夹爪已打开")
+    return not gripper_opened  # 切换状态
 
 if __name__ == "__main__": 
     init()
-    keyborad_ctrl()
+    keyborad_ctrl()  
 
 ```
 
