@@ -28,6 +28,8 @@ pip install pymycobot --upgrade
 
 <img src="./img/4.png" alt="" width="70%" height="70%">
 
+**注意** :在进行键盘控制时，机械臂的固件版本不能使用v1.1的。
+
 ```python
 import threading
 from pymycobot import MyArmMControl, utils

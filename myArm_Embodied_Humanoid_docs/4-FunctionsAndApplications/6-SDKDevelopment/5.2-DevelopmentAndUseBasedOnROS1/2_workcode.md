@@ -1,9 +1,9 @@
 # 一、仿真
 
-我们提供一些 **静态仿真** 和 **动态仿真**， 用以和 MyarmM750 交互。  
+我们提供一些 **静态仿真** 和 **动态仿真**， 用以和 MyArm M&C 具身人型复合套件 交互。  
 
 ## 1.1 静态仿真
-这里的静态仿真是指：用rviz中的滑动模块与仿真中的MyarmM750交互  
+这里的静态仿真是指：用rviz中的滑动模块与仿真中的MyArm M&C 具身人型复合套件 交互  
 在工作空间打开终端命令行中输入:  
 > source devel/setup.bash # 添加环境变量  
 > roslaunch myarm_m mc_embodied_control.launch  
@@ -27,7 +27,7 @@
 我们可以看到箭头指向 **“USB UART”** ，再按“OK”按钮，进入之后会显示 **“NO”**，再按 **“Exit”** 按钮，回到箭头指向 **“USB UART”** ，再按“OK”按钮，这时会显示 **“OK”**
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/Myarm3.jpg" alt="7.1.1-1" style="zoom:50%;" />  
 
-首先我们需要将MyarmC650机械臂通过USB转typeC线连接到系统上，并给其通电  
+然后我们需要将MyarmC650机械臂通过USB转typeC线连接到系统上，并给其通电  
 通过按钮选中 **Transponder** 再按“OK”按钮  
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/2_download1/Myarmc1.jpg" alt="7.1.1-1" style="zoom:50%;" />  
 
@@ -73,19 +73,21 @@
 
 ## 1.3 开启摄像头节点
 ### 1.3.1首先启动一个终端，输入：
-> sudo apt-get update
->
-> sudo apt-get install ros-noetic-usb-cam
+```bash
+sudo apt-get update
 
+sudo apt-get install ros-noetic-usb-cam
+```
 ### 1.3.2再启动一个终端，输入：
-> cd mc_embodied_kit_ros
->
-> catkin_make
->
-> source devel/setup.bash
->
-> roslaunch my_camera usb_cam.launch
+```bash
+cd mc_embodied_kit_ros
 
+catkin_make
+
+source devel/setup.bash
+
+roslaunch my_camera usb_cam.launch
+```
 #### 运行指令之后即可打开两个摄像头：
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/pic_1.jpg" alt="7.1.1-1" style="zoom:100%;" />  
 <img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.2-DevelopmentAndUseBasedOnROS1/1_download/pic_2.jpg" alt="7.1.1-1" style="zoom:100%;" />  

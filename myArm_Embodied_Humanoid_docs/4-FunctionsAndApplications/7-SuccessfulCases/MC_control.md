@@ -1,7 +1,7 @@
 # C650控制M750程序案例
 
 ## 程序地址
-> https://github.com/elephantrobotics/mc_embodied_kit_ros/blob/main/myarm_m/scripts/mc_embodied_control.py
+> [mc_embodied_control.py](https://github.com/elephantrobotics/mc_embodied_kit_ros/blob/main/myarm_m/scripts/mc_embodied_control.py)
 
 首先我们需要将MyarmM750机械臂通过USB转typeC线连接到系统上，并给其通电  
 通过按钮选中 **Transponder** 再按“OK”按钮
