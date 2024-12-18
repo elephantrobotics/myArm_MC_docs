@@ -208,7 +208,7 @@ myArm 重 1.8 千克。由于重心会随着机器人在使用过程中的移动
 
 - 底座固定孔是机器人与其他底座或平面之间的接口。具体孔径如下图所示。有 4 个直径为 4.5 毫米的沉孔，可用 M6 螺栓固定。
 
-<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\底座尺寸.png" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/底座尺寸.png" alt="img-1" width="400" height=“auto” /> <br>
 
 - 末端安装有法兰，可与乐高组件孔和螺纹孔兼容。安装前请确保固定底座上有相应的螺纹孔。
 
@@ -251,19 +251,19 @@ myArm 必须使用外部电源供电，以提供足够的电力：
 用例图如下图所示：（请仔细对齐用例图，以便进行连接）
 
 **Step 1:**
-<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\Right.jpg" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/Right.jpg" alt="img-1" width="400" height=“auto” /> <br>
 
 **Step 2:**
-<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\Right2.jpg" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/Right2.jpg" alt="img-1" width="400" height=“auto” /> <br>
 
 **Step 3:**
-<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\Right3.jpg" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/Right3.jpg" alt="img-1" width="400" height=“auto” /> <br>
 
 **Step 4:**
-<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\Left1.jpg" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/Left1.jpg" alt="img-1" width="400" height=“auto” /> <br>
 
 **Step 5:**
-<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\Left2.jpg" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/Left2.jpg" alt="img-1" width="400" height=“auto” /> <br>
 
 
 ---
@@ -283,7 +283,7 @@ myArm 必须使用外部电源供电，以提供足够的电力：
 
 显示屏显示系统桌面相关信息。
 
-<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\PowerOnStatusDisplay.jpg" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/PowerOnStatusDisplay.jpg" alt="img-1" width="400" height=“auto” /> <br>
 
 
 # 三、车架安装
