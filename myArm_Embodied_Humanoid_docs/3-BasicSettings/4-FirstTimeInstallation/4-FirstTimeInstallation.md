@@ -206,7 +206,7 @@ The myArm weighs 1.8 kilograms. Because the center of gravity changes with the r
 
 - The base fixing hole is the interface between the robot and other bases or surfaces. The specific hole size is shown in the figure below. There are 4 counterbores with a diameter of 4.5 millimeters, which can be fixed with M6 bolts.
 
-<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\底座尺寸.jpg" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/底座尺寸.png" alt="img-1" width="400" height=“auto” /> <br>
 
 - The end is equipped with a flange for compatibility with LEGO component holes and threaded holes. Before installation, make sure there are corresponding threaded holes on the fixed base.
 
@@ -247,19 +247,19 @@ The myArm must be powered by an external power supply to provide sufficient powe
 The use case diagram is shown in the figure below: (Please align the use case diagram carefully for connection)
 
 **Step 1:**
-<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\Right.jpg" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/Right.jpg" alt="img-1" width="400" height=“auto” /> <br>
 
 **Step 2:**
-<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\Right2.jpg" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/Right2.jpg" alt="img-1" width="400" height=“auto” /> <br>
 
 **Step 3:**
-<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\Right3.jpg" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/Right3.jpg" alt="img-1" width="400" height=“auto” /> <br>
 
 **Step 4:**
-<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\Left1.jpg" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/Left1.jpg" alt="img-1" width="400" height=“auto” /> <br>
 
 **Step 5:**
-<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\Left2.jpg" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/Left2.jpg" alt="img-1" width="400" height=“auto” /> <br>
 
 
 ---
@@ -279,7 +279,7 @@ During startup, the screen will display a delay waiting interface.
 
 The display screen shows relevant information about the system desktop.
 
-<img src="../../../myArm_Controller_650_docs\resources\3-BasicSettings\4-FirstTimeInstallation\PowerOnStatusDisplay.jpg" alt="img-1" width="400" height=“auto” /> <br>
+<img src="../../resources/3-BasicSettings/4-FirstTimeInstallation/PowerOnStatusDisplay.jpg" alt="img-1" width="400" height=“auto” /> <br>
 
 
 # III. Frame mounting
