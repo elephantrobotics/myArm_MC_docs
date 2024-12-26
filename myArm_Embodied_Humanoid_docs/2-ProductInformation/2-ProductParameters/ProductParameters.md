@@ -387,14 +387,14 @@ DH参数用于描述相邻连杆的相对关系：
 
 ### 产品尺寸和工作空间
 
-<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\C650_00.jpg" width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/C650_00.jpg" width="800" height="auto" />
 
 ### 底座安装尺寸
 
 - 底座需采用法兰安装，可使用 M6 螺丝固定在对应的固定底座上。
 - 使用前请确认安装的底座可以承受 3 倍于机身重量的承载，以防止使用过程中因运动速度提升导致产品固定松动而引起产品损坏。
 
-<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\base-D.png" width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/base-D.png" width="800" height="auto" />
 
 图 1 底座正视图
 
@@ -402,11 +402,11 @@ DH参数用于描述相邻连杆的相对关系：
 
 - 机械臂的末端可与乐高组件孔和螺纹孔兼容。
 
-<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\C650_01.jpg" width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/C650_01.jpg" width="800" height="auto" />
 
 ### 产品展示
 
-<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\C650_03.jpg" width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/C650_03.jpg" width="800" height="auto" />
 
 
 
