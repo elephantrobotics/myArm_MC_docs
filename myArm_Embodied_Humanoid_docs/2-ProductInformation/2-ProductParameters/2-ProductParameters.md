@@ -364,14 +364,14 @@ DH parameters are used to describe the relative relationship between adjacent li
 
 ### Product size and workspace
 
-<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\C650-en_00.jpg" width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/C650-en_00.jpg" width="800" height="auto" />
 
 ### Base installation dimensions
 
 - The base needs to be flanged and can be fixed to the corresponding mounting base using M6 screws.
 - Before use, please confirm that the installed base can bear 3 times the weight of the body to prevent damage to the product caused by loosening of the product due to the increase in movement speed during use.
 
-<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\base-D.jpg" width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/base-D.jpg" width="800" height="auto" />
 
 Figure 1 Front view of the base
 
@@ -379,11 +379,11 @@ Figure 1 Front view of the base
 
 - The end of the arm is compatible with LEGO component holes and threaded holes.
 
-<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\C650-en_01.jpg" width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/C650-en_01.jpg" width="800" height="auto" />
 
 ### Products
 
-<img src="../../../myArm_Controller_650_docs\resources\2-ProductInformation\2-ProductParameters\C650-en_03.jpg" width="800" height="auto" />
+<img src="../../resources/2-ProductInformation/2-ProductParameters/C650-en_03.jpg" width="800" height="auto" />
 
 
 

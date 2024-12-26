@@ -402,7 +402,7 @@ myarmm.set_joint_angle(1, 40, 20)
 
 - **Return value:** data
 
-# 5. IO 控制
+# 5. IO Control
 
 **5.1** `set_master_out_io_state(io_number, status)`
 
@@ -804,7 +804,7 @@ print(angles)
 
 - **Return value:** data
 
-# 5. IO 控制
+# 5. IO Control
 
 **5.1** `set_master_out_io_state(io_number, status)`
 
