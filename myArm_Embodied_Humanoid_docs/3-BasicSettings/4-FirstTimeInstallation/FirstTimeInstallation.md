@@ -76,11 +76,9 @@ myArm 重 3.2 千克。由于重心会随着机器人在使用过程中的移动
 
 ## 3.2 视频引导
 
-**如需了解更多安装细节，请扫描代码观看视频：**
-
-资料更新中...
-
-<!-- ![image-20220524105531296](../../resources/4-FirstInstallAndUse/QRcode.png) -->
+<video id="my-video" class="video-js" controls preload="auto" width="100%"
+poster="" data-setup='{"aspectRatio":"16:9"}'>
+  <source src="https://download.elephantrobotics.com/Product%20_disassembly_video/myArm%20M%26C%20%E5%85%B7%E8%BA%AB%E4%BA%BA%E5%BD%A2%E5%A5%97%E8%A3%85%E7%BB%84%E8%A3%85.mp4"></video>
 
 ---
 
