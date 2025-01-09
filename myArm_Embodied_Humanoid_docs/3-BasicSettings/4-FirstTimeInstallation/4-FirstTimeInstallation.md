@@ -77,11 +77,9 @@ myArm weighs 3.2kg. Since the centre of gravity changes as the robot moves durin
 
 ## 3.2 Video guide
 
-**For more installation details, scan the code to watch the video:**
-
-Information is being updated...
-
-<!-- ![image-20220524105531296](../../resources/4-FirstInstallAndUse/QRcode.png) -->
+<video id="my-video" class="video-js" controls preload="auto" width="100%"
+poster="" data-setup='{"aspectRatio":"16:9"}'>
+  <source src="https://download.elephantrobotics.com/Product%20_disassembly_video/myArm%20M%26C%20Embodied%20Humanoid%20Robot%20Compound%20Ki.mp4"></video>
 
 ---
 
