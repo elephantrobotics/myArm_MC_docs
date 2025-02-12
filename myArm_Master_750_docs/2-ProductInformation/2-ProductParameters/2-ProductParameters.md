@@ -16,7 +16,7 @@
 |Horizontal Reach Range	|750            |
 |Total span |	1500mm          |
 |Self-weight|	3.2kg           |
-|Power Specifications	|	24V5A                |
+|Power Specifications	|	24V9.2A                |
 |Repeatability |±1mm |
 |Accuracy |	5 - 8mm                |
 |Working load |	Rated 500g, peak 1Kg |
