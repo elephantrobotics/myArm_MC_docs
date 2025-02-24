@@ -30,7 +30,7 @@ The Support and Services section will provide you with comprehensive troubleshoo
 #### Acknowledgments
 We appreciate you taking the time to read the myArm M&C Embodied Human Composite Kit user manual. We hope that this document will help you better understand and use this robot effectively, thereby stimulating your creativity. If you have any questions or need further assistance, please feel free to contact our customer support team. We look forward to seeing you complete innovative projects with the myArm M&C Embodied Human Composite Kit and welcome you to our rapidly growing developer community.
 
-# Summary
+<!-- # Summary
 
 ## Product Information
 
@@ -95,7 +95,7 @@ We appreciate you taking the time to read the myArm M&C Embodied Human Composite
 
 ## Acknowledgments
 
-  - [9 Acknowledgments](6-Acknowledgments/6-Acknowledgments.md)
+  - [9 Acknowledgments](6-Acknowledgments/6-Acknowledgments.md) -->
 
 
  
