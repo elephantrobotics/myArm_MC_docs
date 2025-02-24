@@ -40,15 +40,16 @@
       - [Tracer Keyboard Control](4-FunctionsAndApplications/6-SDKDevelopment/6.2-DevelopmentAndUseBasedOnROS1/5_tracer_keyboard_control.md)
       - [Radar Mapping and Navigation](4-FunctionsAndApplications/6-SDKDevelopment/6.2-DevelopmentAndUseBasedOnROS1/6_tracer_map_navigation.md)
 
-    - [6.3 ROS2](4-FunctionsAndApplications/6-SDKDevelopment/6.3-DevelopmentAndUseBasedOnROS2/1_download.md)
+    <!-- - [6.3 ROS2](4-FunctionsAndApplications/6-SDKDevelopment/6.3-DevelopmentAndUseBasedOnROS2/1_download.md)
       - [ROS workspace code and usage](4-FunctionsAndApplications/6-SDKDevelopment/6.3-DevelopmentAndUseBasedOnROS2/2_workcode.md)
       - [Common ROS tool commands](4-FunctionsAndApplications/6-SDKDevelopment/6.3-DevelopmentAndUseBasedOnROS2/3_ROScode.md)
-      - [ROS architecture and communication](4-FunctionsAndApplications/6-SDKDevelopment/6.3-DevelopmentAndUseBasedOnROS2/4_communication.md)
+      - [ROS architecture and communication](4-FunctionsAndApplications/6-SDKDevelopment/6.3-DevelopmentAndUseBasedOnROS2/4_communication.md) -->
 
-    - [6.4 Communication Packages](4-FunctionsAndApplications/6-SDKDevelopment/6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.1-M750-CommunicationDoc.md)
+    - [6.3 Communication Packages](4-FunctionsAndApplications/6-SDKDevelopment/6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.1-M750-CommunicationDoc.md)
       - [1 MyArm M750](4-FunctionsAndApplications/6-SDKDevelopment/6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.1-M750-CommunicationDoc.md)
       - [ 2 MyArm C650](4-FunctionsAndApplications/6-SDKDevelopment/6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.2-C650-CommunicationDoc.md)
       - [ 3 Tracer Mobile Chassis](4-FunctionsAndApplications/6-SDKDevelopment/6.4-DevelopmentBasedOnCommunicationProtocolPackage/6.4.3-Tracer-CommunicationDoc.md)
+      - [ 4 Binding Serial Port](4-FunctionsAndApplications/6-SDKDevelopment/5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.4-Serial-port-binding.md)
 
     
   - [7 Successful Cases](4-FunctionsAndApplications/7-SuccessfulCases/7-SuccessfulCases.md)
