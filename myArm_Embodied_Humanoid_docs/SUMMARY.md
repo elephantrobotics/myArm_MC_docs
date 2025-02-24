@@ -51,6 +51,7 @@
       - [1 MyArm M750](4-FunctionsAndApplications/6-SDKDevelopment/5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.1-M750-CommunicationDoc.md)
       - [ 2 MyArm C650](4-FunctionsAndApplications/6-SDKDevelopment/5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.2-C650-CommunicationDoc.md)
       - [ 3 Tracer 移动底盘](4-FunctionsAndApplications/6-SDKDevelopment/5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.3-Tracer-CommunicationDoc.md)
+      - [ 4 绑定串口](4-FunctionsAndApplications/6-SDKDevelopment/5.4-DevelopmentBasedOnCommunicationProtocolPackage/5.4.4-Serial-port-binding.md)
 
     
 
