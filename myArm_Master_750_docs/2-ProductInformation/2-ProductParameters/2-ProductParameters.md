@@ -268,9 +268,9 @@ The figure below shows the kinematic model of the robot arm. The position shown 
 <img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/dh_model.jpg " width="auto" height="auto" /><br>
 
 ### 5.4.1 Zero point calibration
-In the kinematic model, the actual zero point has some offset on joints 2 and 3. Considering the convenience of calibration, users can align the scale line when using zero point calibration, without aligning the actual zero point on the model.
-<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/零位校准.jpg " width="auto" height="auto" /><br>
-<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/零位校准2D.jpg " width="auto" height="auto" /><br>
+The zero position posture is shown in the figure below. Please note that if the actual posture is found to be inconsistent with the model posture in the figure below after the software sets the joint to return to zero, please refer to 5.1.3 Zero Position Calibration Method to perform zero position calibration to avoid the robot arm collision caused by inconsistent reading and writing motion range due to abnormal joint zero position.
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/image.png " width="auto" height="auto" /><br>
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/image2.png " width="auto" height="auto" /><br>
 
 ### 5.4.2 MDH parameters
 
