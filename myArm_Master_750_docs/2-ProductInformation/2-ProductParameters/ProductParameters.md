@@ -279,9 +279,11 @@ E. 舵机接口：用于末端拓展夹爪时使用，当前支持配套的自�
 <img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/dh_model.jpg " width="auto" height="auto" /><br>
  
  ### 5.4.1 零位校准
-在运动学模型中，实际的零点在2、3关节上存在一些偏置，考虑到校准的方便，用户使用零位校准时对齐刻度线即可，无需对齐模型上的实际零点。
-<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/零位校准.jpg " width="auto" height="auto" /><br>
- 
+零位姿态如下图所示，请注意如果在软件设置关节回零后，发现实际姿态与下图模型姿态不一致，请参考5.1.3零位校准方法进行零位校准，以避免因关节零位异常导致读写运动范围不一致发生机械臂碰撞情况。
+<img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/image.png " width="auto" height="auto" /><br>
+ <img src="../../resources/2-ProductInformation/2-ProductParameters/2.5-CartesianCoordinateSystem/image2.png " width="auto" height="auto" /><br>
+
+
  ### 5.4.2 MDH 参数
 DH参数用于描述相邻连杆的相对关系：
 
