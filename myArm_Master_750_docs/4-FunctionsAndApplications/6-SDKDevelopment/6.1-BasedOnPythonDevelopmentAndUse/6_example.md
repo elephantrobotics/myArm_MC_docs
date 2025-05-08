@@ -7,8 +7,8 @@ Videos given below are for reference.
 **Please make sure the robot power on.**
 
 
-## 1 Get the joint angle
-
+## 1. Get the joint angle
+### 1.1 Shake the firmware to read the angle
 ```python
 from pymycobot import MyArmM
 import time
@@ -33,9 +33,22 @@ print(f"The current angle of joint 2 is {angle}")
 angle = myarmm.get_joint_angle(3)
 print(f"The current angle of joint 3 is {angle}")
 ```
+### 1.2 Coordinate the firmware to read the angle
+```python
+from pymycobot import MyArmMControl
+import time
 
-## 2 Control the joint to move five points
+myarmm = MyArmMControl("COM3")
 
+# Gets the current angle of all joints
+angles = myarmm.get_angles()
+print(f"All current joint angles are: {angles}")
+
+```
+
+## 2. Control the joint to move five points
+
+#### 2.1 Shake the firmware to control the joint to move five points
 ```python
 from pymycobot import MyArmM
 import time
@@ -72,5 +85,70 @@ myarmm.set_joints_angle([90, 45, -90, 90, -90, 90], 40)
 # Wait for all joints to move to the specified position
 time.sleep(3)
 ```
+#### 2.2 Coordinate the firmware to control the joint to move five points
+```python
+from pymycobot import MyArmMControl
+import time
 
-[← Previous page](2_API.md) | [Next section →](../6.2-DevelopmentAndUseBasedOnROS1/1_download.md)
+myarmm = MyArmMControl("COM3")
+
+# Reset all joints at a speed of 40
+myarmm.write_angles([0, 0, 0, 0, 0, 0], 40)
+#Wait for all joints to move to the specified position
+time.sleep(3)
+
+# Move all joints at the specified angle at a speed of 40
+myarmm.write_angles([90, 45, -90, 90, -90, 90], 40)
+# Wait for all joints to move to the specified position
+time.sleep(3)
+
+# Reset all joints at a speed of 40
+myarmm.write_angles([0, 0, 0, 0, 0, 0], 40)
+# Wait for all joints to move to the specified position
+time.sleep(3)
+
+# Move all joints at the specified angle at a speed of 40
+myarmm.write_angles([90, 45, -90, 90, -90, 90], 40)
+# Wait for all joints to move to the specified position
+time.sleep(3)
+
+# Reset all joints at a speed of 40
+myarmm.write_angles([0, 0, 0, 0, 0, 0], 40)
+# Wait for all joints to move to the specified position
+time.sleep(3)
+
+# Move all joints at the specified angle at a speed of 40
+myarmm.write_angles([90, 45, -90, 90, -90, 90], 40)
+# Wait for all joints to move to the specified position
+time.sleep(3)
+```
+## 3 The case for control procedures
+
+## Program address
+> https://github.com/elephantrobotics/pymycobot/tree/main/demo/myArm_M&C_demo
+
+## Install dependencies
+
+```shell
+pip install -r requirement.txt
+```
+
+## Run the program
+
+```shell
+python main.py
+```
+
+## Instructions for use of the program
+
+> There are sequential requirements for the opening of the serial port: first open the serial port connection of myArmM, and then open the serial port connection of myArmC.
+
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.1 -BasedOnPythonDevelopmentAndUse/6_example/app_1.png" alt="7.1.1-7" style="zoom: 50%;" />
+
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.1 -BasedOnPythonDevelopmentAndUse/6_example/app_2.png" alt="7.1.1-1" style="zoom: 50%;" />
+
+> After both serial ports are turned on, you can control the `myArmM` movement by moving `myArmC`.
+
+---
+
+[← 上一页](5_Handle_control.md) | [下一节 →](../5.2-DevelopmentAndUseBasedOnROS1/1_download.md)
