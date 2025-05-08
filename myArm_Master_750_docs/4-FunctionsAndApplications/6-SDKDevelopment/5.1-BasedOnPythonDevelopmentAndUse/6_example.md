@@ -4,8 +4,8 @@
 
 > **注：** 各款设备的对应的波特率不尽相同，使用时请查阅资料了解其波特率，串口编号可通过 [计算器设备管理器](https://docs.elephantrobotics.com/docs/gitbook-en/4-BasicApplication/4.1-myStudio/4.1.1-myStudio_download_driverinstalled.html#4113-how-to-distinguish-between-cp210x-chip-and-cp34x-chip)或串口助手进行查看。
 
-## 1 获取关节角度
-
+## 1. 获取关节角度
+### 1.1 摇操固件读取角度
 ```python
 from pymycobot import MyArmM
 import time
@@ -30,9 +30,20 @@ print(f"关节2当前的角度为 {angle}")
 angle = myarmm.get_joint_angle(3)
 print(f"关节3当前的角度为 {angle}")
 ```
+### 1.2 坐标固件以读取角度
+```python
+from pymycobot import MyArmMControl
 
-## 2 控制关节移动五个点位
+myarmm = MyArmMControl("COM3")
 
+# 获取所有关节的当前角度
+angles = myarmm.get_angles()
+print(f"所有当前关节角度: {angles}")
+```
+
+## 2. 控制关节以移动 5 个点
+
+#### 2.1 摇操固件控制关节移动 5 个点
 ```python
 from pymycobot import MyArmM
 import time
@@ -70,5 +81,70 @@ myarmm.set_joints_angle([90, 45, -90, 90, -90, 90], 40)
 time.sleep(3)
 ```
 
-[← 上一页](2_API.md) | [下一节 →](../5.2-DevelopmentAndUseBasedOnROS1/1_download.md)
+#### 2.2 坐标固件控制关节移动 5 个点
+```python
+from pymycobot import MyArmMControl
+import time
 
+myarmm = MyArmMControl("COM3")
+
+# 将所有的关节复位, 速度为40
+myarmm.write_angles([0, 0, 0, 0, 0, 0], 40)
+# 等待所有关节运动到指定位置
+time.sleep(3)
+
+# 将所有的关节按照指定的角度移动, 速度为40
+myarmm.write_angles([90, 45, -90, 90, -90, 90], 40)
+# 等待所有关节运动到指定位置
+time.sleep(3)
+
+# 将所有的关节复位, 速度为40
+myarmm.write_angles([0, 0, 0, 0, 0, 0], 40)
+# 等待所有关节运动到指定位置
+time.sleep(3)
+
+# 将所有的关节按照指定的角度移动, 速度为40
+myarmm.write_angles([90, 45, -90, 90, -90, 90], 40)
+# 等待所有关节运动到指定位置
+time.sleep(3)
+
+# 将所有的关节复位, 速度为40
+myarmm.write_angles([0, 0, 0, 0, 0, 0], 40)
+# 等待所有关节运动到指定位置
+time.sleep(3)
+
+# 将所有的关节按照指定的角度移动, 速度为40
+myarmm.write_angles([90, 45, -90, 90, -90, 90], 40)
+# 等待所有关节运动到指定位置
+time.sleep(3)
+```
+## 3 控制程序案例
+
+## 程序地址
+> https://github.com/elephantrobotics/pymycobot/tree/main/demo/myArm_M&C_demo
+
+## 安装依赖项
+
+```shell
+pip install -r requirement.txt
+```
+
+## 运行程序
+
+```shell
+python main.py
+```
+
+## 程序使用说明
+
+> 串口的打开有顺序要求：先打开myArmM的串口连接，再打开myArmC的串口连接。
+
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.1 -BasedOnPythonDevelopmentAndUse/6_example/app_1.png" alt="7.1.1-7" style="zoom: 50%;" />
+
+<img src="../../../resources/4-FunctionsAndApplications/6-SDKDevelopment/5.1 -BasedOnPythonDevelopmentAndUse/6_example/app_2.png" alt="7.1.1-1" style="zoom: 50%;" />
+
+> 两个串口都打开后，您可以通过移动 `myArmC` 来控制 `myArmM` 的移动。
+
+---
+
+[← 上一页](5_Handle_control.md) | [下一节 →](../5.2-DevelopmentAndUseBasedOnROS1/1_download.md)
