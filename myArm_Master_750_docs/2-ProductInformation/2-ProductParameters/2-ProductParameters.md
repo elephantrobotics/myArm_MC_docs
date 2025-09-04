@@ -298,6 +298,75 @@ DH parameters are used to describe the relative relationship between adjacent li
 | 5    | PI/2  | 0    | 0 | theta_5 | 0      |
 | 6    | -PI/2 | 0    | 197.1  | theta_6 | PI      |
 
+### 5.4.4 Joint Limitation
+
+- Shake Control Firmware Version
+    - **Limit Version Prior to 13 June 2025**
+
+        | Joint | Min   | Max  |
+        | :---  | :---- | :----|
+        | 1     | -170  | 170  |
+        | 2     | -83   | 83   |
+        | 3     | -90  | 84    |
+        | 4     | -155  | 153  |
+        | 5     | -91   | 88   |
+        | 6     | -153  | 153  |
+        | 7     | -118  | 2    |
+
+    - **Limit versions after 13 June 2025**
+
+        | Joint | Min   | Max  |
+        | :---  | :---- | :----|
+        | 1     | -165  | 165  |
+        | 2     | -80   | 100  |
+        | 3     | -100  | 80   |
+        | 4     | -160  | 160  |
+        | 5     | -90   | 120  |
+        | 6     | -180  | 180  |
+        | 7     | -118  | 2    |
+
+    > **Note:** Prior to firmware version 1.1.3, the maximum limit for Joint 7 was 0; post-1.1.3 it is 2.<br/> Regarding pymycobot versions: 3.9.8 and below apply to the old limits; subsequent versions apply to the new limits.
+
+- Coordinate Firmware Version
+
+    | Joint | Min   | Max  |
+    | :---  | :---- | :----|
+    | 1	| -165	| 165| 
+    | 2	| -80	| 100| 
+    | 3	| -100	| 80| 
+    | 4	| -160	| 160| 
+    | 5	| -90	| 120| 
+    | 6	| -180	| 180| 
+
+5.4.5 Joint Potential Value Limiting
+- Shake Control Firmware Version
+    - **Limiting Version Prior to 13 June 2025**
+
+        | Servo | Min   | Max  |
+        | :---  | :---- | :----|
+        |1    |114|	3981
+        |2    |1200    |2991|
+        |3    |1200    |2991|
+        |4    |1024    |3002|
+        |5    |286    |3788|
+        |6    |1013    |3048|
+        |7    |307	|3788|
+        |8    |706    |2068|
+
+    - **Limited Edition Version After 13 June 2025**
+
+        | Servo | Min   | Max  |
+        | :---  | :---- | :----|
+        |1      |175	|3910  |
+        |2      |1370   |3120  |
+        |3      |1370   |3120  |
+        |4      |1015   |2890  |
+        |5      |350    |3740  |
+        |6      |1013   |3048  |
+        |7      |350	|3740  |
+        |8      |706    |2068  |
+
+    > **Note:** Regarding pymycobot versions, versions up to and including 3.9.8 apply to the old potential values, while subsequent versions apply to the new potential values.
 ---
 
 [← Previous chapter](../1-ProductIntroduction/1-ProductIntroduction.md) | [Next chapter →](../../3-BasicSettings/3-UserInstructions/3-UserInstructions.md)
