@@ -153,14 +153,14 @@ print(angles)
 
 - **Function:** Sets the zero position of the specified servo motor
 - **Parameters:** 
-  - `servo_id` Indicates the servo motor index bit, with values ranging from `1 - 6`.
+  - `servo_id` Indicates the servo motor index bit, with values ranging from `1 - 8`.
 - **Return value:** None
 
 **3.2** `get_servo_encoder(servo_id)`
 
 - **Function:** Gets the current encoder potential value for the specified servo motor
 - **Parameters:** 
-  - `servo_id`: `(int)` Indicates the servo motor index bit, with values ranging from `1 - 6`.
+  - `servo_id`: `(int)` Indicates the servo motor index bit, with values ranging from `1 - 8`.
 - **Return value:** 
   - `encoder`:`(int)` Represents the potential value of the robotic arm, and the value range is 0 ~ 4096
 
@@ -241,7 +241,7 @@ print(angles)
 
 - **Function:** Sets the proportionality factor of the position loop P of the specified servo motor
 - **Parameters:**
-  - `servo_id`: `(int)` Motor index bits
+  - `servo_id`: `(int)` Motor index bit, value range `0 - 8`
   - `data`: `(int)` Ring P scale factor
 - **Return value:** None
 
@@ -249,7 +249,7 @@ print(angles)
 
 - **Function:** Reads the position loop P scale factor of the specified servo motor
 - **Parameters:**
-  - `servo_id`: `(int)` Motor index bits
+  - `servo_id`: `(int)` Motor index bit, value range `0 - 8`
 - **Return value:** Ring P scale factor
 
 **4.3** `set_servo_i(servo_id, data)`
@@ -257,7 +257,7 @@ print(angles)
 - **Function:** Set the proportional factor of the position ring I of the specified servo motor
 
 - **Parameters:**
-  - `servo_id`: `(int)` Motor index bit, value range `0 - 254`
+  - `servo_id`: `(int)` Motor index bit, value range `0 - 8`
   - `data`: `(int)` Ring I scale factor, value range `0 - 254`
 - **Return value:** None
 
@@ -265,7 +265,7 @@ print(angles)
 
 - **Function:** Reads the position loop I scale factor of the specified servo motor
 - **Parameters:** 
-  - `servo_id`: `(int)` Motor index bit, value range `0 - 254`
+  - `servo_id`: `(int)` Motor index bit, value range `0 - 8`
 - **Return value:** 
   - `data`: `(int)` Ring I scale factor, range `0 -254`
 
@@ -274,7 +274,7 @@ print(angles)
 - **Function:** Sets the proportional factor for the position ring D of the specified servo motor
 
 - **Parameters:**
-  - `servo_id`: `(int) ` The index number of the servo motor, `1 - 6` according to the joint ID
+  - `servo_id`: `(int) ` The index number of the servo motor, `1 - 8` according to the joint ID
   - `data`: `(int)` `0 - 254`
 
 - **Return value:** None
@@ -283,7 +283,7 @@ print(angles)
 
 - **Function:** Reads the position ring D scale factor for the specified servo motor
 - **Parameters:**
-  - `servo_id`: `(int) ` The index number of the servo motor, `1 - 6` according to the joint ID
+  - `servo_id`: `(int) ` The index number of the servo motor, `1 - 8` according to the joint ID
 - **Return value:** 
     - `data`: `(int)` `0 - 254`
 
@@ -291,7 +291,7 @@ print(angles)
 
 - **Function:** Sets the clockwise insensitivity zone of the encoder for the specified servo motor
 - **Parameters:**
-  - `servo_id`: `(int) ` The index number of the servo motor, `1 - 6` according to the joint ID
+  - `servo_id`: `(int) ` The index number of the servo motor, `1 - 8` according to the joint ID
   - `data`: `(int)` `0 - 32`
 - **Return value:** None
 
@@ -300,7 +300,7 @@ print(angles)
 - **Function:** Reads the clockwise insensitive area of the encoder for the specified servo motor
 
 - **Parameters:**
-  - `servo_id`: `(int) ` The index number of the servo motor, `1 - 6` according to the joint ID
+  - `servo_id`: `(int) ` The index number of the servo motor, `1 - 8` according to the joint ID
 - **Return value:** 
   - `data`: `(int)` `0 - 32`
 
@@ -308,7 +308,7 @@ print(angles)
 
 - **Function:** Sets the counterclockwise insensitive zone of the encoder for the specified servo motor
 - **Parameters:**
-  - `servo_id`: `(int) ` The index number of the servo motor, `1 - 6` according to the joint ID
+  - `servo_id`: `(int) ` The index number of the servo motor, `1 - 8` according to the joint ID
   - `data`: `(int)` `0 - 32`
 - **Return value:** None
 
@@ -316,7 +316,7 @@ print(angles)
 
 - **Function:** Reads the counterclockwise insensitive area of the encoder of the specified servo motor
 - **Parameters:**
-  - `servo_id`: `(int) ` The index number of the servo motor, `1 - 6` according to the joint ID
+  - `servo_id`: `(int) ` The index number of the servo motor, `1 - 8` according to the joint ID
 - **Return value:** None
 
 **4.11** `set_servo_system_data(servo_id, addr, data, mode)`
@@ -324,7 +324,7 @@ print(angles)
 - **Function:** Set the system parameters for the specified servo motor
 
 - **Parameters:**
-  - `servo_id`: `(int) ` The index number of the servo motor, `1 - 6` according to the joint ID
+  - `servo_id`: `(int) ` The index number of the servo motor, `1 - 8` according to the joint ID
   - `addr`: `(int)` Data address
   - `data`: `(int)` `0-4096` data
   - `mode`: `(int)` `1/2`
@@ -335,7 +335,7 @@ print(angles)
 - **Function:** Read the system parameters of the specified servo motor
 
 - **Parameters:**
-  - `servo_id`: `(int)` The index number of the servo motor, `1 - 6` according to the joint ID
+  - `servo_id`: `(int)` The index number of the servo motor, `1 - 8` according to the joint ID
   - `addr`: `(int)` Data address
   - `mode`: `(int)` `1/2`
 
